@@ -1,0 +1,46 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__languagesmapping]]
+= LanguagesMapping
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Mapping`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |fieldsMapped
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static getFieldsMapped():array
+
+----
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__itemsearchpreset]]
+= ItemSearchPreset
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Presets`
+
+
+===== Implements
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`ContentPreset`]
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+|xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
+    |preset
+    |
+|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+    |toolbarWidget
+    |
+|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+    |threeColumnWidget
+    |
+|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+    |twoColumnWidget
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public getWidgets():void
+
+----
+
+
+
+
+
+
+
+
+

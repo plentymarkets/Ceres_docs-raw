@@ -1,0 +1,63 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__doublesettingfactory]]
+= DoubleSettingFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+===== Extends
+xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public withDecimalCount($decimalCount):Ceres\Widgets\Helper\Factories\Settings\DoubleSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/DoubleSettingFactory.adoc#[`DoubleSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/int[int^]
+a|`$decimalCount`
+|
+|===
+
+

@@ -1,0 +1,48 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__itemsortvaluelistfactory]]
+= ItemSortValueListFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+===== Extends
+xref:Ceres/Widgets/Helper/Factories/Settings/ValueListFactory.adoc#[`ValueListFactory`]
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static make($withRandomOption = false):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$withRandomOption`
+|
+|===
+
+

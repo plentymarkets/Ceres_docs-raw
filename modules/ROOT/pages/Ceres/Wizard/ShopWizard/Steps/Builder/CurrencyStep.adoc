@@ -1,0 +1,72 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__currencystep]]
+= CurrencyStep
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Steps\Builder`
+
+===== Extends
+xref:Ceres/Wizard/ShopWizard/Steps/Builder/Step.adoc#[`Step`]
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |currencies
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($currencyRepositoryContract):void
+
+----
+
+
+
+
+
+
+
+CurrencyStep constructor.
+
+.*Parameters*
+|===
+|Type |Name |Description
+| xref:stable7@interface::Order.adoc#order_contracts_currencyrepositorycontract[`CurrencyRepositoryContract`]
+a|`$currencyRepositoryContract`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public generateStep():array
+
+----
+
+
+
+
+
+
+
+
+

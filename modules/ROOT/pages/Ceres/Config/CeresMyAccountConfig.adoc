@@ -1,0 +1,75 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceresmyaccountconfig]]
+= CeresMyAccountConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Config`
+
+===== Extends
+PluginConfig
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |ordersPerPage
+    |
+| 
+    |orderReturnActive
+    |
+| 
+    |orderReturnDays
+    |
+| 
+    |orderReturnInitialStatus
+    |
+| 
+    |changePayment
+    |
+| 
+    |confirmationLinkLoginRedirect
+    |
+| 
+    |confirmationLinkExpiration
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($configRepository):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$configRepository`
+|
+|===
+
+

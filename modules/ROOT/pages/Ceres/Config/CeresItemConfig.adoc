@@ -1,0 +1,102 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceresitemconfig]]
+= CeresItemConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Config`
+
+===== Extends
+PluginConfig
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |displayName
+    |
+| 
+    |itemName
+    |
+| 
+    |itemData
+    |
+| 
+    |storeSpecial
+    |
+| 
+    |showVariationOverDropdown
+    |
+| 
+    |variationShowType
+    |
+| 
+    |showPleaseSelect
+    |
+| 
+    |enableImageCarousel
+    |
+| 
+    |categoryShowDots
+    |
+| 
+    |categoryShowNav
+    |
+| 
+    |showCategoryImage
+    |
+| 
+    |showCategoryDescription
+    |
+| 
+    |showCategoryDescriptionTop
+    |
+| 
+    |showCategoryDescriptionBottom
+    |
+| 
+    |requireOrderProperties
+    |
+| 
+    |loadingAnimationType
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($configRepository):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$configRepository`
+|
+|===
+
+

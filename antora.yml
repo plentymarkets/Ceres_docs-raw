@@ -1,0 +1,5 @@
+name: plugin-ceres
+title: Plugin Ceres documentation
+version: 4.6.0
+nav:
+  - modules/ROOT/navigation.adoc

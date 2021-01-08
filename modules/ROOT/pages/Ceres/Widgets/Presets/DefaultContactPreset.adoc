@@ -1,0 +1,54 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__defaultcontactpreset]]
+= DefaultContactPreset
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Presets`
+
+
+===== Implements
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`ContentPreset`]
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+|xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
+    |config
+    |
+|xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
+    |preset
+    |
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
+    |translator
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public getWidgets():void
+
+----
+
+
+
+
+
+
+
+
+

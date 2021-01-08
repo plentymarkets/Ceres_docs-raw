@@ -1,0 +1,46 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__performanceconfig]]
+= PerformanceConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Config`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |performanceLevels
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static getPerformanceLevels():array
+
+----
+
+
+
+
+
+
+
+
+

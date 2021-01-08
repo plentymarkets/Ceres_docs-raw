@@ -1,0 +1,72 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__propertydatafieldprovider]]
+= PropertyDataFieldProvider
+
+
+
+
+
+===== Namespace
+
+`Ceres\ShopBuilder\DataFieldProvider\Item`
+
+===== Extends
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_providers_datafieldprovider[`DataFieldProvider`]
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| xref:stable7@interface::Property.adoc#property_models_property[`Property`]
+    |property
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($property):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$property`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public register():void
+
+----
+
+
+
+
+
+
+
+
+

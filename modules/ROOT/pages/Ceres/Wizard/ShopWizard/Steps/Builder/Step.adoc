@@ -1,0 +1,61 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__step]]
+= Step
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Steps\Builder`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |globalsCondition
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+Step constructor.
+
+[source%nowrap, php]
+----
+
+public hasRequiredSettings():bool
+
+----
+
+
+
+
+
+
+
+
+

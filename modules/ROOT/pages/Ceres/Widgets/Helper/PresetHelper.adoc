@@ -1,0 +1,70 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__presethelper]]
+= PresetHelper
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |widgetFactories
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public createWidget($identifier):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$identifier`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public toArray():void
+
+----
+
+
+
+
+
+
+
+
+

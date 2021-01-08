@@ -1,0 +1,76 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__separatorwidget]]
+= SeparatorWidget
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Common`
+
+===== Extends
+xref:Ceres/Widgets/Helper/BaseWidget.adoc#[`BaseWidget`]
+
+===== Implements
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_widget[`Widget`]
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`DynamicWidget`]
+
+
+.Constants
+|===
+|Type |Name |Value |Description
+
+|link:http://php.net/array[array^]
+    |TOOLBAR_LAYOUT
+    |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
+    |
+|===
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |template
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public getData():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getSettings():void
+
+----
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__barcodelistdatafieldprovider]]
+= BarcodeListDataFieldProvider
+
+
+
+
+
+===== Namespace
+
+`Ceres\ShopBuilder\DataFieldProvider\Item`
+
+===== Extends
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_providers_datafieldprovider[`DataFieldProvider`]
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public register():void
+
+----
+
+
+
+
+
+
+
+
+

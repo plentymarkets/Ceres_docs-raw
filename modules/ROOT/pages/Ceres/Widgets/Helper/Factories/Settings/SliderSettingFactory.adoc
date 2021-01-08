@@ -1,0 +1,183 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__slidersettingfactory]]
+= SliderSettingFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+===== Extends
+xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public withMin($min):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/int[int^]
+a|`$min`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withMax($max):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/int[int^]
+a|`$max`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withInterval($interval):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/int[int^]
+a|`$interval`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withPrecision($precision):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/int[int^]
+a|`$precision`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withShowMinMax($showMinMax):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/bool[bool^]
+a|`$showMinMax`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withShowTicks($showTicks):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/bool[bool^]
+a|`$showTicks`
+|
+|===
+
+

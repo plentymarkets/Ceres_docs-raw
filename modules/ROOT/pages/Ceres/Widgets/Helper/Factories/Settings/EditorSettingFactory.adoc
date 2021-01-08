@@ -1,0 +1,96 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__editorsettingfactory]]
+= EditorSettingFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+===== Extends
+xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public withPlaceHolder($placeholder):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$placeholder`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withFixedHeight($fixedHeight):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$fixedHeight`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withMinHeight($minHeight):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$minHeight`
+|
+|===
+
+

@@ -1,0 +1,82 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__currencyconfig]]
+= CurrencyConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Config`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |currencyFormat
+    |
+| 
+    |currencyFormatSelection
+    |
+| 
+    |currenciesAvailable
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+CurrencyConfig constructor.
+
+[source%nowrap, php]
+----
+
+public static getCurrencyFormat():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getCurrencyFormatSelection():array
+
+----
+
+
+
+
+
+
+
+
+

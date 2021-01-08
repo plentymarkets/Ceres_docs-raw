@@ -1,0 +1,176 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__externalsearchoptions]]
+= ExternalSearchOptions
+
+
+
+
+
+===== Namespace
+
+`Ceres\Helper`
+
+
+
+
+.Constants
+|===
+|Type |Name |Value |Description
+
+|link:http://php.net/string[string^]
+    |EVENT_NAME
+    |'Ceres.Search.Options'
+    |
+|===
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |itemsPerPage
+    |
+| 
+    |defaultItemsPerPage
+    |
+| 
+    |hasItemsPerPage
+    |
+| 
+    |sortingOptions
+    |
+| 
+    |defaultSorting
+    |
+| 
+    |hasSortingOptions
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static getExternalSearchOptions():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public setItemsPerPage():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getItemsPerPage():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getDefaultItemsPerPage():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public setSortingOptions():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getSortingOptions():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getDefaultSortingOption():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public hasOptions():void
+
+----
+
+
+
+
+
+
+
+
+

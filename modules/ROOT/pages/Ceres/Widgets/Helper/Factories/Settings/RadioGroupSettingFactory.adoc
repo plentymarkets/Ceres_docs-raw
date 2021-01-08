@@ -1,0 +1,63 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__radiogroupsettingfactory]]
+= RadioGroupSettingFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+===== Extends
+xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public withRadioValues($radioValues):Ceres\Widgets\Helper\Factories\Settings\RadioGroupSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/RadioGroupSettingFactory.adoc#[`RadioGroupSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[array^]
+a|`$radioValues`
+|
+|===
+
+

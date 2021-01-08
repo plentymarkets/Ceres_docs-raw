@@ -1,0 +1,87 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__selectsettingfactory]]
+= SelectSettingFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+===== Extends
+xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public withOpenOnTop($openOnTop):Ceres\Widgets\Helper\Factories\Settings\SelectSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[`SelectSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/bool[bool^]
+a|`$openOnTop`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withListBoxValues($listBoxValues):Ceres\Widgets\Helper\Factories\Settings\SelectSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[`SelectSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[array^]
+a|`$listBoxValues`
+|
+|===
+
+

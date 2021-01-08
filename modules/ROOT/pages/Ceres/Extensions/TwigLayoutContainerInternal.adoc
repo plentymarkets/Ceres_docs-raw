@@ -1,0 +1,135 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__twiglayoutcontainerinternal]]
+= TwigLayoutContainerInternal
+
+
+
+
+
+===== Namespace
+
+`Ceres\Extensions`
+
+===== Extends
+xref:stable7@interface::Miscellaneous.adoc#miscellaneous_extensions_twig_extension[`Twig_Extension`]
+
+===== Implements
+GlobalsInterface
+ExtensionInterface
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_factories_twigfactory[`TwigFactory`]
+    |twig
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($twig):void
+
+----
+
+
+
+
+
+
+
+TwigStyleScriptTagFilter constructor.
+
+.*Parameters*
+|===
+|Type |Name |Description
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_factories_twigfactory[`TwigFactory`]
+a|`$twig`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public getName():string
+
+----
+
+
+
+
+
+
+
+Return the name of the extension. The name must be unique.
+
+[source%nowrap, php]
+----
+
+public getFilters():array
+
+----
+
+
+
+
+
+
+
+Return a list of filters to add.
+
+[source%nowrap, php]
+----
+
+public getFunctions():array
+
+----
+
+
+
+
+
+
+
+Return a list of functions to add.
+
+[source%nowrap, php]
+----
+
+public getInternalContainer():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getGlobals():array
+
+----
+
+
+
+
+
+
+
+Return a map of global helper objects to add.
+

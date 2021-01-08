@@ -1,0 +1,154 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__onlinestoreconfig]]
+= OnlineStoreConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Config`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |categoryTypes
+    |
+| 
+    |categoryTreeDepths
+    |
+| 
+    |toTopButtonPosition
+    |
+| 
+    |confirmationLinkExpiration
+    |
+| 
+    |globalMaxAge
+    |
+| 
+    |itemBundles
+    |
+| 
+    |sessionLifetimeOptions
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static getCategoryTypes():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getCategoryTreeDepths():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getToTopButtonPosition():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getConfirmationLinkExpiration():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getUserHashMaxAge():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getItemBundles():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getSessionLifetimeOptions():array
+
+----
+
+
+
+
+
+
+
+
+

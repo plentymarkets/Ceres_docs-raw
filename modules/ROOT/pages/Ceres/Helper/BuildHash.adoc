@@ -1,0 +1,52 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__buildhash]]
+= BuildHash
+
+
+
+
+
+===== Namespace
+
+`Ceres\Helper`
+
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static get():string
+
+----
+
+
+
+
+
+
+
+Get the current build hash.
+
+[source%nowrap, php]
+----
+
+public static unset():void
+
+----
+
+
+
+
+
+
+
+Unset the current build hash. New hash will be generated on next read request.
+

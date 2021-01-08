@@ -1,0 +1,46 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceresafterbuildplugins]]
+= CeresAfterBuildPlugins
+
+
+
+
+
+===== Namespace
+
+`Ceres\Hooks`
+
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public handle($afterBuildPlugins):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$afterBuildPlugins`
+|
+|===
+
+

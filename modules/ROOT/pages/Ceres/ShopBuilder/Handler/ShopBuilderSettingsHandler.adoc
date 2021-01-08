@@ -1,0 +1,821 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__shopbuildersettingshandler]]
+= ShopBuilderSettingsHandler
+
+
+
+
+
+===== Namespace
+
+`Ceres\ShopBuilder\Handler`
+
+===== Extends
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_helper_mappablesettingshandler[`MappableSettingsHandler`]
+
+===== Implements
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_globalsettingshandler[`GlobalSettingsHandler`]
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |mappings
+    |
+| 
+    |casts
+    |
+| 
+    |enabledRoutes
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public readRouting_HomeEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_HomeEnableRoute($enableHomeRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableHomeRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_BasketEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_BasketEnableRoute($enableBasketRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableBasketRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_CheckoutEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_CheckoutEnableRoute($enableCheckoutRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableCheckoutRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_MyAccountEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_MyAccountEnableRoute($enableMyAccountRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableMyAccountRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_searchEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_searchEnableRoute($enableSearchRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableSearchRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_ConfirmationEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_ConfirmationEnableRoute($enableConfirmationRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableConfirmationRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_LoginEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_LoginEnableRoute($enableLoginRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableLoginRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_RegisterEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_RegisterEnableRoute($enableRegisterRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableRegisterRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_CancellationRightsEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_CancellationRightsEnableRoute($enableCancellationRightsRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableCancellationRightsRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_CancellationFormEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_CancellationFormEnableRoute($enableCancellationFormRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableCancellationFormRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_LegalDisclosureEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_LegalDisclosureEnableRoute($enableLegalDisclosureRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableLegalDisclosureRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_PrivacyPolicyEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_PrivacyPolicyEnableRoute($enablePrivacyPolicyRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enablePrivacyPolicyRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_GtcEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_GtcEnableRoute($enableGtcRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableGtcRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_ContactEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_ContactEnableRoute($enableContactRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableContactRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_WishListEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_WishListEnableRoute($enableWishListRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableWishListRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_ChangeMailEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_ChangeMailEnableRoute($enableWishListRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableWishListRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_PasswordResetEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_PasswordResetEnableRoute($enableWishListRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableWishListRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_NewsletterOptOutEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_NewsletterOptOutEnableRoute($enableWishListRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableWishListRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_OrderReturnEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_OrderReturnEnableRoute($enableWishListRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enableWishListRoute`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public readRouting_PageNotFoundEnableRoute():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public writeRouting_PageNotFoundEnableRoute($enablePageNotFoundRoute):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$enablePageNotFoundRoute`
+|
+|===
+
+

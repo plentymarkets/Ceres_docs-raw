@@ -1,0 +1,111 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__checkboxgroupsettingfactory]]
+= CheckboxGroupSettingFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+===== Extends
+xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public withCollapsed($collapsed):Ceres\Widgets\Helper\Factories\Settings\CheckboxGroupSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[`CheckboxGroupSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/bool[bool^]
+a|`$collapsed`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withCheckboxValues($checkboxValues):Ceres\Widgets\Helper\Factories\Settings\CheckboxGroupSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[`CheckboxGroupSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[array^]
+a|`$checkboxValues`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withDefaultValue($defaultValue):Ceres\Widgets\Helper\Factories\Settings
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[array^]
+a|`$defaultValue`
+|
+|===
+
+

@@ -1,0 +1,108 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__presetwidgetfactory]]
+= PresetWidgetFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |identifier
+    |
+| 
+    |settings
+    |
+| 
+    |children
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public withSetting($key, $value):Ceres\Widgets\Helper\Factories\PresetWidgetFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+
+| 
+a|`$value`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createChild($dropzone, $identifier):Ceres\Widgets\Helper\Factories\PresetWidgetFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$dropzone`
+|
+
+|link:http://php.net/string[string^]
+a|`$identifier`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public toArray():void
+
+----
+
+
+
+
+
+
+
+
+

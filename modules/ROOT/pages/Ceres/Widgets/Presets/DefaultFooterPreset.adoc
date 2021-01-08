@@ -1,0 +1,63 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__defaultfooterpreset]]
+= DefaultFooterPreset
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Presets`
+
+
+===== Implements
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`ContentPreset`]
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+|xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
+    |preset
+    |
+|xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
+    |config
+    |
+| PatternFilter
+    |patternFilter
+    |
+| CategoryService
+    |categoryService
+    |
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
+    |translator
+    |
+| 
+    |gridDropzoneNames
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public getWidgets():void
+
+----
+
+
+
+
+
+
+
+Get the widget configurations of the presets to be assigned to the created content.
+

@@ -1,0 +1,87 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__containersettingfactory]]
+= ContainerSettingFactory
+
+This class extends the GenericSettingsFactory by adding child settings.
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+===== Extends
+xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+|xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc#[`WidgetSettingsFactory`]
+    |children
+    |Nested settings which are grouped inside a container.
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static create($data = []):Ceres\Widgets\Helper\Factories\Settings\ContainerSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[`ContainerSettingFactory`]
+
+
+Create a new factory instance with initial value.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[array^]
+a|`$data`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public toArray():array
+
+----
+
+
+
+
+
+
+
+Get all children as a native array
+

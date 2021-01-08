@@ -1,0 +1,57 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceressearchconfig]]
+= CeresSearchConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Config`
+
+===== Extends
+PluginConfig
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |forwardToSingleItem
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($configRepository):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$configRepository`
+|
+|===
+
+

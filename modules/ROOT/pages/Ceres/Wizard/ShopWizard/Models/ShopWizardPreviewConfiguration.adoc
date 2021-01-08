@@ -1,0 +1,92 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__shopwizardpreviewconfiguration]]
+= ShopWizardPreviewConfiguration
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Models`
+
+===== Extends
+xref:stable7@interface::Plugin.adoc#plugin_contracts_model[`Model`]
+
+
+
+.Constants
+|===
+|Type |Name |Value |Description
+
+|link:http://php.net/string[string^]
+    |FIELD_TYPE_INT
+    |'int'
+    |
+|link:http://php.net/string[string^]
+    |FIELD_TYPE_UNSIGNED_INT
+    |'unsignedInteger'
+    |
+|link:http://php.net/string[string^]
+    |FIELD_TYPE_DECIMAL
+    |'decimal'
+    |
+|link:http://php.net/string[string^]
+    |FIELD_TYPE_STRING
+    |'string'
+    |
+|link:http://php.net/string[string^]
+    |FIELD_TYPE_BOOL
+    |'bool'
+    |
+|link:http://php.net/string[string^]
+    |FIELD_TYPE_ARRAY
+    |'array'
+    |
+|link:http://php.net/string[string^]
+    |FIELD_TYPE_TEXT
+    |'text'
+    |
+|link:http://php.net/array[array^]
+    |FIELD_TYPES
+    |['int','decimal','string','bool','array','text']
+    |
+|===
+
+
+.Properties
+|===
+|Type |Name |Description
+
+|link:http://php.net/int[int^]
+    |id
+    |
+|link:http://php.net/int[int^]
+    |pluginSetId
+    |
+|link:http://php.net/bool[bool^]
+    |deleted
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public getTableName():string
+
+----
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__createshopwizardpreviewconfigtable]]
+= CreateShopWizardPreviewConfigTable
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Migrations`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+|link:http://php.net/string[string^]
+    |pluginNamespace
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public run($migrate):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| xref:stable7@interface::Plugin.adoc#plugin_contracts_migrate[`Migrate`]
+a|`$migrate`
+|
+|===
+
+

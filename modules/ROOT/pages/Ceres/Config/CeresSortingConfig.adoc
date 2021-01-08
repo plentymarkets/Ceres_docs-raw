@@ -1,0 +1,81 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceressortingconfig]]
+= CeresSortingConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Config`
+
+===== Extends
+PluginConfig
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |data
+    |
+| 
+    |defaultSorting
+    |
+| 
+    |priorityCategory1
+    |
+| 
+    |priorityCategory2
+    |
+| 
+    |priorityCategory3
+    |
+| 
+    |defaultSortingSearch
+    |
+| 
+    |prioritySearch1
+    |
+| 
+    |prioritySearch2
+    |
+| 
+    |prioritySearch3
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($configRepository):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$configRepository`
+|
+|===
+
+

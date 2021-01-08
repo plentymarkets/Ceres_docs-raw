@@ -1,0 +1,111 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__mappingservice]]
+= MappingService
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Services`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+|xref:Ceres/Wizard/ShopWizard/Mapping/DataMapping.adoc#[`DataMapping`]
+    |dataMapping
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($mapping):void
+
+----
+
+
+
+
+
+
+
+MappingService constructor.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|xref:Ceres/Wizard/ShopWizard/Mapping/DataMapping.adoc#[`DataMapping`]
+a|`$mapping`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public processGlobalMappingData($dataToProcess, $scope = &quot;display&quot;):array
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[array^]
+a|`$dataToProcess`
+|
+
+|link:http://php.net/string[string^]
+a|`$scope`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public processPluginMappingData($dataToProcess, $scope = &quot;display&quot;):array
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[array^]
+a|`$dataToProcess`
+|
+
+|link:http://php.net/string[string^]
+a|`$scope`
+|
+|===
+
+

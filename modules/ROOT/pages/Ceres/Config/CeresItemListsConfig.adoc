@@ -1,0 +1,84 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceresitemlistsconfig]]
+= CeresItemListsConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Config`
+
+===== Extends
+PluginConfig
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |lastSeenNumber
+    |
+| 
+    |crossSellingType
+    |
+| 
+    |crossSellingSorting
+    |
+| 
+    |tagSorting
+    |
+| 
+    |list1Type
+    |
+| 
+    |list1TagIds
+    |
+| 
+    |list2Type
+    |
+| 
+    |list2TagIds
+    |
+| 
+    |list3Type
+    |
+| 
+    |list3TagIds
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($configRepository):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$configRepository`
+|
+|===
+
+

@@ -1,0 +1,61 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__valuelistfactory]]
+= ValueListFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |valueList
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static make():Ceres\Widgets\Helper\Factories\Settings\ValueListFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ValueListFactory.adoc#[`ValueListFactory`]
+
+
+
+
+[source%nowrap, php]
+----
+
+public toArray():void
+
+----
+
+
+
+
+
+
+
+
+

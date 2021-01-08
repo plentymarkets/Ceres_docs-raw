@@ -1,0 +1,172 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__itemviewconfig]]
+= ItemViewConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Config`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |itemDisplayNames
+    |
+| 
+    |itemNames
+    |
+| 
+    |itemDecimals
+    |
+| 
+    |loadingAnimationTypes
+    |
+| 
+    |categoryDescriptionPositions
+    |
+| 
+    |cartItemData
+    |
+| 
+    |cartItemAdditionalInfo
+    |
+| 
+    |cartPreviewPosition
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static getItemDisplayNames():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getItemNames():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getItemDecimals():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getLoadingAnimationTypes():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getCategoryDescriptionPositions():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getCartItemData():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getCartItemAdditionalInfo():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getCartPreviewPosion():array
+
+----
+
+
+
+
+
+
+
+
+

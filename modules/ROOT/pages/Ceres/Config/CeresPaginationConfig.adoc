@@ -1,0 +1,75 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__cerespaginationconfig]]
+= CeresPaginationConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Config`
+
+===== Extends
+PluginConfig
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |position
+    |
+| 
+    |showFirstPage
+    |
+| 
+    |showLastPage
+    |
+| 
+    |columnsPerPage
+    |
+| 
+    |rowsPerPage
+    |
+| 
+    |itemsPerPage
+    |
+| 
+    |noIndex
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($configRepository):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$configRepository`
+|
+|===
+
+

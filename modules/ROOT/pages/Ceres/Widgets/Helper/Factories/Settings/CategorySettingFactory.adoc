@@ -1,0 +1,111 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__categorysettingfactory]]
+= CategorySettingFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+===== Extends
+xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public withDisplayResetButton($displayResetButton):Ceres\Widgets\Helper\Factories\Settings\CategorySettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[`CategorySettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/bool[bool^]
+a|`$displayResetButton`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withDisplaySearch($displaySearch):Ceres\Widgets\Helper\Factories\Settings\CategorySettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[`CategorySettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/bool[bool^]
+a|`$displaySearch`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withShowFullSelectionPath($showFullSelectionPath):Ceres\Widgets\Helper\Factories\Settings\CategorySettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[`CategorySettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/bool[bool^]
+a|`$showFullSelectionPath`
+|
+|===
+
+

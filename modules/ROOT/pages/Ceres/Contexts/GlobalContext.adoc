@@ -1,0 +1,135 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__globalcontext]]
+= GlobalContext
+
+
+
+
+
+===== Namespace
+
+`Ceres\Contexts`
+
+
+===== Implements
+ContextInterface
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |params
+    |
+|xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
+    |ceresConfig
+    |
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_http_request[`Request`]
+    |request
+    |
+| 
+    |lang
+    |
+| 
+    |metaLang
+    |
+| 
+    |forceNoIndex
+    |
+| 
+    |template
+    |
+| 
+    |templateName
+    |
+| 
+    |categories
+    |
+| 
+    |categoryBreadcrumbs
+    |
+| 
+    |notifications
+    |
+| 
+    |basket
+    |
+| 
+    |webstoreConfig
+    |
+| 
+    |currencyData
+    |
+| 
+    |showNetPrices
+    |
+| 
+    |homepageURL
+    |
+| 
+    |splitItemBundle
+    |
+| 
+    |templateEvent
+    |
+| 
+    |isShopBuilder
+    |
+| 
+    |isSafeMode
+    |
+| 
+    |bodyClasses
+    |
+| 
+    |buildHash
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public init($params):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$params`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public getParam():void
+
+----
+
+
+
+
+
+
+
+
+

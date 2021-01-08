@@ -1,0 +1,60 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__defaultmyaccountpreset]]
+= DefaultMyAccountPreset
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Presets`
+
+
+===== Implements
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`ContentPreset`]
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+|xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
+    |preset
+    |
+|xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
+    |ceresConfig
+    |
+|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+    |twoColumnWidgetTop
+    |
+|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+    |twoColumnWidgetAddresses
+    |
+|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+    |twoColumnWidgetAccountSettings
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public getWidgets():void
+
+----
+
+
+
+
+
+
+
+
+

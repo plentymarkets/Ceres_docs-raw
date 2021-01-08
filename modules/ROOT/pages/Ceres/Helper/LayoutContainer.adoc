@@ -1,0 +1,106 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__layoutcontainer]]
+= LayoutContainer
+
+
+
+
+
+===== Namespace
+
+`Ceres\Helper`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |pluginName
+    |
+| 
+    |containerName
+    |
+| 
+    |contents
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static getContents():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getPluginName():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getContainerName():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public addContent($content):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$content`
+|
+|===
+
+

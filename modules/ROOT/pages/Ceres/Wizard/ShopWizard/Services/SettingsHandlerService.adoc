@@ -1,0 +1,19 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__settingshandlerservice]]
+= SettingsHandlerService
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Services`
+
+
+
+
+

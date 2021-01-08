@@ -1,0 +1,37 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__migration_2018_07_06_001_rebuildshopbuilderhomepage]]
+= Migration_2018_07_06_001_RebuildShopBuilderHomepage
+
+
+
+
+
+===== Namespace
+
+`Ceres\Migrations`
+
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public run():void
+
+----
+
+
+
+
+
+
+
+
+

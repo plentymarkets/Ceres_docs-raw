@@ -1,0 +1,81 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__widgettypes]]
+= WidgetTypes
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper`
+
+
+
+
+.Constants
+|===
+|Type |Name |Value |Description
+
+|link:http://php.net/string[string^]
+    |DEFAULT
+    |'default'
+    |
+|link:http://php.net/string[string^]
+    |STRUCTURE
+    |'structure'
+    |
+|link:http://php.net/string[string^]
+    |STATIC
+    |'static'
+    |
+|link:http://php.net/string[string^]
+    |HEADER
+    |'header'
+    |
+|link:http://php.net/string[string^]
+    |FOOTER
+    |'footer'
+    |
+|link:http://php.net/string[string^]
+    |ITEM
+    |'item'
+    |
+|link:http://php.net/string[string^]
+    |CATEGORY_ITEM
+    |'categoryitem'
+    |
+|link:http://php.net/string[string^]
+    |ITEM_SEARCH
+    |'itemsearch'
+    |
+|link:http://php.net/string[string^]
+    |TOOLBAR
+    |'toolbar'
+    |
+|link:http://php.net/string[string^]
+    |NAVIGATION
+    |'navigation'
+    |
+|link:http://php.net/string[string^]
+    |CHECKOUT
+    |'checkout'
+    |
+|link:http://php.net/string[string^]
+    |CUSTOMER
+    |'customer'
+    |
+|link:http://php.net/string[string^]
+    |MY_ACCOUNT
+    |'myaccount'
+    |
+|link:http://php.net/string[string^]
+    |FORM
+    |'form'
+    |
+|===
+
+

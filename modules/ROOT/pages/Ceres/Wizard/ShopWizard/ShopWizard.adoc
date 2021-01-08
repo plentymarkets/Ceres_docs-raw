@@ -1,0 +1,79 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__shopwizard]]
+= ShopWizard
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard`
+
+===== Extends
+xref:stable7@interface::Wizard.adoc#wizard_services_wizardprovider[`WizardProvider`]
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+|xref:Ceres/Wizard/ShopWizard/Services/DefaultSettingsService.adoc#[`DefaultSettingsService`]
+    |settingsService
+    |
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
+    |translator
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($defaultSettingsService, $translator):void
+
+----
+
+
+
+
+
+
+
+ShopWizard constructor.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|xref:Ceres/Wizard/ShopWizard/Services/DefaultSettingsService.adoc#[`DefaultSettingsService`]
+a|`$defaultSettingsService`
+|
+
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
+a|`$translator`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public structure():array
+
+----
+
+
+
+
+
+
+
+
+

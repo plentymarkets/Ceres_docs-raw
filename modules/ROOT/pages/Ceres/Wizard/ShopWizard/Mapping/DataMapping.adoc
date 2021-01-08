@@ -1,0 +1,82 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__datamapping]]
+= DataMapping
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Mapping`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |dataMapping
+    |
+| 
+    |globalMapping
+    |
+| 
+    |pluginMapping
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+DataMapping constructor.
+
+[source%nowrap, php]
+----
+
+public getGlobalData():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getPluginMapping():array
+
+----
+
+
+
+
+
+
+
+
+

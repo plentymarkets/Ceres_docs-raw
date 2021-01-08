@@ -1,0 +1,61 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__configpropertiesmigration_0_0_1]]
+= ConfigPropertiesMigration_0_0_1
+
+
+
+
+
+===== Namespace
+
+`Ceres\Migrations`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |translationMap
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public run():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public migrate():void
+
+----
+
+
+
+
+
+
+
+
+

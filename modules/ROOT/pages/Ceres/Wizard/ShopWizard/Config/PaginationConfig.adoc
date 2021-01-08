@@ -1,0 +1,100 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__paginationconfig]]
+= PaginationConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Config`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |paginationPositions
+    |
+| 
+    |itemSortingByRules
+    |
+| 
+    |sortingCategory
+    |
+| 
+    |secondSortingCategory
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static getPaginationPositions():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getItemSortingByRules():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getSortingCategoryRules():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getSecondSortingCategoryRules():array
+
+----
+
+
+
+
+
+
+
+
+

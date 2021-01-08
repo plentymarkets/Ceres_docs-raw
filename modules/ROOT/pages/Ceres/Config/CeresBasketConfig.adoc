@@ -1,0 +1,75 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceresbasketconfig]]
+= CeresBasketConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Config`
+
+===== Extends
+PluginConfig
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |itemData
+    |
+| 
+    |data
+    |
+| 
+    |previewData
+    |
+| 
+    |variations
+    |
+| 
+    |addItemToBasketConfirm
+    |
+| 
+    |previewType
+    |
+| 
+    |showShippingCountrySelect
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($configRepository):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$configRepository`
+|
+|===
+
+

@@ -1,0 +1,46 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceresnewsletterinputcontainer]]
+= CeresNewsletterInputContainer
+
+
+
+
+
+===== Namespace
+
+`Ceres\Containers`
+
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public call($twig):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$twig`
+|
+|===
+
+

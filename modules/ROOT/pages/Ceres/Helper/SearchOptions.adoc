@@ -1,0 +1,97 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__searchoptions]]
+= SearchOptions
+
+
+
+
+
+===== Namespace
+
+`Ceres\Helper`
+
+
+
+
+.Constants
+|===
+|Type |Name |Value |Description
+
+|link:http://php.net/string[string^]
+    |SCOPE_SEARCH
+    |'search'
+    |
+|link:http://php.net/string[string^]
+    |SCOPE_CATEGORY
+    |'category'
+    |
+|link:http://php.net/array[array^]
+    |TRANSLATION_MAP
+    |['itemRecommendedSorting','itemName_asc','itemName_desc','itemPrice_asc','itemPrice_desc','itemVariationCreateTimestamp_desc','itemVariationCreateTimestamp_asc','itemAvailabilityAverageDays_asc','itemAvailabilityAverageDays_desc','itemVariationCustomNumber_asc','itemVariationCustomNumber_desc','itemVariationLastUpdateTimestamp_asc','itemVariationLastUpdateTimestamp_desc','itemProducerName_asc','itemProducerName_desc','itemRelevance','itemRandom','itemVariationTopseller_asc','itemVariationTopseller_desc']
+    |
+|===
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |itemsPerPage
+    |
+| 
+    |defaultItemsPerPage
+    |
+| 
+    |sorting
+    |
+| 
+    |defaultSorting
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static get($scope):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$scope`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public static validateItemListOptions():void
+
+----
+
+
+
+
+
+
+
+
+

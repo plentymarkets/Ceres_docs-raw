@@ -1,0 +1,78 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceresmetaconfig]]
+= CeresMetaConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Config`
+
+===== Extends
+PluginConfig
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |robotsHome
+    |
+| 
+    |robotsContact
+    |
+| 
+    |robotsCancellationRights
+    |
+| 
+    |robotsCancellationForm
+    |
+| 
+    |robotsLegalDisclosure
+    |
+| 
+    |robotsPrivacyPolicy
+    |
+| 
+    |robotsTermsAndConditions
+    |
+| 
+    |robotsSearchResult
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($configRepository):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$configRepository`
+|
+|===
+
+

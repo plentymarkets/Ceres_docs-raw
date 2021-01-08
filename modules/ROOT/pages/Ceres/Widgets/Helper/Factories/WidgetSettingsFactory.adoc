@@ -1,0 +1,691 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__widgetsettingsfactory]]
+= WidgetSettingsFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |settings
+    |
+| 
+    |pointer
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static inherit($parentWidgetClass):Ceres\Widgets\Helper\Factories\WidgetSettingsFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc#[`WidgetSettingsFactory`]
+
+
+Create a new factory instance and initialize values from given widget class.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$parentWidgetClass`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public static create($data = []):Ceres\Widgets\Helper\Factories\WidgetSettingsFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc#[`WidgetSettingsFactory`]
+
+
+Create a new factory instance with initial values.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[array^]
+a|`$data`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createSetting($key):Ceres\Widgets\Helper\Factories\Settings\BaseSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+Create a generic widget settings entry.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|The key of the new settings entry. If key already exists, previous entry will be overridden.
+|===
+
+
+[source%nowrap, php]
+----
+
+public createContainer($key):Ceres\Widgets\Helper\Factories\Settings\ContainerSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[`ContainerSettingFactory`]
+
+
+Create a container entry which may contain nested settings.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createVerticalContainer($key):Ceres\Widgets\Helper\Factories\Settings\ContainerSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[`ContainerSettingFactory`]
+
+
+Create a vertical container
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createHorizontalContainer($key):Ceres\Widgets\Helper\Factories\Settings\ContainerSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[`ContainerSettingFactory`]
+
+
+Create a horizontal container
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createText($key):Ceres\Widgets\Helper\Factories\Settings\TextSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[`TextSettingFactory`]
+
+
+Create a text input setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createCheckbox($key):Ceres\Widgets\Helper\Factories\Settings\CheckboxSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxSettingFactory.adoc#[`CheckboxSettingFactory`]
+
+
+Create a checkbox setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createColorPalette():Ceres\Widgets\Helper\Factories\Settings\ColorPaletteSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ColorPaletteSettingFactory.adoc#[`ColorPaletteSettingFactory`]
+
+
+Create a color setting
+
+[source%nowrap, php]
+----
+
+public createDate($key):Ceres\Widgets\Helper\Factories\Settings\DateSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/DateSettingFactory.adoc#[`DateSettingFactory`]
+
+
+Create a date input setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createFile($key):Ceres\Widgets\Helper\Factories\Settings\FileSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[`FileSettingFactory`]
+
+
+Create a file picker setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createTextarea($key):Ceres\Widgets\Helper\Factories\Settings\TextareaSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc#[`TextareaSettingFactory`]
+
+
+Create a textarea input setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createNumber($key):Ceres\Widgets\Helper\Factories\Settings\BaseSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createDouble($key):Ceres\Widgets\Helper\Factories\Settings\DoubleSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/DoubleSettingFactory.adoc#[`DoubleSettingFactory`]
+
+
+Create a double input setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createSelect($key):Ceres\Widgets\Helper\Factories\Settings\SelectSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[`SelectSettingFactory`]
+
+
+Create a dropdown setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createSuggestion($key):Ceres\Widgets\Helper\Factories\Settings\SuggestionSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SuggestionSettingFactory.adoc#[`SuggestionSettingFactory`]
+
+
+Create a dropdown setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createCategory($key):Ceres\Widgets\Helper\Factories\Settings\CategorySettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[`CategorySettingFactory`]
+
+
+Create a category select setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createColor($key):Ceres\Widgets\Helper\Factories\Settings\BaseSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createSlider($key):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
+
+Create a slider setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createCheckboxGroup($key):Ceres\Widgets\Helper\Factories\Settings\CheckboxGroupSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[`CheckboxGroupSettingFactory`]
+
+
+Create a checkbox group setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createRadioGroup($key):Ceres\Widgets\Helper\Factories\Settings\RadioGroupSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/RadioGroupSettingFactory.adoc#[`RadioGroupSettingFactory`]
+
+
+Create a checkbox group setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createUrl($key):Ceres\Widgets\Helper\Factories\Settings\UrlSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/UrlSettingFactory.adoc#[`UrlSettingFactory`]
+
+
+Create a url picker
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createNoteEditor($key):Ceres\Widgets\Helper\Factories\Settings\EditorSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[`EditorSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createCodeEditor($key):Ceres\Widgets\Helper\Factories\Settings\EditorSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[`EditorSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createCustomClass():Ceres\Widgets\Helper\Factories\Settings\CustomClassSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CustomClassSettingFactory.adoc#[`CustomClassSettingFactory`]
+
+
+
+
+[source%nowrap, php]
+----
+
+public createIcon():Ceres\Widgets\Helper\Factories\Settings\IconSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/IconSettingFactory.adoc#[`IconSettingFactory`]
+
+
+
+
+[source%nowrap, php]
+----
+
+public createHeight():Ceres\Widgets\Helper\Factories\Settings\HeightSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/HeightSettingFactory.adoc#[`HeightSettingFactory`]
+
+
+
+
+[source%nowrap, php]
+----
+
+public createButtonSize():Ceres\Widgets\Helper\Factories\Settings\ButtonSizeSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ButtonSizeSettingFactory.adoc#[`ButtonSizeSettingFactory`]
+
+
+
+
+[source%nowrap, php]
+----
+
+public createAlignment():Ceres\Widgets\Helper\Factories\Settings\AlignmentSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/AlignmentSettingFactory.adoc#[`AlignmentSettingFactory`]
+
+
+
+
+[source%nowrap, php]
+----
+
+public toArray():void
+
+----
+
+
+
+
+
+
+
+
+

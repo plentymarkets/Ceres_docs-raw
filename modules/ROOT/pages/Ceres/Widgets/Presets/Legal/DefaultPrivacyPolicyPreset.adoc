@@ -1,0 +1,48 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__defaultprivacypolicypreset]]
+= DefaultPrivacyPolicyPreset
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Presets\Legal`
+
+
+===== Implements
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`ContentPreset`]
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+|xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
+    |preset
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public getWidgets():void
+
+----
+
+
+
+
+
+
+
+
+

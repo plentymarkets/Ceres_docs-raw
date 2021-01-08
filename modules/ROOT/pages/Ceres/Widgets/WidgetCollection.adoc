@@ -1,0 +1,103 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__widgetcollection]]
+= WidgetCollection
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets`
+
+
+
+
+.Constants
+|===
+|Type |Name |Value |Description
+
+|link:http://php.net/array[array^]
+    |BASKET_WIDGETS
+    |['Ceres\Widgets\Basket\BasketTotalsWidget','Ceres\Widgets\Basket\BasketWidget','Ceres\Widgets\Basket\CouponWidget','Ceres\Widgets\Basket\ShippingCountryWidget']
+    |
+|link:http://php.net/array[array^]
+    |CHECKOUT_WIDGETS
+    |['Ceres\Widgets\Checkout\CancelPaymentWidget','Ceres\Widgets\Checkout\ContactWishWidget','Ceres\Widgets\Checkout\GtcCheckWidget','Ceres\Widgets\Checkout\PaymentProviderWidget','Ceres\Widgets\Checkout\PlaceOrderWidget','Ceres\Widgets\Checkout\ShippingPrivacyCheckWidget','Ceres\Widgets\Checkout\ShippingProfileWidget','Ceres\Widgets\Checkout\SubscribeNewsletterCheckWidget','Ceres\Widgets\Checkout\CustomerSignWidget']
+    |
+|link:http://php.net/array[array^]
+    |COMMON_WIDGETS
+    |['Ceres\Widgets\Common\BackgroundWidget','Ceres\Widgets\Common\CodeWidget','Ceres\Widgets\Common\CollapseWidget','Ceres\Widgets\Common\GoogleMapsWidget','Ceres\Widgets\Common\ImageBoxWidget','Ceres\Widgets\Common\ImageCarouselWidget','Ceres\Widgets\Common\InlineTextWidget','Ceres\Widgets\Common\ItemListWidget','Ceres\Widgets\Common\LinkListWidget','Ceres\Widgets\Common\LinkWidget','Ceres\Widgets\Common\ListWidget','Ceres\Widgets\Common\LiveShoppingWidget','Ceres\Widgets\Common\NewsletterUnsubscribeWidget','Ceres\Widgets\Common\NewsletterWidget','Ceres\Widgets\Common\PrintButtonWidget','Ceres\Widgets\Common\PrivacySettingsWidget','Ceres\Widgets\Common\SeparatorWidget','Ceres\Widgets\Common\TextWidget','Ceres\Widgets\Common\TitleBarWidget']
+    |
+|link:http://php.net/array[array^]
+    |CONTACT_WIDGETS
+    |['Ceres\Widgets\Contact\ContactDetailsWidget']
+    |
+|link:http://php.net/array[array^]
+    |CUSTOMER_WIDGETS
+    |['Ceres\Widgets\Customer\AddressWidget','Ceres\Widgets\Customer\ChangeMailWidget','Ceres\Widgets\Customer\ChangePasswordWidget']
+    |
+|link:http://php.net/array[array^]
+    |FOOTER_WIDGETS
+    |['Ceres\Widgets\Footer\CookieBarWidget','Ceres\Widgets\Footer\LegalInformationWidget']
+    |
+|link:http://php.net/array[array^]
+    |FORM_WIDGETS
+    |['Ceres\Widgets\Form\AcceptPrivacyPolicyWidget','Ceres\Widgets\Form\MailFormWidget','Ceres\Widgets\Form\MailInputWidget','Ceres\Widgets\Form\SelectionWidget','Ceres\Widgets\Form\TextAreaWidget','Ceres\Widgets\Form\TextInputWidget']
+    |
+|link:http://php.net/array[array^]
+    |GRID_WIDGETS
+    |['Ceres\Widgets\Grid\AdditionalInformationWidget','Ceres\Widgets\Grid\FourColumnWidget','Ceres\Widgets\Grid\StickyContainerWidget','Ceres\Widgets\Grid\TabWidget','Ceres\Widgets\Grid\ThreeColumnWidget','Ceres\Widgets\Grid\TwoColumnWidget']
+    |
+|link:http://php.net/array[array^]
+    |HEADER_WIDGETS
+    |['Ceres\Widgets\Header\BreadcrumbWidget','Ceres\Widgets\Header\NavigationWidget','Ceres\Widgets\Header\TopBarWidget']
+    |
+|link:http://php.net/array[array^]
+    |ITEM_WIDGETS
+    |['Ceres\Widgets\Item\AddToBasketWidget','Ceres\Widgets\Item\AddToWishListWidget','Ceres\Widgets\Item\AttributeWidget','Ceres\Widgets\Item\GraduatedPriceWidget','Ceres\Widgets\Item\ItemAvailabilityWidget','Ceres\Widgets\Item\ItemBundleWidget','Ceres\Widgets\Item\ItemDataTableWidget','Ceres\Widgets\Item\ItemImageWidget','Ceres\Widgets\Item\ItemPriceWidget','Ceres\Widgets\Item\OrderPropertyWidget','Ceres\Widgets\Item\WishListWidget','Ceres\Widgets\Item\TagsWidget']
+    |
+|link:http://php.net/array[array^]
+    |LEGAL_WIDGETS
+    |['Ceres\Widgets\Legal\LegalTextsWidget']
+    |
+|link:http://php.net/array[array^]
+    |LOGIN_WIDGETS
+    |['Ceres\Widgets\Login\GuestLoginWidget','Ceres\Widgets\Login\LoginWidget','Ceres\Widgets\Login\RegistrationWidget']
+    |
+|link:http://php.net/array[array^]
+    |MY_ACCOUNT_WIDGETS
+    |['Ceres\Widgets\MyAccount\AccountSettingsWidget','Ceres\Widgets\MyAccount\BankDataSelectWidget','Ceres\Widgets\MyAccount\GreetingWidget','Ceres\Widgets\MyAccount\LogoutButtonWidget','Ceres\Widgets\MyAccount\OrderHistoryWidget','Ceres\Widgets\MyAccount\OrderReturnHistoryWidget']
+    |
+|link:http://php.net/array[array^]
+    |ORDER_CONFIRMATION_WIDGETS
+    |['Ceres\Widgets\OrderConfirmation\OrderDataWidget','Ceres\Widgets\OrderConfirmation\OrderDocumentsWidget','Ceres\Widgets\OrderConfirmation\OrderReturnWidget','Ceres\Widgets\OrderConfirmation\OrderTotalsWidget','Ceres\Widgets\OrderConfirmation\PurchasedItemsWidget']
+    |
+|link:http://php.net/array[array^]
+    |CATEGORY_ITEM_WIDGETS
+    |['Ceres\Widgets\Category\ItemSortingWidget','Ceres\Widgets\Category\ItemsPerPageWidget','Ceres\Widgets\Category\ItemGridWidget','Ceres\Widgets\Category\ToolbarWidget','Ceres\Widgets\Category\PaginationWidget','Ceres\Widgets\Navigation\NavigationTreeWidget','Ceres\Widgets\Navigation\StepByStepNavigationWidget','Ceres\Widgets\Category\Filter\SelectedFilterWidget','Ceres\Widgets\Category\Filter\AttributesPropertiesCharacteristicsFilterWidget','Ceres\Widgets\Category\Filter\AvailabilityFilterWidget','Ceres\Widgets\Category\Filter\CategoryFilterWidget','Ceres\Widgets\Category\Filter\ManufacturerFilterWidget','Ceres\Widgets\Category\Filter\PriceFilterWidget']
+    |
+|===
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static all():void
+
+----
+
+
+
+
+
+
+
+
+

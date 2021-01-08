@@ -1,0 +1,253 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__widgetdatafactory]]
+= WidgetDataFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |data
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static make($identifier):Ceres\Widgets\Helper\Factories\WidgetDataFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/WidgetDataFactory.adoc#[`WidgetDataFactory`]
+
+
+Create a new widget factory instance.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$identifier`
+|Unique identifier of the widget.
+|===
+
+
+[source%nowrap, php]
+----
+
+public withLabel($label):Ceres\Widgets\Helper\Factories
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
+
+
+Set a label for this widget. Will be translated.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$label`
+|Label of the widget to be displayed in the shop builder
+|===
+
+
+[source%nowrap, php]
+----
+
+public withPreviewImageUrl($previewImageUrl):Ceres\Widgets\Helper\Factories
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
+
+
+Set the url of a preview image for the widget.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$previewImageUrl`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withType($type):Ceres\Widgets\Helper\Factories
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
+
+
+Set the type of the widget.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$type`
+|Type of the widget
+|===
+
+
+[source%nowrap, php]
+----
+
+public withCategory($category):Ceres\Widgets\Helper\Factories
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
+
+
+Add a category for the widget. A widget might be assigned to multiple categories.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$category`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withPosition($position):Ceres\Widgets\Helper\Factories
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
+
+
+Set the position of the widget.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/int[int^]
+a|`$position`
+|Position of the widget
+|===
+
+
+[source%nowrap, php]
+----
+
+public withMaxPerPage($maxPerPage):Ceres\Widgets\Helper\Factories
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
+
+
+Limit the amount of times a widget can be placed on a content.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/int[int^]
+a|`$maxPerPage`
+|Maximum allowed amount of instances of the widget on a content
+|===
+
+
+[source%nowrap, php]
+----
+
+public withAllowedNestingTypes($allowedTypes):Ceres\Widgets\Helper\Factories
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
+
+
+Limits the widget types that you can drop into this widget.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[array^]
+a|`$allowedTypes`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withDeprecated():Ceres\Widgets\Helper\Factories
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
+
+
+Set the widget as deprecated.
+
+[source%nowrap, php]
+----
+
+public toArray():array
+
+----
+
+
+
+
+
+
+
+Get widget data.
+

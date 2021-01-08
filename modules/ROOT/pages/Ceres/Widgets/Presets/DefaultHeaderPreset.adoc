@@ -1,0 +1,39 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__defaultheaderpreset]]
+= DefaultHeaderPreset
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Presets`
+
+
+===== Implements
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`ContentPreset`]
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public getWidgets():void
+
+----
+
+
+
+
+
+
+
+Get the widget configurations of the presets to be assigned to the created content.
+

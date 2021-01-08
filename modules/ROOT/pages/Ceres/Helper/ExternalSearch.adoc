@@ -1,0 +1,161 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__externalsearch]]
+= ExternalSearch
+
+
+
+
+
+===== Namespace
+
+`Ceres\Helper`
+
+
+
+
+.Constants
+|===
+|Type |Name |Value |Description
+
+|link:http://php.net/string[string^]
+    |EVENT_NAME
+    |'Ceres.Search.Query'
+    |
+|===
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |searchString
+    |
+| 
+    |categoryId
+    |
+| 
+    |page
+    |
+| 
+    |itemsPerPage
+    |
+| 
+    |sorting
+    |
+| 
+    |results
+    |
+| 
+    |countTotal
+    |
+| 
+    |hasResults
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static getExternalResults($container):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$container`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public static hasExternalSearch():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public setResults():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public hasResults():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getResults():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public getCountTotal():void
+
+----
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,247 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__basesettingfactory]]
+= BaseSettingFactory
+
+Base factory class to generate widget settings.
+Contains interfaces for all common properties of a setting.
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |data
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static create($data = []):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$data`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withType($type):Ceres\Widgets\Helper\Factories\Settings
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
+
+
+Set the type of the setting.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$type`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withOption($key, $value):Ceres\Widgets\Helper\Factories\Settings
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
+
+
+Set an option for the setting.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$key`
+|The option key
+
+| 
+a|`$value`
+|The option value
+|===
+
+
+[source%nowrap, php]
+----
+
+public withDefaultValue($defaultValue):Ceres\Widgets\Helper\Factories\Settings
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
+
+
+Set the default value for the setting.
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$defaultValue`
+|The default value
+|===
+
+
+[source%nowrap, php]
+----
+
+public withCondition($condition):Ceres\Widgets\Helper\Factories\Settings
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
+
+
+Set a condition if the setting should be visible or not.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$condition`
+|Condition if the related form element should be visible or not.
+|===
+
+
+[source%nowrap, php]
+----
+
+public withName($name):Ceres\Widgets\Helper\Factories\Settings
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
+
+
+Set the name of the setting.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$name`
+|The label of the setting
+|===
+
+
+[source%nowrap, php]
+----
+
+public withTooltip($tooltip):Ceres\Widgets\Helper\Factories\Settings
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
+
+
+Set a tooltip text for this input
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$tooltip`
+|An additional description of the setting
+|===
+
+
+[source%nowrap, php]
+----
+
+public withList($min, $max):Ceres\Widgets\Helper\Factories\Settings
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
+
+
+Determines whether the declaration is used to render a list of the specified form field.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/int[int^]
+a|`$min`
+|Minimum number of entries.
+
+|link:http://php.net/int[int^]
+a|`$max`
+|Maximum number of entries. If not set or smaller than 0, unlimited entries might be added by the user.
+|===
+
+
+[source%nowrap, php]
+----
+
+public toArray():array
+
+----
+
+
+
+
+
+
+
+Get all data as a native array
+

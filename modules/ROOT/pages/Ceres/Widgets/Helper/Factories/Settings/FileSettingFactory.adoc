@@ -1,0 +1,111 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__filesettingfactory]]
+= FileSettingFactory
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Helper\Factories\Settings`
+
+===== Extends
+xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public withShowPreview($showPreview):Ceres\Widgets\Helper\Factories\Settings\FileSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[`FileSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/bool[bool^]
+a|`$showPreview`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withAllowedExtensions($allowedExtensions):Ceres\Widgets\Helper\Factories\Settings\FileSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[`FileSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[array^]
+a|`$allowedExtensions`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public withFoldersAllowed($foldersAllowed):Ceres\Widgets\Helper\Factories\Settings\FileSettingFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[`FileSettingFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/bool[bool^]
+a|`$foldersAllowed`
+|
+|===
+
+

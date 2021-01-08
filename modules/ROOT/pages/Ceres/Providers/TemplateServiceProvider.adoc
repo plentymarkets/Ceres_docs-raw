@@ -1,0 +1,73 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__templateserviceprovider]]
+= TemplateServiceProvider
+
+
+
+
+
+===== Namespace
+
+`Ceres\Providers`
+
+===== Extends
+xref:stable7@interface::Miscellaneous.adoc#miscellaneous_plugin_serviceprovider[`ServiceProvider`]
+
+
+
+.Constants
+|===
+|Type |Name |Value |Description
+
+|link:http://php.net/int[int^]
+    |EVENT_LISTENER_PRIORITY
+    |100
+    |
+|===
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |templateKeyToViewMap
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public register():void
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public boot():void
+
+----
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceresitemlistcontainer3]]
+= CeresItemListContainer3
+
+
+
+
+
+===== Namespace
+
+`Ceres\Containers`
+
+
+
+
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public call():void
+
+----
+
+
+
+
+
+
+
+
+

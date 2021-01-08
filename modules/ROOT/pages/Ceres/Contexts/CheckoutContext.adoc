@@ -1,0 +1,59 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__checkoutcontext]]
+= CheckoutContext
+
+
+
+
+
+===== Namespace
+
+`Ceres\Contexts`
+
+===== Extends
+xref:Ceres/Contexts/CategoryContext.adoc#[`CategoryContext`]
+
+===== Implements
+ContextInterface
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |checkout
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public init($params):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$params`
+|
+|===
+
+

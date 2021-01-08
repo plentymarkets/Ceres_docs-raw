@@ -1,0 +1,46 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__logconfig]]
+= LogConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Wizard\ShopWizard\Config`
+
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |loggingLevels
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public static getLoggingLevels():array
+
+----
+
+
+
+
+
+
+
+
+

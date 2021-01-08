@@ -1,0 +1,81 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__ceresglobalconfig]]
+= CeresGlobalConfig
+
+
+
+
+
+===== Namespace
+
+`Ceres\Config`
+
+===== Extends
+PluginConfig
+
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |favicon
+    |
+| 
+    |shippingCostsCategoryId
+    |
+| 
+    |defaultContactClassB2B
+    |
+| 
+    |enableOldUrlPattern
+    |
+| 
+    |googleRecaptchaVersion
+    |
+| 
+    |googleRecaptchaApiKey
+    |
+| 
+    |googleMapsApiKey
+    |
+| 
+    |registrationRequirePrivacyPolicyConfirmation
+    |
+| 
+    |blockCookies
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public __construct($configRepository):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$configRepository`
+|
+|===
+
+

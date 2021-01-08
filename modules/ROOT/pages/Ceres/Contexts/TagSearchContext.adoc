@@ -1,0 +1,110 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__tagsearchcontext]]
+= TagSearchContext
+
+
+
+
+
+===== Namespace
+
+`Ceres\Contexts`
+
+===== Extends
+xref:Ceres/Contexts/CategoryContext.adoc#[`CategoryContext`]
+
+===== Implements
+ContextInterface
+
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |isSearch
+    |
+| 
+    |searchString
+    |
+| 
+    |isTag
+    |
+| 
+    |currentPage
+    |
+| 
+    |pageMax
+    |
+| 
+    |itemsPerPage
+    |
+| 
+    |itemCountPage
+    |
+| 
+    |itemCountTotal
+    |
+| 
+    |itemSorting
+    |
+| 
+    |query
+    |
+| 
+    |itemList
+    |
+| 
+    |facets
+    |
+|xref:Ceres/Helper/SearchOptions.adoc#[`SearchOptions`]
+    |searchOptions
+    |
+|===
+
+
+===== Methods
+
+[source%nowrap, php]
+----
+
+public init($params):void
+
+----
+
+
+
+
+
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+| 
+a|`$params`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public initItemList():void
+
+----
+
+
+
+
+
+
+
+
+
