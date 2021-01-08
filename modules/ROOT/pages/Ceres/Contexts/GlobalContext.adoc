@@ -89,6 +89,9 @@ ContextInterface
 | 
     |buildHash
     |
+| 
+    |assetName
+    |
 |===
 
 

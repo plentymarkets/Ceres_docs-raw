@@ -2,8 +2,8 @@
 :example-caption!:
 :source-highlighter: prettify
 :sectids!:
-[[ceres__checkoutcontext]]
-= CheckoutContext
+[[ceres__myaccountcontext]]
+= MyAccountContext
 
 
 
@@ -26,37 +26,7 @@ ContextInterface
 |Type |Name |Description
 
 | 
-    |checkout
-    |
-| 
     |assetName
     |
 |===
-
-
-===== Methods
-
-[source%nowrap, php]
-----
-
-public init($params):void
-
-----
-
-
-
-
-
-
-
-
-
-.*Parameters*
-|===
-|Type |Name |Description
-| 
-a|`$params`
-|
-|===
-
 

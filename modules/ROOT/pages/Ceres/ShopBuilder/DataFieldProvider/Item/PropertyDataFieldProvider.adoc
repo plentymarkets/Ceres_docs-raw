@@ -26,6 +26,9 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_providers_datafieldprovider
 | xref:stable7@interface::Property.adoc#property_models_property[`Property`]
     |property
     |
+| 
+    |propertyGroupId
+    |
 |===
 
 
@@ -34,7 +37,7 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_providers_datafieldprovider
 [source%nowrap, php]
 ----
 
-public __construct($property):void
+public __construct():void
 
 ----
 
@@ -44,15 +47,6 @@ public __construct($property):void
 
 
 
-
-
-.*Parameters*
-|===
-|Type |Name |Description
-| 
-a|`$property`
-|
-|===
 
 
 [source%nowrap, php]

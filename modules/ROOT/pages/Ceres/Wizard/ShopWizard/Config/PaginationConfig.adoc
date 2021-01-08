@@ -28,6 +28,12 @@
     |itemSortingByRules
     |
 | 
+    |dynamicSortingByRules
+    |
+| 
+    |dynamicInheritSortingByRules
+    |
+| 
     |sortingCategory
     |
 | 
@@ -87,6 +93,36 @@ public static getSortingCategoryRules():array
 ----
 
 public static getSecondSortingCategoryRules():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getDynamicSortingRules():array
+
+----
+
+
+
+
+
+
+
+
+
+[source%nowrap, php]
+----
+
+public static getDynamicInheritSortingRules():array
 
 ----
 

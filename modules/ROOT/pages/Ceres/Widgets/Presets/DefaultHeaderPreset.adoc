@@ -19,6 +19,15 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 
 
 
+.Properties
+|===
+|Type |Name |Description
+
+|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+    |topBarWidget
+    |
+|===
+
 
 ===== Methods
 
@@ -35,5 +44,5 @@ public getWidgets():void
 
 
 
-Get the widget configurations of the presets to be assigned to the created content.
+
 

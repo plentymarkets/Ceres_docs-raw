@@ -14,7 +14,7 @@
 `Ceres\Config`
 
 ===== Extends
-PluginConfig
+xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`]
 
 
 
@@ -50,6 +50,15 @@ PluginConfig
 | 
     |prioritySearch3
     |
+| 
+    |dynamicInherit
+    |
+| 
+    |dynamicPrio1
+    |
+| 
+    |dynamicPrio2
+    |
 |===
 
 
@@ -58,7 +67,7 @@ PluginConfig
 [source%nowrap, php]
 ----
 
-public __construct($configRepository):void
+public getPluginName():void
 
 ----
 
@@ -70,12 +79,18 @@ public __construct($configRepository):void
 
 
 
-.*Parameters*
-|===
-|Type |Name |Description
-| 
-a|`$configRepository`
-|
-|===
+[source%nowrap, php]
+----
+
+public load():void
+
+----
+
+
+
+
+
+
+
 
 

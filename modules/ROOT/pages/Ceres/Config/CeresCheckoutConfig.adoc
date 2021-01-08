@@ -2,8 +2,8 @@
 :example-caption!:
 :source-highlighter: prettify
 :sectids!:
-[[ceres__ceresitemlistsconfig]]
-= CeresItemListsConfig
+[[ceres__cerescheckoutconfig]]
+= CeresCheckoutConfig
 
 
 
@@ -24,34 +24,7 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |Type |Name |Description
 
 | 
-    |lastSeenNumber
-    |
-| 
-    |crossSellingType
-    |
-| 
-    |crossSellingSorting
-    |
-| 
-    |tagSorting
-    |
-| 
-    |list1Type
-    |
-| 
-    |list1TagIds
-    |
-| 
-    |list2Type
-    |
-| 
-    |list2TagIds
-    |
-| 
-    |list3Type
-    |
-| 
-    |list3TagIds
+    |showAllShippingProfiles
     |
 |===
 

@@ -45,6 +45,26 @@
     |'item'
     |
 |link:http://php.net/string[string^]
+    |SINGLE_ITEM
+    |'singleitem'
+    |
+|link:http://php.net/string[string^]
+    |SET_ITEM
+    |'setitem'
+    |
+|link:http://php.net/string[string^]
+    |SET_COMPONENT
+    |'setcomponent'
+    |
+|link:http://php.net/string[string^]
+    |SET_COMPONENT_ONLY
+    |'setcomponentonly'
+    |
+|link:http://php.net/string[string^]
+    |ITEM_CONTENT
+    |'itemcontent'
+    |
+|link:http://php.net/string[string^]
     |CATEGORY_ITEM
     |'categoryitem'
     |

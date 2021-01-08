@@ -47,6 +47,9 @@ ContextInterface
     |query
     |
 | 
+    |suggestionString
+    |
+| 
     |itemList
     |
 | 

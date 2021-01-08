@@ -5,7 +5,7 @@
                         
 *** xref:Ceres/Config/CeresAddressConfig.adoc[CeresAddressConfig]
         
-*** xref:Ceres/Config/CeresItemListsConfig.adoc[CeresItemListsConfig]
+*** xref:Ceres/Config/CeresItemConfig.adoc[CeresItemConfig]
         
 *** xref:Ceres/Config/CeresSearchConfig.adoc[CeresSearchConfig]
         
@@ -19,11 +19,11 @@
         
 *** xref:Ceres/Config/CeresLanguageConfig.adoc[CeresLanguageConfig]
         
-*** xref:Ceres/Config/CeresItemConfig.adoc[CeresItemConfig]
-        
-*** xref:Ceres/Config/CeresBasketConfig.adoc[CeresBasketConfig]
+*** xref:Ceres/Config/CeresItemListsConfig.adoc[CeresItemListsConfig]
         
 *** xref:Ceres/Config/CeresHomepageConfig.adoc[CeresHomepageConfig]
+        
+*** xref:Ceres/Config/CeresBasketConfig.adoc[CeresBasketConfig]
         
 *** xref:Ceres/Config/CeresHeaderConfig.adoc[CeresHeaderConfig]
         
@@ -36,6 +36,8 @@
 *** xref:Ceres/Config/CeresContactConfig.adoc[CeresContactConfig]
         
 *** xref:Ceres/Config/CeresConfig.adoc[CeresConfig]
+        
+*** xref:Ceres/Config/CeresCheckoutConfig.adoc[CeresCheckoutConfig]
         
 *** xref:Ceres/Config/CeresSortingConfig.adoc[CeresSortingConfig]
         
@@ -62,6 +64,8 @@
 *** xref:Ceres/Contexts/GlobalContext.adoc[GlobalContext]
         
 *** xref:Ceres/Contexts/ItemSearchContext.adoc[ItemSearchContext]
+        
+*** xref:Ceres/Contexts/MyAccountContext.adoc[MyAccountContext]
         
 *** xref:Ceres/Contexts/OrderConfirmationContext.adoc[OrderConfirmationContext]
         
@@ -253,6 +257,8 @@
         
 **** xref:Ceres/Widgets/Presets/OrderReturnPreset.adoc[OrderReturnPreset]
         
+**** xref:Ceres/Widgets/Presets/ItemSetPreset.adoc[ItemSetPreset]
+        
 **** xref:Ceres/Widgets/Presets/ItemSearchPreset.adoc[ItemSearchPreset]
         
 **** xref:Ceres/Widgets/Presets/ItemCategoryPreset.adoc[ItemCategoryPreset]
@@ -349,14 +355,28 @@
         
 **** xref:Ceres/Widgets/Item/ItemPriceWidget.adoc[ItemPriceWidget]
         
+**** xref:Ceres/Widgets/Item/ItemSetWidget.adoc[ItemSetWidget]
+        
 **** xref:Ceres/Widgets/Item/OrderPropertyWidget.adoc[OrderPropertyWidget]
+        
+**** xref:Ceres/Widgets/Item/QuantityInputWidget.adoc[QuantityInputWidget]
         
 **** xref:Ceres/Widgets/Item/TagsWidget.adoc[TagsWidget]
         
 **** xref:Ceres/Widgets/Item/WishListWidget.adoc[WishListWidget]
         
                                     *** Header
+                                                    **** Search
                         
+***** xref:Ceres/Widgets/Header/Search/SearchSuggestionBaseWidget.adoc[SearchSuggestionBaseWidget]
+        
+***** xref:Ceres/Widgets/Header/Search/SearchSuggestionCategoryWidget.adoc[SearchSuggestionCategoryWidget]
+        
+***** xref:Ceres/Widgets/Header/Search/SearchSuggestionItemWidget.adoc[SearchSuggestionItemWidget]
+        
+***** xref:Ceres/Widgets/Header/Search/SearchSuggestionSuggestionWidget.adoc[SearchSuggestionSuggestionWidget]
+        
+        
 **** xref:Ceres/Widgets/Header/BreadcrumbWidget.adoc[BreadcrumbWidget]
         
 **** xref:Ceres/Widgets/Header/NavigationWidget.adoc[NavigationWidget]

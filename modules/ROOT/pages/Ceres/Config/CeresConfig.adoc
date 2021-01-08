@@ -60,6 +60,9 @@
 |xref:Ceres/Config/CeresMetaConfig.adoc#[`CeresMetaConfig`]
     |meta
     |
+|xref:Ceres/Config/CeresCheckoutConfig.adoc#[`CeresCheckoutConfig`]
+    |checkout
+    |
 |xref:Ceres/Config/CeresMyAccountConfig.adoc#[`CeresMyAccountConfig`]
     |myAccount
     |

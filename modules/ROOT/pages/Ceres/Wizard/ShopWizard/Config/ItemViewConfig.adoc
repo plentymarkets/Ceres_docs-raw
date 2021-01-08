@@ -31,9 +31,6 @@
     |itemDecimals
     |
 | 
-    |loadingAnimationTypes
-    |
-| 
     |categoryDescriptionPositions
     |
 | 
@@ -84,21 +81,6 @@ public static getItemNames():array
 ----
 
 public static getItemDecimals():array
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public static getLoadingAnimationTypes():array
 
 ----
 

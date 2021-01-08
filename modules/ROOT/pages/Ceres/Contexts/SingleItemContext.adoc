@@ -35,16 +35,34 @@ ContextInterface
     |variations
     |
 | 
+    |afterKey
+    |
+| 
     |customerShowNetPrices
     |
 | 
     |defaultCategory
     |
 | 
+    |assetName
+    |
+| 
     |dynamicVariationId
     |
 | 
     |initPleaseSelectOption
+    |
+| 
+    |isItemSet
+    |
+| 
+    |setComponents
+    |
+| 
+    |setAttributeMap
+    |
+| 
+    |requestedVariationUrl
     |
 |===
 

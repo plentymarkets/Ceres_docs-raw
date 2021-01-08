@@ -54,11 +54,15 @@
     |
 |link:http://php.net/array[array^]
     |HEADER_WIDGETS
-    |['Ceres\Widgets\Header\BreadcrumbWidget','Ceres\Widgets\Header\NavigationWidget','Ceres\Widgets\Header\TopBarWidget']
+    |['Ceres\Widgets\Header\BreadcrumbWidget','Ceres\Widgets\Header\NavigationWidget','Ceres\Widgets\Header\Search\SearchSuggestionCategoryWidget','Ceres\Widgets\Header\Search\SearchSuggestionItemWidget','Ceres\Widgets\Header\Search\SearchSuggestionSuggestionWidget','Ceres\Widgets\Header\TopBarWidget']
     |
 |link:http://php.net/array[array^]
     |ITEM_WIDGETS
     |['Ceres\Widgets\Item\AddToBasketWidget','Ceres\Widgets\Item\AddToWishListWidget','Ceres\Widgets\Item\AttributeWidget','Ceres\Widgets\Item\GraduatedPriceWidget','Ceres\Widgets\Item\ItemAvailabilityWidget','Ceres\Widgets\Item\ItemBundleWidget','Ceres\Widgets\Item\ItemDataTableWidget','Ceres\Widgets\Item\ItemImageWidget','Ceres\Widgets\Item\ItemPriceWidget','Ceres\Widgets\Item\OrderPropertyWidget','Ceres\Widgets\Item\WishListWidget','Ceres\Widgets\Item\TagsWidget']
+    |
+|link:http://php.net/array[array^]
+    |ITEM_SET_WIDGETS
+    |['Ceres\Widgets\Item\ItemSetWidget','Ceres\Widgets\Item\QuantityInputWidget']
     |
 |link:http://php.net/array[array^]
     |LEGAL_WIDGETS

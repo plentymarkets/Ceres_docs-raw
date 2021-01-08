@@ -29,9 +29,10 @@ ExtensionInterface
 | xref:stable7@interface::Miscellaneous.adoc#miscellaneous_factories_twigfactory[`TwigFactory`]
     |twig
     |
-| 
+|link:http://php.net/array[array^]
     |itemData
-    |
+    |This array acts as a stack (LIFO)
+The last element is used for datafield fetches
 |===
 
 
@@ -128,6 +129,21 @@ public setItemDataBase($itemData):void
 a|`$itemData`
 |
 |===
+
+
+[source%nowrap, php]
+----
+
+public popItemDataBase():void
+
+----
+
+
+
+
+
+
+
 
 
 [source%nowrap, php]

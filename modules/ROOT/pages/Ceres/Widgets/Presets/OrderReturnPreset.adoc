@@ -19,6 +19,18 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 
 
 
+.Properties
+|===
+|Type |Name |Description
+
+|xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
+    |preset
+    |
+|xref:Ceres/Widgets/Presets/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+    |backgroundWidget
+    |
+|===
+
 
 ===== Methods
 
@@ -35,5 +47,77 @@ public getWidgets():void
 
 
 
+
+
+[source%nowrap, php]
+----
+
+public createBackground($preset):Ceres\Widgets\Presets\PresetWidgetFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Presets/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
+a|`$preset`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public setBackgroundWidgetSettings($widget):Ceres\Widgets\Presets\PresetWidgetFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Presets/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|xref:Ceres/Widgets/Presets/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$widget`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createWidget($identifier):Ceres\Widgets\Presets\PresetWidgetFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Presets/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$identifier`
+|
+|===
 
 

@@ -2,8 +2,8 @@
 :example-caption!:
 :source-highlighter: prettify
 :sectids!:
-[[ceres__imageboxwidget]]
-= ImageBoxWidget
+[[ceres__quantityinputwidget]]
+= QuantityInputWidget
 
 
 
@@ -11,7 +11,7 @@
 
 ===== Namespace
 
-`Ceres\Widgets\Common`
+`Ceres\Widgets\Item`
 
 ===== Extends
 xref:Ceres/Widgets/Helper/BaseWidget.adoc#[`BaseWidget`]
@@ -25,14 +25,6 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 |===
 |Type |Name |Value |Description
 
-|link:http://php.net/array[array^]
-    |IMAGE_EXTENSIONS
-    |['jpg','jpeg','png','gif','svg','apng']
-    |
-|link:http://php.net/array[array^]
-    |MODERN_IMAGE_EXTENSIONS
-    |['webp']
-    |
 |link:http://php.net/array[array^]
     |TOOLBAR_LAYOUT
     |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
@@ -71,21 +63,6 @@ public getData():void
 ----
 
 public getSettings():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public getTemplateData():void
 
 ----
 

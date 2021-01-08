@@ -1,0 +1,61 @@
+:table-caption!:
+:example-caption!:
+:source-highlighter: prettify
+:sectids!:
+[[ceres__searchsuggestionitemwidget]]
+= SearchSuggestionItemWidget
+
+
+
+
+
+===== Namespace
+
+`Ceres\Widgets\Header\Search`
+
+===== Extends
+xref:Ceres/Widgets/Header/Search/SearchSuggestionBaseWidget.adoc#[`SearchSuggestionBaseWidget`]
+
+===== Implements
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`DynamicWidget`]
+xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_widget[`Widget`]
+
+
+.Constants
+|===
+|Type |Name |Value |Description
+
+|link:http://php.net/array[array^]
+    |TOOLBAR_LAYOUT
+    |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
+    |
+|===
+
+
+.Properties
+|===
+|Type |Name |Description
+
+| 
+    |suggestionType
+    |
+| 
+    |widgetKey
+    |
+| 
+    |widgetLabel
+    |
+| 
+    |previewImageUrl
+    |
+| 
+    |headline
+    |
+| 
+    |hasImagesOption
+    |
+| 
+    |hasAdditionalInformationOption
+    |
+|===
+

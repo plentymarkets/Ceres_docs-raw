@@ -26,17 +26,14 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 |xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
     |preset
     |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |twoColumnWidget
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |stickyContainer
-    |
 | ShopUrls
     |shopUrls
     |
 | xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
     |translator
+    |
+|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+    |backgroundWidget
     |
 |===
 
@@ -56,5 +53,77 @@ public getWidgets():void
 
 
 
+
+
+[source%nowrap, php]
+----
+
+public createBackground($preset):Ceres\Widgets\Helper\Factories\PresetWidgetFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
+a|`$preset`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public setBackgroundWidgetSettings($widget):Ceres\Widgets\Helper\Factories\PresetWidgetFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$widget`
+|
+|===
+
+
+[source%nowrap, php]
+----
+
+public createWidget($identifier):Ceres\Widgets\Helper\Factories\PresetWidgetFactory
+
+----
+
+
+
+
+====== *Return type:*xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
+
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[string^]
+a|`$identifier`
+|
+|===
 
 
