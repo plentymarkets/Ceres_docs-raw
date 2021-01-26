@@ -23,48 +23,38 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-| 
-    |data
-    |
-| 
-    |defaultSorting
-    |
-| 
-    |priorityCategory1
-    |
-| 
-    |priorityCategory2
-    |
-| 
-    |priorityCategory3
-    |
-| 
-    |defaultSortingSearch
-    |
-| 
-    |prioritySearch1
-    |
-| 
-    |prioritySearch2
-    |
-| 
-    |prioritySearch3
-    |
-| 
-    |dynamicInherit
-    |
-| 
-    |dynamicPrio1
-    |
-| 
-    |dynamicPrio2
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$data`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultSorting`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$priorityCategory1`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$priorityCategory2`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$priorityCategory3`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultSortingSearch`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$prioritySearch1`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$prioritySearch2`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$prioritySearch3`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$dynamicInherit`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$dynamicPrio1`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$dynamicPrio2`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -77,9 +67,10 @@ public getPluginName():void
 
 
 
-
+Return the name of the plugin to get the configuration values for.
 
 [source%nowrap, php]
+[#load]
 ----
 
 public load():void
@@ -92,5 +83,5 @@ public load():void
 
 
 
-
+Initially load configuration values into member variables.
 

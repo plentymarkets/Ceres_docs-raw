@@ -17,7 +17,7 @@
 xref:Ceres/Contexts/CategoryContext.adoc#[`CategoryContext`]
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -25,15 +25,18 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |orderData
-    |
+|link:http://php.net/array[`array`^]
+a|`$orderData`
+|Data, including information about the current order.|link:http://php.net/string[`string`^]
+a|`$orderAccessKey`
+|Key to authenticate the user and allow him to open the view.
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#init]
 ----
 
 public init($params):void
@@ -51,7 +54,7 @@ public init($params):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$params`
 |
 |===

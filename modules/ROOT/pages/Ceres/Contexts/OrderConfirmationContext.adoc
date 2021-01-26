@@ -17,7 +17,7 @@
 xref:Ceres/Contexts/CategoryContext.adoc#[`CategoryContext`]
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -25,24 +25,22 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |data
-    |
-| 
-    |totals
-    |
-| 
-    |showAdditionalPaymentInformation
-    |
-| 
-    |assetName
-    |
+|link:http://php.net/array[`array`^]
+a|`$data`
+|Data, including information about the current order.|link:http://php.net/array[`array`^]
+a|`$totals`
+|Totals for the order.|link:http://php.net/string[`string`^]
+a|`$showAdditionalPaymentInformation`
+|Defines if the user should be able to change the payment method later on.|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$assetName`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#init]
 ----
 
 public init($params):void
@@ -60,7 +58,7 @@ public init($params):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$params`
 |
 |===

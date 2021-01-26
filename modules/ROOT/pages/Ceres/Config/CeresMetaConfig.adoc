@@ -23,36 +23,30 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-| 
-    |robotsHome
-    |
-| 
-    |robotsContact
-    |
-| 
-    |robotsCancellationRights
-    |
-| 
-    |robotsCancellationForm
-    |
-| 
-    |robotsLegalDisclosure
-    |
-| 
-    |robotsPrivacyPolicy
-    |
-| 
-    |robotsTermsAndConditions
-    |
-| 
-    |robotsSearchResult
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$robotsHome`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$robotsContact`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$robotsCancellationRights`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$robotsCancellationForm`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$robotsLegalDisclosure`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$robotsPrivacyPolicy`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$robotsTermsAndConditions`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$robotsSearchResult`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -65,9 +59,10 @@ public getPluginName():void
 
 
 
-
+Return the name of the plugin to get the configuration values for.
 
 [source%nowrap, php]
+[#load]
 ----
 
 public load():void
@@ -80,5 +75,5 @@ public load():void
 
 
 
-
+Initially load configuration values into member variables.
 

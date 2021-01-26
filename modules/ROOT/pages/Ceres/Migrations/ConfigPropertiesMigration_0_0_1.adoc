@@ -5,7 +5,7 @@
 [[ceres__configpropertiesmigration_0_0_1]]
 = ConfigPropertiesMigration_0_0_1
 
-
+Migrations are referenced in the &#039;runOnBuild&#039; section of the plugin.json and run exactly once.
 
 
 
@@ -21,15 +21,16 @@
 |===
 |Type |Name |Description
 
-| 
-    |translationMap
-    |
+|link:http://php.net/array[`array`^]
+a|`$translationMap`
+|Translation map
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#run]
 ----
 
 public run():void
@@ -42,12 +43,13 @@ public run():void
 
 
 
-
+Hook for running the migration.
 
 [source%nowrap, php]
+[#migrate]
 ----
 
-public migrate():void
+public migrate($pluginSetId, $config):void
 
 ----
 
@@ -57,5 +59,18 @@ public migrate():void
 
 
 
+This function contains the main logic of this migration
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/int[`int`^]
+a|`$pluginSetId`
+|The pluginset id
+
+|xref:stable7@interface::Plugin.adoc#plugin_models_configuration[`Configuration`]
+a|`$config`
+|The Ceres config
+|===
 
 

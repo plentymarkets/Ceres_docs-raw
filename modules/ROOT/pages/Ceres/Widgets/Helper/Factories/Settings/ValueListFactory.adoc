@@ -21,30 +21,32 @@
 |===
 |Type |Name |Description
 
-| 
-    |valueList
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$valueList`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#make]
 ----
 
-public static make():Ceres\Widgets\Helper\Factories\Settings\ValueListFactory
+public static make():void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ValueListFactory.adoc#[`ValueListFactory`]
+
 
 
 
 
 [source%nowrap, php]
+[#toarray]
 ----
 
 public toArray():void

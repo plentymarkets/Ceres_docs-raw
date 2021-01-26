@@ -30,36 +30,30 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-| 
-    |shopMail
-    |
-| 
-    |mailCC
-    |
-| 
-    |mailBCC
-    |
-| 
-    |showData
-    |
-| 
-    |apiKey
-    |
-| 
-    |mapZoom
-    |
-| 
-    |mapShowInMobile
-    |
-| 
-    |enableConfirmingPrivacyPolicy
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$shopMail`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$mailCC`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$mailBCC`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showData`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$apiKey`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$mapZoom`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$mapShowInMobile`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$enableConfirmingPrivacyPolicy`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -72,9 +66,10 @@ public getPluginName():void
 
 
 
-
+Return the name of the plugin to get the configuration values for.
 
 [source%nowrap, php]
+[#load]
 ----
 
 public load():void
@@ -87,5 +82,5 @@ public load():void
 
 
 
-
+Initially load configuration values into member variables.
 

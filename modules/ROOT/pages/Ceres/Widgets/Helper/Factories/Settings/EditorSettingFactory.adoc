@@ -23,6 +23,7 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 ===== Methods
 
 [source%nowrap, php]
+[#withplaceholder]
 ----
 
 public withPlaceHolder($placeholder):void
@@ -40,13 +41,14 @@ public withPlaceHolder($placeholder):void
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$placeholder`
 |
 |===
 
 
 [source%nowrap, php]
+[#withfixedheight]
 ----
 
 public withFixedHeight($fixedHeight):void
@@ -64,13 +66,14 @@ public withFixedHeight($fixedHeight):void
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$fixedHeight`
 |
 |===
 
 
 [source%nowrap, php]
+[#withminheight]
 ----
 
 public withMinHeight($minHeight):void
@@ -88,7 +91,7 @@ public withMinHeight($minHeight):void
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$minHeight`
 |
 |===

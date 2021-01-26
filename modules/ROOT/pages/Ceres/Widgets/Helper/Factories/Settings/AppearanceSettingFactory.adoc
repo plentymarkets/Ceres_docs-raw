@@ -23,6 +23,7 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 ===== Methods
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct($optional):void
@@ -40,7 +41,7 @@ public __construct($optional):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$optional`
 |
 |===

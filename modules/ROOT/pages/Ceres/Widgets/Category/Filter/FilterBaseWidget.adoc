@@ -26,9 +26,9 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 |Type |Name |Value |Description
 
 |link:http://php.net/array[array^]
-    |TOOLBAR_LAYOUT
-    |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
-    |
+a|`TOOLBAR_LAYOUT`
+|['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
+|
 |===
 
 
@@ -36,21 +36,20 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 |===
 |Type |Name |Description
 
-| 
-    |template
-    |
-| 
-    |allowedFacetTypes
-    |
-| 
-    |className
-    |
+|link:http://php.net/string[`string`^]
+a|`$template`
+|The template to be used for this widget|link:http://php.net/array[`array`^]
+a|`$allowedFacetTypes`
+|The facet types that are allowed to be displayed by the widget|link:http://php.net/string[`string`^]
+a|`$className`
+|The class name of the filter widget
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getsettings]
 ----
 
 public getSettings():void
@@ -63,24 +62,39 @@ public getSettings():void
 
 
 
+Return the structure of the settings for the widget
+
+[source%nowrap, php]
+[#gettemplatedata]
+----
+
+public getTemplateData($widgetSettings, $isPreview):void
+
+----
+
+
+
+
+
+
+
+Get additional data to be passed to the template while rendering
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[`array`^]
+a|`$widgetSettings`
+|The settings provided by the widget
+
+|link:http://php.net/bool[`bool`^]
+a|`$isPreview`
+|A Flag provided to determine if the widget is currently shown in preview
+|===
 
 
 [source%nowrap, php]
-----
-
-public getTemplateData():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
+[#getpreviewdata]
 ----
 
 public getPreviewData($widgetSettings):void
@@ -98,7 +112,7 @@ public getPreviewData($widgetSettings):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$widgetSettings`
 |
 |===

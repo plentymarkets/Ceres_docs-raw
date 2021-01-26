@@ -21,9 +21,10 @@
 ===== Methods
 
 [source%nowrap, php]
+[#call]
 ----
 
-public call():void
+public call($twig, $arg):void
 
 ----
 
@@ -33,5 +34,18 @@ public call():void
 
 
 
+Renders the template.
+
+.*Parameters*
+|===
+|Type |Name |Description
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_templates_twig[`Twig`]
+a|`$twig`
+|The twig instance
+
+|link:http://php.net/array[`array`^]
+a|`$arg`
+|A list of items
+|===
 
 

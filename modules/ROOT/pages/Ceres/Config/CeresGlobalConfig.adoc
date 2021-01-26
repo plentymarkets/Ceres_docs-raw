@@ -23,48 +23,38 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-| 
-    |favicon
-    |
-| 
-    |shippingCostsCategoryId
-    |
-| 
-    |defaultContactClassB2B
-    |
-| 
-    |enableOldUrlPattern
-    |
-| 
-    |googleRecaptchaVersion
-    |
-| 
-    |googleRecaptchaApiKey
-    |
-| 
-    |googleRecaptchaSecret
-    |
-| 
-    |googleRecaptchaThreshold
-    |
-| 
-    |googleMapsApiKey
-    |
-| 
-    |registrationRequirePrivacyPolicyConfirmation
-    |
-| 
-    |blockCookies
-    |
-| 
-    |userDataHashMaxAge
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$favicon`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$shippingCostsCategoryId`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultContactClassB2B`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$enableOldUrlPattern`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$googleRecaptchaVersion`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$googleRecaptchaApiKey`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$googleRecaptchaSecret`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$googleRecaptchaThreshold`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$googleMapsApiKey`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$registrationRequirePrivacyPolicyConfirmation`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$blockCookies`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$userDataHashMaxAge`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -77,9 +67,10 @@ public getPluginName():void
 
 
 
-
+Return the name of the plugin to get the configuration values for.
 
 [source%nowrap, php]
+[#load]
 ----
 
 public load():void
@@ -92,5 +83,5 @@ public load():void
 
 
 
-
+Initially load configuration values into member variables.
 

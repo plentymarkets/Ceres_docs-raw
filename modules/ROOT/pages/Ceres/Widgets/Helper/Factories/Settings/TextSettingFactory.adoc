@@ -23,6 +23,7 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 ===== Methods
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct():void
@@ -38,16 +39,17 @@ public __construct():void
 
 
 [source%nowrap, php]
+[#withpassword]
 ----
 
-public withPassword($isPassword):Ceres\Widgets\Helper\Factories\Settings\TextSettingFactory
+public withPassword($isPassword):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[`TextSettingFactory`]
+
 
 
 
@@ -55,23 +57,24 @@ public withPassword($isPassword):Ceres\Widgets\Helper\Factories\Settings\TextSet
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$isPassword`
 |
 |===
 
 
 [source%nowrap, php]
+[#withiban]
 ----
 
-public withIBAN($isIBAN):Ceres\Widgets\Helper\Factories\Settings\TextSettingFactory
+public withIBAN($isIBAN):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[`TextSettingFactory`]
+
 
 
 
@@ -79,23 +82,24 @@ public withIBAN($isIBAN):Ceres\Widgets\Helper\Factories\Settings\TextSettingFact
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$isIBAN`
 |
 |===
 
 
 [source%nowrap, php]
+[#withreadonly]
 ----
 
-public withReadonly($isReadonly):Ceres\Widgets\Helper\Factories\Settings\TextSettingFactory
+public withReadonly($isReadonly):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[`TextSettingFactory`]
+
 
 
 
@@ -103,7 +107,7 @@ public withReadonly($isReadonly):Ceres\Widgets\Helper\Factories\Settings\TextSet
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$isReadonly`
 |
 |===

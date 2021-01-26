@@ -17,8 +17,8 @@
 xref:stable7@interface::Miscellaneous.adoc#miscellaneous_extensions_twig_extension[`Twig_Extension`]
 
 ===== Implements
-GlobalsInterface
-ExtensionInterface
+xref:5.0.0@plugin-twig::Twig/Extension/GlobalsInterface.adoc#[`GlobalsInterface`]
+xref:5.0.0@plugin-twig::Twig/Extension/ExtensionInterface.adoc#[`ExtensionInterface`]
 
 
 
@@ -26,21 +26,24 @@ ExtensionInterface
 |===
 |Type |Name |Description
 
-| 
-    |styleTags
-    |
-| 
-    |scriptTags
-    |
-| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_factories_twigfactory[`TwigFactory`]
-    |twig
-    |
+|link:http://php.net/array[`array`^]
+a|`$styleTags`
+|Filtered out style tags.|link:http://php.net/array[`array`^]
+a|`$scriptTags`
+|Filtered out script tags.|link:http://php.net/array[`array`^]
+a|`$ignoreLayoutContainer`
+|Black list of layout container to filter.| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_factories_twigfactory[`TwigFactory`]
+a|`$twig`
+|The factory to render TWIG.|link:http://php.net/string[`string`^]
+a|`$pluginNamespace`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct($twig):void
@@ -60,14 +63,15 @@ TwigStyleScriptTagFilter constructor.
 |Type |Name |Description
 | xref:stable7@interface::Miscellaneous.adoc#miscellaneous_factories_twigfactory[`TwigFactory`]
 a|`$twig`
-|
+|The factory to render TWIG.
 |===
 
 
 [source%nowrap, php]
+[#getname]
 ----
 
-public getName():string
+public getName():void
 
 ----
 
@@ -77,27 +81,13 @@ public getName():string
 
 
 
-Return the name of the extension. The name must be unique.
+Return the name of the extension.
 
 [source%nowrap, php]
+[#getfunctions]
 ----
 
-public getFilters():array
-
-----
-
-
-
-
-
-
-
-Return a list of filters to add.
-
-[source%nowrap, php]
-----
-
-public getFunctions():array
+public getFunctions():void
 
 ----
 
@@ -110,9 +100,10 @@ public getFunctions():array
 Return a list of functions to add.
 
 [source%nowrap, php]
+[#getfilters]
 ----
 
-public getFilteredTags():string
+public getFilters():void
 
 ----
 
@@ -122,12 +113,58 @@ public getFilteredTags():string
 
 
 
+Return a list of filters to add.
+
+[source%nowrap, php]
+[#getfilteredtags]
+----
+
+public getFilteredTags():void
+
+----
+
+
+
+
+
+
+
+Get all filtered out script and style tags.
+
+[source%nowrap, php]
+[#filtertags]
+----
+
+public filterTags($content, $containerName):void
+
+----
+
+
+
+
+
+
+
+Filter content for script and style tags.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[`string`^]
+a|`$content`
+|The content to filter.
+
+|link:http://php.net/string[`string`^]
+a|`$containerName`
+|The name of the layout container.
+|===
 
 
 [source%nowrap, php]
+[#getglobals]
 ----
 
-public getGlobals():array
+public getGlobals():void
 
 ----
 

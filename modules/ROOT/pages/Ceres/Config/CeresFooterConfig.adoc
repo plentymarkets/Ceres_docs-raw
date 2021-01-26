@@ -23,36 +23,30 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-| 
-    |toTopButton
-    |
-| 
-    |numberOfFeatures
-    |
-| 
-    |numberOfCols
-    |
-| 
-    |col1Categories
-    |
-| 
-    |col2Categories
-    |
-| 
-    |col3Categories
-    |
-| 
-    |cancellationUsePdf
-    |
-| 
-    |cancellationPdfPath
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$toTopButton`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$numberOfFeatures`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$numberOfCols`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$col1Categories`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$col2Categories`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$col3Categories`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$cancellationUsePdf`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$cancellationPdfPath`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -65,9 +59,10 @@ public getPluginName():void
 
 
 
-
+Return the name of the plugin to get the configuration values for.
 
 [source%nowrap, php]
+[#load]
 ----
 
 public load():void
@@ -80,5 +75,5 @@ public load():void
 
 
 
-
+Initially load configuration values into member variables.
 

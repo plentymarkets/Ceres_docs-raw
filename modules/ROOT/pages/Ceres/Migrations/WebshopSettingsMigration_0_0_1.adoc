@@ -5,7 +5,7 @@
 [[ceres__webshopsettingsmigration_0_0_1]]
 = WebshopSettingsMigration_0_0_1
 
-
+Migrations are referenced in the &#039;runOnBuild&#039; section of the plugin.json and run exactly once.
 
 
 
@@ -21,6 +21,7 @@
 ===== Methods
 
 [source%nowrap, php]
+[#run]
 ----
 
 public run():void
@@ -33,5 +34,5 @@ public run():void
 
 
 
-
+Hook for running the migration.
 

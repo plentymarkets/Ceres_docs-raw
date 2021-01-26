@@ -21,61 +21,61 @@
 |Type |Name |Value |Description
 
 |link:http://php.net/string[string^]
-    |HEADER
-    |'header'
-    |
+a|`HEADER`
+|'header'
+|
 |link:http://php.net/string[string^]
-    |STRUCTURE
-    |'structure'
-    |
+a|`STRUCTURE`
+|'structure'
+|
 |link:http://php.net/string[string^]
-    |TEXT
-    |'text'
-    |
+a|`TEXT`
+|'text'
+|
 |link:http://php.net/string[string^]
-    |IMAGE
-    |'image'
-    |
+a|`IMAGE`
+|'image'
+|
 |link:http://php.net/string[string^]
-    |ITEM
-    |'item'
-    |
+a|`ITEM`
+|'item'
+|
 |link:http://php.net/string[string^]
-    |CUSTOMER
-    |'customer'
-    |
+a|`CUSTOMER`
+|'customer'
+|
 |link:http://php.net/string[string^]
-    |BASKET
-    |'basket'
-    |
+a|`BASKET`
+|'basket'
+|
 |link:http://php.net/string[string^]
-    |CHECKOUT
-    |'checkout'
-    |
+a|`CHECKOUT`
+|'checkout'
+|
 |link:http://php.net/string[string^]
-    |MY_ACCOUNT
-    |'myaccount'
-    |
+a|`MY_ACCOUNT`
+|'myaccount'
+|
 |link:http://php.net/string[string^]
-    |FORM
-    |'form'
-    |
+a|`FORM`
+|'form'
+|
 |link:http://php.net/string[string^]
-    |CONTACT
-    |'contact'
-    |
+a|`CONTACT`
+|'contact'
+|
 |link:http://php.net/string[string^]
-    |ORDER_CONFIRMATION
-    |'orderconfirmation'
-    |
+a|`ORDER_CONFIRMATION`
+|'orderconfirmation'
+|
 |link:http://php.net/string[string^]
-    |NAVIGATION
-    |'navigation'
-    |
+a|`NAVIGATION`
+|'navigation'
+|
 |link:http://php.net/string[string^]
-    |FOOTER
-    |'footer'
-    |
+a|`FOOTER`
+|'footer'
+|
 |===
 
 

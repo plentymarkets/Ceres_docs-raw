@@ -25,21 +25,20 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_globalsettingshan
 |===
 |Type |Name |Description
 
-| 
-    |mappings
-    |
-| 
-    |casts
-    |
-| 
-    |enabledRoutes
-    |
+|link:http://php.net/array[`array`^]
+a|`$mappings`
+|Maps the Ceres settings to the IO settings|link:http://php.net/array[`array`^]
+a|`$casts`
+|Decides what datatype the settings should be casted as|link:http://php.net/array[`array`^]
+a|`$enabledRoutes`
+|Contains all enabled routes from the plugin config
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#readrouting_homeenableroute]
 ----
 
 public readRouting_HomeEnableRoute():void
@@ -52,9 +51,10 @@ public readRouting_HomeEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_homeenableroute]
 ----
 
 public writeRouting_HomeEnableRoute($enableHomeRoute):void
@@ -67,18 +67,19 @@ public writeRouting_HomeEnableRoute($enableHomeRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableHomeRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_basketenableroute]
 ----
 
 public readRouting_BasketEnableRoute():void
@@ -91,9 +92,10 @@ public readRouting_BasketEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_basketenableroute]
 ----
 
 public writeRouting_BasketEnableRoute($enableBasketRoute):void
@@ -106,18 +108,19 @@ public writeRouting_BasketEnableRoute($enableBasketRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableBasketRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_checkoutenableroute]
 ----
 
 public readRouting_CheckoutEnableRoute():void
@@ -130,9 +133,10 @@ public readRouting_CheckoutEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_checkoutenableroute]
 ----
 
 public writeRouting_CheckoutEnableRoute($enableCheckoutRoute):void
@@ -145,18 +149,19 @@ public writeRouting_CheckoutEnableRoute($enableCheckoutRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableCheckoutRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_myaccountenableroute]
 ----
 
 public readRouting_MyAccountEnableRoute():void
@@ -169,9 +174,10 @@ public readRouting_MyAccountEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_myaccountenableroute]
 ----
 
 public writeRouting_MyAccountEnableRoute($enableMyAccountRoute):void
@@ -184,18 +190,19 @@ public writeRouting_MyAccountEnableRoute($enableMyAccountRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableMyAccountRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_searchenableroute]
 ----
 
 public readRouting_searchEnableRoute():void
@@ -208,9 +215,10 @@ public readRouting_searchEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_searchenableroute]
 ----
 
 public writeRouting_searchEnableRoute($enableSearchRoute):void
@@ -223,18 +231,19 @@ public writeRouting_searchEnableRoute($enableSearchRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableSearchRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_confirmationenableroute]
 ----
 
 public readRouting_ConfirmationEnableRoute():void
@@ -247,9 +256,10 @@ public readRouting_ConfirmationEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_confirmationenableroute]
 ----
 
 public writeRouting_ConfirmationEnableRoute($enableConfirmationRoute):void
@@ -262,18 +272,19 @@ public writeRouting_ConfirmationEnableRoute($enableConfirmationRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableConfirmationRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_loginenableroute]
 ----
 
 public readRouting_LoginEnableRoute():void
@@ -286,9 +297,10 @@ public readRouting_LoginEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_loginenableroute]
 ----
 
 public writeRouting_LoginEnableRoute($enableLoginRoute):void
@@ -301,18 +313,19 @@ public writeRouting_LoginEnableRoute($enableLoginRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableLoginRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_registerenableroute]
 ----
 
 public readRouting_RegisterEnableRoute():void
@@ -325,9 +338,10 @@ public readRouting_RegisterEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_registerenableroute]
 ----
 
 public writeRouting_RegisterEnableRoute($enableRegisterRoute):void
@@ -340,18 +354,19 @@ public writeRouting_RegisterEnableRoute($enableRegisterRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableRegisterRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_cancellationrightsenableroute]
 ----
 
 public readRouting_CancellationRightsEnableRoute():void
@@ -364,9 +379,10 @@ public readRouting_CancellationRightsEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_cancellationrightsenableroute]
 ----
 
 public writeRouting_CancellationRightsEnableRoute($enableCancellationRightsRoute):void
@@ -379,18 +395,19 @@ public writeRouting_CancellationRightsEnableRoute($enableCancellationRightsRoute
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableCancellationRightsRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_cancellationformenableroute]
 ----
 
 public readRouting_CancellationFormEnableRoute():void
@@ -403,9 +420,10 @@ public readRouting_CancellationFormEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_cancellationformenableroute]
 ----
 
 public writeRouting_CancellationFormEnableRoute($enableCancellationFormRoute):void
@@ -418,18 +436,19 @@ public writeRouting_CancellationFormEnableRoute($enableCancellationFormRoute):vo
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableCancellationFormRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_legaldisclosureenableroute]
 ----
 
 public readRouting_LegalDisclosureEnableRoute():void
@@ -442,9 +461,10 @@ public readRouting_LegalDisclosureEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_legaldisclosureenableroute]
 ----
 
 public writeRouting_LegalDisclosureEnableRoute($enableLegalDisclosureRoute):void
@@ -457,18 +477,19 @@ public writeRouting_LegalDisclosureEnableRoute($enableLegalDisclosureRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableLegalDisclosureRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_privacypolicyenableroute]
 ----
 
 public readRouting_PrivacyPolicyEnableRoute():void
@@ -481,9 +502,10 @@ public readRouting_PrivacyPolicyEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_privacypolicyenableroute]
 ----
 
 public writeRouting_PrivacyPolicyEnableRoute($enablePrivacyPolicyRoute):void
@@ -496,18 +518,19 @@ public writeRouting_PrivacyPolicyEnableRoute($enablePrivacyPolicyRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enablePrivacyPolicyRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_gtcenableroute]
 ----
 
 public readRouting_GtcEnableRoute():void
@@ -520,9 +543,10 @@ public readRouting_GtcEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_gtcenableroute]
 ----
 
 public writeRouting_GtcEnableRoute($enableGtcRoute):void
@@ -535,18 +559,19 @@ public writeRouting_GtcEnableRoute($enableGtcRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableGtcRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_contactenableroute]
 ----
 
 public readRouting_ContactEnableRoute():void
@@ -559,9 +584,10 @@ public readRouting_ContactEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_contactenableroute]
 ----
 
 public writeRouting_ContactEnableRoute($enableContactRoute):void
@@ -574,18 +600,19 @@ public writeRouting_ContactEnableRoute($enableContactRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableContactRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_wishlistenableroute]
 ----
 
 public readRouting_WishListEnableRoute():void
@@ -598,9 +625,10 @@ public readRouting_WishListEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_wishlistenableroute]
 ----
 
 public writeRouting_WishListEnableRoute($enableWishListRoute):void
@@ -613,18 +641,19 @@ public writeRouting_WishListEnableRoute($enableWishListRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableWishListRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_changemailenableroute]
 ----
 
 public readRouting_ChangeMailEnableRoute():void
@@ -637,9 +666,10 @@ public readRouting_ChangeMailEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_changemailenableroute]
 ----
 
 public writeRouting_ChangeMailEnableRoute($enableWishListRoute):void
@@ -652,18 +682,19 @@ public writeRouting_ChangeMailEnableRoute($enableWishListRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableWishListRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_passwordresetenableroute]
 ----
 
 public readRouting_PasswordResetEnableRoute():void
@@ -676,9 +707,10 @@ public readRouting_PasswordResetEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_passwordresetenableroute]
 ----
 
 public writeRouting_PasswordResetEnableRoute($enableWishListRoute):void
@@ -691,18 +723,19 @@ public writeRouting_PasswordResetEnableRoute($enableWishListRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableWishListRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_newsletteroptoutenableroute]
 ----
 
 public readRouting_NewsletterOptOutEnableRoute():void
@@ -715,9 +748,10 @@ public readRouting_NewsletterOptOutEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_newsletteroptoutenableroute]
 ----
 
 public writeRouting_NewsletterOptOutEnableRoute($enableWishListRoute):void
@@ -730,18 +764,19 @@ public writeRouting_NewsletterOptOutEnableRoute($enableWishListRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableWishListRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_orderreturnenableroute]
 ----
 
 public readRouting_OrderReturnEnableRoute():void
@@ -754,9 +789,10 @@ public readRouting_OrderReturnEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_orderreturnenableroute]
 ----
 
 public writeRouting_OrderReturnEnableRoute($enableWishListRoute):void
@@ -769,18 +805,19 @@ public writeRouting_OrderReturnEnableRoute($enableWishListRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enableWishListRoute`
-|
+|If true, enable the route
 |===
 
 
 [source%nowrap, php]
+[#readrouting_pagenotfoundenableroute]
 ----
 
 public readRouting_PageNotFoundEnableRoute():void
@@ -793,9 +830,10 @@ public readRouting_PageNotFoundEnableRoute():void
 
 
 
-
+Check if route is enabled or disabled.
 
 [source%nowrap, php]
+[#writerouting_pagenotfoundenableroute]
 ----
 
 public writeRouting_PageNotFoundEnableRoute($enablePageNotFoundRoute):void
@@ -808,14 +846,14 @@ public writeRouting_PageNotFoundEnableRoute($enablePageNotFoundRoute):void
 
 
 
-
+Enable or disable the route.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/bool[`bool`^]
 a|`$enablePageNotFoundRoute`
-|
+|If true, enable the route
 |===
 
 

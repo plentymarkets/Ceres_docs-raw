@@ -15,7 +15,7 @@
 
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -23,81 +23,67 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |params
-    |
-|xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
-    |ceresConfig
-    |
-| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_http_request[`Request`]
-    |request
-    |
-| 
-    |lang
-    |
-| 
-    |metaLang
-    |
-| 
-    |forceNoIndex
-    |
-| 
-    |template
-    |
-| 
-    |templateName
-    |
-| 
-    |categories
-    |
-| 
-    |categoryBreadcrumbs
-    |
-| 
-    |notifications
-    |
-| 
-    |basket
-    |
-| 
-    |webstoreConfig
-    |
-| 
-    |currencyData
-    |
-| 
-    |showNetPrices
-    |
-| 
-    |homepageURL
-    |
-| 
-    |splitItemBundle
-    |
-| 
-    |templateEvent
-    |
-| 
-    |isShopBuilder
-    |
-| 
-    |isSafeMode
-    |
-| 
-    |bodyClasses
-    |
-| 
-    |buildHash
-    |
-| 
-    |assetName
-    |
+|link:http://php.net/array[`array`^]
+a|`$params`
+|Passthrough variables from the controller.|xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
+a|`$ceresConfig`
+|The configuration for the shop.| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_http_request[`Request`]
+a|`$request`
+|The http request.|link:http://php.net/string[`string`^]
+a|`$lang`
+|The language code of the current language.|link:http://php.net/string[`string`^]
+a|`$metaLang`
+|
+*Deprecated*: since 5.0.20 will be removed in 6.0.0|link:http://php.net/bool[`bool`^]
+a|`$forceNoIndex`
+|Defines if the meta data should have the attrribute content set to "NOINDEX".|link:http://php.net/array[`array`^]
+a|`$template`
+|
+*Deprecated*: since 5.0.20 will be removed in 6.0.0|link:http://php.net/string[`string`^]
+a|`$templateName`
+|
+*Deprecated*: since 5.0.20 will be removed in 6.0.0|link:http://php.net/array[`array`^]
+a|`$categories`
+|Categories for the navigation.|link:http://php.net/array[`array`^]
+a|`$categoryBreadcrumbs`
+|List of all parent categories including current category.|link:http://php.net/array[`array`^]
+a|`$notifications`
+|List of all notifications store in the session.|link:http://php.net/array[`array`^]
+a|`$basket`
+|The basket object.|xref:stable7@interface::System.adoc#system_models_webstoreconfiguration[`WebstoreConfiguration`]
+a|`$webstoreConfig`
+|The webstore configuration.|link:http://php.net/array[`array`^]
+a|`$currencyData`
+|The name and the symbol for the currently selected currency.|link:http://php.net/bool[`bool`^]
+a|`$showNetPrices`
+|Defines if net prices should be shown.|link:http://php.net/string[`string`^]
+a|`$homepageURL`
+|
+*Deprecated*: since 4.3
+Use ShopUrls::$home instead|link:http://php.net/string[`string`^]
+a|`$splitItemBundle`
+|Represents the system setting for splitting bundles.|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$templateEvent`
+|
+*Deprecated*: since 4.5
+Use ShopUrls::getTemplateType() instead|link:http://php.net/bool[`bool`^]
+a|`$isShopBuilder`
+|Defines if the shop is opened in shop builder mode.|link:http://php.net/bool[`bool`^]
+a|`$isSafeMode`
+|Defines if the shop is load in safe mode.|link:http://php.net/array[`array`^]
+a|`$bodyClasses`
+|Array of CSS classes to apply to the body.|link:http://php.net/string[`string`^]
+a|`$buildHash`
+|Hash of the latest plugin deployment.|link:http://php.net/string[`string`^]
+a|`$assetName`
+|Key for the assets to be load.
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#init]
 ----
 
 public init($params):void
@@ -115,16 +101,17 @@ public init($params):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$params`
 |
 |===
 
 
 [source%nowrap, php]
+[#getparam]
 ----
 
-public getParam():void
+public getParam($key, $defaultValue = null):void
 
 ----
 
@@ -134,5 +121,18 @@ public getParam():void
 
 
 
+Get value from $params, filtered by the key.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[`string`^] \| link:http://php.net/int[`int`^]
+a|`$key`
+|Key to search for in the $params.
+
+|link:http://php.net/mixed[`mixed`^]
+a|`$defaultValue`
+|Optional: If set, the method will return the $defaultValue, when there is no value for the given $key. (Default: null)
+|===
 
 

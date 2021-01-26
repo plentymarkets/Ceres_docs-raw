@@ -17,7 +17,7 @@
 xref:Ceres/Contexts/CategoryContext.adoc#[`CategoryContext`]
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -25,8 +25,8 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |assetName
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$assetName`
+|
 |===
 

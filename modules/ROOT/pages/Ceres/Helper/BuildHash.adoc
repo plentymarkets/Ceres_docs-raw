@@ -21,9 +21,10 @@
 ===== Methods
 
 [source%nowrap, php]
+[#get]
 ----
 
-public static get():string
+public static get():void
 
 ----
 
@@ -36,6 +37,7 @@ public static get():string
 Get the current build hash.
 
 [source%nowrap, php]
+[#unset]
 ----
 
 public static unset():void

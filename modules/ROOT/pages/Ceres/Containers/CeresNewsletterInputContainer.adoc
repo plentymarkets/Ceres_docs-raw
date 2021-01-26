@@ -7,6 +7,13 @@
 
 
 
+[WARNING]
+.Deprecated! 
+====
+
+This class will not be supported in the future. Please refrain from using it as soon as possible.
+
+====
 
 
 ===== Namespace
@@ -21,26 +28,34 @@
 ===== Methods
 
 [source%nowrap, php]
+[#call]
 ----
 
 public call($twig):void
 
 ----
 
+[WARNING]
+.Deprecated! 
+====
+
+This method will not be supported in the future. Please refrain from using it as soon as possible.
+
+====
 
 
 
 
 
 
-
+Does nothing, as the underlying template does no longer exist.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_templates_twig[`Twig`]
 a|`$twig`
-|
+|The twig instance
 |===
 
 

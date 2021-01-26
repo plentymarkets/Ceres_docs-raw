@@ -23,42 +23,34 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-| 
-    |lastSeenNumber
-    |
-| 
-    |crossSellingType
-    |
-| 
-    |crossSellingSorting
-    |
-| 
-    |tagSorting
-    |
-| 
-    |list1Type
-    |
-| 
-    |list1TagIds
-    |
-| 
-    |list2Type
-    |
-| 
-    |list2TagIds
-    |
-| 
-    |list3Type
-    |
-| 
-    |list3TagIds
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$lastSeenNumber`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$crossSellingType`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$crossSellingSorting`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$tagSorting`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$list1Type`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$list1TagIds`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$list2Type`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$list2TagIds`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$list3Type`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$list3TagIds`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -71,9 +63,10 @@ public getPluginName():void
 
 
 
-
+Return the name of the plugin to get the configuration values for.
 
 [source%nowrap, php]
+[#load]
 ----
 
 public load():void
@@ -86,5 +79,5 @@ public load():void
 
 
 
-
+Initially load configuration values into member variables.
 

@@ -17,8 +17,8 @@
 xref:stable7@interface::Miscellaneous.adoc#miscellaneous_extensions_twig_extension[`Twig_Extension`]
 
 ===== Implements
-GlobalsInterface
-ExtensionInterface
+xref:5.0.0@plugin-twig::Twig/Extension/GlobalsInterface.adoc#[`GlobalsInterface`]
+xref:5.0.0@plugin-twig::Twig/Extension/ExtensionInterface.adoc#[`ExtensionInterface`]
 
 
 
@@ -27,14 +27,15 @@ ExtensionInterface
 |Type |Name |Description
 
 | xref:stable7@interface::Miscellaneous.adoc#miscellaneous_factories_twigfactory[`TwigFactory`]
-    |twig
-    |
+a|`$twig`
+|The factory to render TWIG.
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct($twig):void
@@ -47,7 +48,7 @@ public __construct($twig):void
 
 
 
-TwigStyleScriptTagFilter constructor.
+TwigLayoutContainerInternal constructor.
 
 .*Parameters*
 |===
@@ -59,9 +60,10 @@ a|`$twig`
 
 
 [source%nowrap, php]
+[#getname]
 ----
 
-public getName():string
+public getName():void
 
 ----
 
@@ -71,27 +73,13 @@ public getName():string
 
 
 
-Return the name of the extension. The name must be unique.
+Return the name of the extension.
 
 [source%nowrap, php]
+[#getfunctions]
 ----
 
-public getFilters():array
-
-----
-
-
-
-
-
-
-
-Return a list of filters to add.
-
-[source%nowrap, php]
-----
-
-public getFunctions():array
+public getFunctions():void
 
 ----
 
@@ -104,9 +92,10 @@ public getFunctions():array
 Return a list of functions to add.
 
 [source%nowrap, php]
+[#getfilters]
 ----
 
-public getInternalContainer():void
+public getFilters():void
 
 ----
 
@@ -116,12 +105,42 @@ public getInternalContainer():void
 
 
 
+Return a list of filters to add.
+
+[source%nowrap, php]
+[#getinternalcontainer]
+----
+
+public getInternalContainer($containerName, $arguments):void
+
+----
+
+
+
+
+
+
+
+Get a list of rendered layout containers, normally used in the twig template renderer
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[`string`^]
+a|`$containerName`
+|The name of the container.
+
+|link:http://php.net/string[`string`^]
+a|`$arguments`
+|Optional arguments.
+|===
 
 
 [source%nowrap, php]
+[#getglobals]
 ----
 
-public getGlobals():array
+public getGlobals():void
 
 ----
 

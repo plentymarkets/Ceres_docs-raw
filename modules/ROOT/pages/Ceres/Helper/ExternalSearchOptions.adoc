@@ -21,9 +21,9 @@
 |Type |Name |Value |Description
 
 |link:http://php.net/string[string^]
-    |EVENT_NAME
-    |'Ceres.Search.Options'
-    |
+a|`EVENT_NAME`
+|'Ceres.Search.Options'
+|
 |===
 
 
@@ -31,30 +31,26 @@
 |===
 |Type |Name |Description
 
-| 
-    |itemsPerPage
-    |
-| 
-    |defaultItemsPerPage
-    |
-| 
-    |hasItemsPerPage
-    |
-| 
-    |sortingOptions
-    |
-| 
-    |defaultSorting
-    |
-| 
-    |hasSortingOptions
-    |
+|link:http://php.net/array[`array`^]
+a|`$itemsPerPage`
+|All itemsPerPage options|link:http://php.net/int[`int`^]
+a|`$defaultItemsPerPage`
+|The default items per page|link:http://php.net/bool[`bool`^]
+a|`$hasItemsPerPage`
+|Does the external search have an items per page option?|link:http://php.net/array[`array`^]
+a|`$sortingOptions`
+|All sorting options|link:http://php.net/string[`string`^]
+a|`$defaultSorting`
+|The default sorting|link:http://php.net/bool[`bool`^]
+a|`$hasSortingOptions`
+|Does the external search have sorting options?
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getexternalsearchoptions]
 ----
 
 public static getExternalSearchOptions():void
@@ -67,24 +63,39 @@ public static getExternalSearchOptions():void
 
 
 
+Get itemsPerPage and sortingOptions from external search plugins
+
+[source%nowrap, php]
+[#setitemsperpage]
+----
+
+public setItemsPerPage($itemsPerPage, $default):void
+
+----
+
+
+
+
+
+
+
+Set the itemsPerPage and it&#039;s default setting
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[`array`^]
+a|`$itemsPerPage`
+|All available itemsPerPage settings
+
+|link:http://php.net/int[`int`^]
+a|`$default`
+|The default itemsPerPage setting
+|===
 
 
 [source%nowrap, php]
-----
-
-public setItemsPerPage():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
+[#getitemsperpage]
 ----
 
 public getItemsPerPage():void
@@ -97,9 +108,10 @@ public getItemsPerPage():void
 
 
 
-
+Get all itemsPerPage settings
 
 [source%nowrap, php]
+[#getdefaultitemsperpage]
 ----
 
 public getDefaultItemsPerPage():void
@@ -112,24 +124,39 @@ public getDefaultItemsPerPage():void
 
 
 
+Get the default itemsPerPage setting
+
+[source%nowrap, php]
+[#setsortingoptions]
+----
+
+public setSortingOptions($sorting, $default):void
+
+----
+
+
+
+
+
+
+
+Set the sortingOptions and the default sortingOption
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[`array`^]
+a|`$sorting`
+|All available sorting options
+
+|link:http://php.net/string[`string`^]
+a|`$default`
+|The default sorting option
+|===
 
 
 [source%nowrap, php]
-----
-
-public setSortingOptions():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
+[#getsortingoptions]
 ----
 
 public getSortingOptions():void
@@ -142,9 +169,10 @@ public getSortingOptions():void
 
 
 
-
+Get the sorting options
 
 [source%nowrap, php]
+[#getdefaultsortingoption]
 ----
 
 public getDefaultSortingOption():void
@@ -157,9 +185,10 @@ public getDefaultSortingOption():void
 
 
 
-
+Return the default sorting option
 
 [source%nowrap, php]
+[#hasoptions]
 ----
 
 public hasOptions():void
@@ -172,5 +201,5 @@ public hasOptions():void
 
 
 
-
+Does the external search expose any options at all?
 

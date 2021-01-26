@@ -23,63 +23,48 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-| 
-    |displayName
-    |
-| 
-    |itemName
-    |
-| 
-    |itemData
-    |
-| 
-    |storeSpecial
-    |
-| 
-    |showVariationOverDropdown
-    |
-| 
-    |variationShowType
-    |
-| 
-    |showPleaseSelect
-    |
-| 
-    |enableImageCarousel
-    |
-| 
-    |categoryShowDots
-    |
-| 
-    |categoryShowNav
-    |
-| 
-    |showCategoryImage
-    |
-| 
-    |showCategoryDescription
-    |
-| 
-    |showCategoryDescriptionTop
-    |
-| 
-    |showCategoryDescriptionBottom
-    |
-| 
-    |requireOrderProperties
-    |
-| 
-    |loadingAnimationType
-    |
-| 
-    |showCategoryFilter
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$displayName`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemName`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemData`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$storeSpecial`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showVariationOverDropdown`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$variationShowType`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showPleaseSelect`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$enableImageCarousel`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$categoryShowDots`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$categoryShowNav`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showCategoryImage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showCategoryDescription`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showCategoryDescriptionTop`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showCategoryDescriptionBottom`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$requireOrderProperties`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$loadingAnimationType`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showCategoryFilter`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -92,9 +77,10 @@ public getPluginName():void
 
 
 
-
+Return the name of the plugin to get the configuration values for.
 
 [source%nowrap, php]
+[#load]
 ----
 
 public load():void
@@ -107,5 +93,5 @@ public load():void
 
 
 
-
+Initially load configuration values into member variables.
 

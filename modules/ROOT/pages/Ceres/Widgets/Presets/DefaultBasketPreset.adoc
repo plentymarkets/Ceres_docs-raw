@@ -24,23 +24,21 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 |Type |Name |Description
 
 |xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
-    |preset
-    |
-| ShopUrls
-    |shopUrls
-    |
-| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
-    |translator
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |backgroundWidget
-    |
+a|`$preset`
+||         xref:5.0.0@plugin-io::IO/Extensions/Constants/ShopUrls.adoc#[`ShopUrls`]
+a|`$shopUrls`
+|| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
+a|`$translator`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$backgroundWidget`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getwidgets]
 ----
 
 public getWidgets():void
@@ -53,19 +51,20 @@ public getWidgets():void
 
 
 
-
+Get the widget configurations of the presets to be assigned to the created content.
 
 [source%nowrap, php]
+[#createbackground]
 ----
 
-public createBackground($preset):Ceres\Widgets\Helper\Factories\PresetWidgetFactory
+public createBackground($preset):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
 
 
 
@@ -80,16 +79,17 @@ a|`$preset`
 
 
 [source%nowrap, php]
+[#setbackgroundwidgetsettings]
 ----
 
-public setBackgroundWidgetSettings($widget):Ceres\Widgets\Helper\Factories\PresetWidgetFactory
+public setBackgroundWidgetSettings($widget):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
 
 
 
@@ -104,16 +104,17 @@ a|`$widget`
 
 
 [source%nowrap, php]
+[#createwidget]
 ----
 
-public createWidget($identifier):Ceres\Widgets\Helper\Factories\PresetWidgetFactory
+public createWidget($identifier):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+
 
 
 
@@ -121,7 +122,7 @@ public createWidget($identifier):Ceres\Widgets\Helper\Factories\PresetWidgetFact
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$identifier`
 |
 |===

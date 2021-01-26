@@ -24,24 +24,25 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 |Type |Name |Description
 
 |xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc#[`WidgetSettingsFactory`]
-    |children
-    |Nested settings which are grouped inside a container.
+a|`$children`
+|Nested settings which are grouped inside a container.
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#create]
 ----
 
-public static create($data = []):Ceres\Widgets\Helper\Factories\Settings\ContainerSettingFactory
+public static create($data = []):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[`ContainerSettingFactory`]
+
 
 
 Create a new factory instance with initial value.
@@ -49,13 +50,14 @@ Create a new factory instance with initial value.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$data`
 |
 |===
 
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct():void
@@ -71,9 +73,10 @@ public __construct():void
 
 
 [source%nowrap, php]
+[#toarray]
 ----
 
-public toArray():array
+public toArray():void
 
 ----
 

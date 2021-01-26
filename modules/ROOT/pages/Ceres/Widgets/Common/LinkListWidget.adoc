@@ -26,9 +26,9 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_widget[`Widget`]
 |Type |Name |Value |Description
 
 |link:http://php.net/array[array^]
-    |TOOLBAR_LAYOUT
-    |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
-    |
+a|`TOOLBAR_LAYOUT`
+|['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
+|
 |===
 
 
@@ -36,6 +36,7 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_widget[`Widget`]
 ===== Methods
 
 [source%nowrap, php]
+[#getdata]
 ----
 
 public getData():void
@@ -48,9 +49,16 @@ public getData():void
 
 
 
-
+Get basic information about the widget. Possible fields are
+- identifier
+- label
+- previewImageURL
+- type
+- categories
+- position
 
 [source%nowrap, php]
+[#getsettings]
 ----
 
 public getSettings():void
@@ -63,9 +71,10 @@ public getSettings():void
 
 
 
-
+Return the structure of the settings for the widget
 
 [source%nowrap, php]
+[#gettemplatedata]
 ----
 
 public getTemplateData():void

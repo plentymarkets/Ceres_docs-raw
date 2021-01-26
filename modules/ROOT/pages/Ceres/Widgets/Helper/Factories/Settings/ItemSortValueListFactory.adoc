@@ -23,6 +23,7 @@ xref:Ceres/Widgets/Helper/Factories/Settings/ValueListFactory.adoc#[`ValueListFa
 ===== Methods
 
 [source%nowrap, php]
+[#make]
 ----
 
 public static make($withRandomOption = false):void
@@ -40,7 +41,7 @@ public static make($withRandomOption = false):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$withRandomOption`
 |
 |===

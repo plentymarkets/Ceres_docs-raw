@@ -26,9 +26,9 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 |Type |Name |Value |Description
 
 |link:http://php.net/array[array^]
-    |TOOLBAR_LAYOUT
-    |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
-    |
+a|`TOOLBAR_LAYOUT`
+|['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
+|
 |===
 
 
@@ -36,6 +36,7 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 ===== Methods
 
 [source%nowrap, php]
+[#getpreviewdata]
 ----
 
 public getPreviewData($widgetSettings):void
@@ -53,7 +54,7 @@ public getPreviewData($widgetSettings):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$widgetSettings`
 |
 |===

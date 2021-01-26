@@ -17,7 +17,7 @@
 xref:Ceres/Contexts/CategoryContext.adoc#[`CategoryContext`]
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -25,18 +25,18 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |checkout
-    |
-| 
-    |assetName
-    |
+|link:http://php.net/array[`array`^]
+a|`$checkout`
+|Contains data for the checkout, including payment methods, shipping profiles, currencies and other data.|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$assetName`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#init]
 ----
 
 public init($params):void
@@ -54,7 +54,7 @@ public init($params):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$params`
 |
 |===

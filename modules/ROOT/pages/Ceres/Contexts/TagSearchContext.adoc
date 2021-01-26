@@ -17,7 +17,7 @@
 xref:Ceres/Contexts/CategoryContext.adoc#[`CategoryContext`]
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -25,54 +25,43 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |isSearch
-    |
-| 
-    |searchString
-    |
-| 
-    |isTag
-    |
-| 
-    |currentPage
-    |
-| 
-    |pageMax
-    |
-| 
-    |itemsPerPage
-    |
-| 
-    |itemCountPage
-    |
-| 
-    |itemCountTotal
-    |
-| 
-    |itemSorting
-    |
-| 
-    |query
-    |
-| 
-    |suggestionString
-    |
-| 
-    |itemList
-    |
-| 
-    |facets
-    |
-|xref:Ceres/Helper/SearchOptions.adoc#[`SearchOptions`]
-    |searchOptions
-    |
+|link:http://php.net/bool[`bool`^]
+a|`$isSearch`
+|Defines that the user has executed a shop search.|link:http://php.net/string[`string`^]
+a|`$searchString`
+|The name of the tag.|link:http://php.net/bool[`bool`^]
+a|`$isTag`
+|Defines that the user is on a page with items, filtered for the current tag.|link:http://php.net/int[`int`^]
+a|`$currentPage`
+|Current page of items.|link:http://php.net/int[`int`^]
+a|`$pageMax`
+|Last page for items.|link:http://php.net/int[`int`^]
+a|`$itemsPerPage`
+|How many items are included in one page.|link:http://php.net/int[`int`^]
+a|`$itemCountPage`
+|
+*Deprecated*: since 5.0.20 will be removed in 6.0.0|link:http://php.net/int[`int`^]
+a|`$itemCountTotal`
+|Count of all items in the item result.|link:http://php.net/string[`string`^]
+a|`$itemSorting`
+|Sorting key for the item result.|link:http://php.net/array[`array`^]
+a|`$query`
+|Contains items per page count and the sorting key for the item result.|link:http://php.net/string[`string`^]
+a|`$suggestionString`
+|Suggestion for the shop search.|link:http://php.net/array[`array`^]
+a|`$itemList`
+|Item result.|link:http://php.net/array[`array`^]
+a|`$facets`
+|Facets that were selected to filter the item result.|xref:Ceres/Helper/SearchOptions.adoc#[`SearchOptions`]
+a|`$searchOptions`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#init]
 ----
 
 public init($params):void
@@ -90,16 +79,17 @@ public init($params):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$params`
 |
 |===
 
 
 [source%nowrap, php]
+[#inititemlist]
 ----
 
-public initItemList():void
+public initItemList($defaultSearchFactories, $options, $scope = \Ceres\Helper\SearchOptions::SCOPE_CATEGORY):void
 
 ----
 
@@ -109,5 +99,22 @@ public initItemList():void
 
 
 
+
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[`array`^]
+a|`$defaultSearchFactories`
+|Search factories to request the item data.
+
+|link:http://php.net/array[`array`^]
+a|`$options`
+|Search options to filter the item data.
+
+|link:http://php.net/string[`string`^]
+a|`$scope`
+|The scope where the search is executed from.
+|===
 
 

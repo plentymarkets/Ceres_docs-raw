@@ -5,7 +5,10 @@
 [[ceres__propertydatafieldprovider]]
 = PropertyDataFieldProvider
 
-
+It is used to enable placeholders for dynamic data in the shop builders text widget.
+Please refer to the parent class for more information about DataFieldProviders.
+Please refer to https://developers.plentymarkets.com/dev-doc/result-fields-ceres for more information about
+the data fields.
 
 
 
@@ -23,18 +26,18 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_providers_datafieldprovider
 |===
 |Type |Name |Description
 
-| xref:stable7@interface::Property.adoc#property_models_property[`Property`]
-    |property
-    |
-| 
-    |propertyGroupId
-    |
+|xref:stable7@interface::Property.adoc#property_models_property[`Property`]
+a|`$property`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$propertyGroupId`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct():void
@@ -50,6 +53,7 @@ public __construct():void
 
 
 [source%nowrap, php]
+[#register]
 ----
 
 public register():void
@@ -62,5 +66,5 @@ public register():void
 
 
 
-
+Registers item data fields for use in the shop builder.
 

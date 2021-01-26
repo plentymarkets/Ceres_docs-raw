@@ -26,9 +26,9 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 |Type |Name |Value |Description
 
 |link:http://php.net/array[array^]
-    |TOOLBAR_LAYOUT
-    |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
-    |
+a|`TOOLBAR_LAYOUT`
+|['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
+|
 |===
 
 
@@ -36,42 +36,34 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 |===
 |Type |Name |Description
 
-| 
-    |template
-    |
-| 
-    |widgetKey
-    |
-| 
-    |widgetLabel
-    |
-| 
-    |previewImageUrl
-    |
-| 
-    |position
-    |
-| 
-    |suggestionType
-    |
-| 
-    |headline
-    |
-| 
-    |hasCountOption
-    |
-| 
-    |hasImagesOption
-    |
-| 
-    |hasAdditionalInformationOption
-    |
+|link:http://php.net/string[`string`^]
+a|`$template`
+|The template to be used for this widget|link:http://php.net/string[`string`^]
+a|`$widgetKey`
+|The key of the widget|link:http://php.net/string[`string`^]
+a|`$widgetLabel`
+|The label of the widget|link:http://php.net/string[`string`^]
+a|`$previewImageUrl`
+|The url of the preview image|link:http://php.net/int[`int`^]
+a|`$position`
+|The position of the widget|link:http://php.net/string[`string`^]
+a|`$suggestionType`
+|The type of the suggestion widget|link:http://php.net/string[`string`^]
+a|`$headline`
+|The headline of the suggestion widget|link:http://php.net/bool[`bool`^]
+a|`$hasCountOption`
+|Indicate if the suggestion widget has the option to show counts behind the suggestions|link:http://php.net/bool[`bool`^]
+a|`$hasImagesOption`
+|Indicate if the suggestion widget has the option to show images for the suggestions|link:http://php.net/bool[`bool`^]
+a|`$hasAdditionalInformationOption`
+|Indicate if the suggestion widget has the option to show additional information for the suggestions
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getdata]
 ----
 
 public getData():void
@@ -84,9 +76,16 @@ public getData():void
 
 
 
-
+Get basic information about the widget. Possible fields are
+- identifier
+- label
+- previewImageURL
+- type
+- categories
+- position
 
 [source%nowrap, php]
+[#getsettings]
 ----
 
 public getSettings():void
@@ -99,12 +98,13 @@ public getSettings():void
 
 
 
-
+Return the structure of the settings for the widget
 
 [source%nowrap, php]
+[#gettemplatedata]
 ----
 
-public getTemplateData():void
+public getTemplateData($widgetSettings, $isPreview):void
 
 ----
 
@@ -114,5 +114,18 @@ public getTemplateData():void
 
 
 
+Get additional data to be passed to the template while rendering
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[`array`^]
+a|`$widgetSettings`
+|The settings provided by the widget
+
+|link:http://php.net/bool[`bool`^]
+a|`$isPreview`
+|A Flag provided to determine if the widget is currently shown in preview
+|===
 
 

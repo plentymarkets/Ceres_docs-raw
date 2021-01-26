@@ -21,9 +21,9 @@
 |Type |Name |Value |Description
 
 |link:http://php.net/string[string^]
-    |EVENT_NAME
-    |'Ceres.Search.Query'
-    |
+a|`EVENT_NAME`
+|'Ceres.Search.Query'
+|
 |===
 
 
@@ -31,36 +31,30 @@
 |===
 |Type |Name |Description
 
-| 
-    |searchString
-    |
-| 
-    |categoryId
-    |
-| 
-    |page
-    |
-| 
-    |itemsPerPage
-    |
-| 
-    |sorting
-    |
-| 
-    |results
-    |
-| 
-    |countTotal
-    |
-| 
-    |hasResults
-    |
+|link:http://php.net/string[`string`^]
+a|`$searchString`
+|The search string|link:http://php.net/int[`int`^]
+a|`$categoryId`
+|Category id to search items for (Default: 0)|link:http://php.net/int[`int`^]
+a|`$page`
+|What page to get (Default: 1)|link:http://php.net/int[`int`^]
+a|`$itemsPerPage`
+|How many items per page (Default: 20)|link:http://php.net/string[`string`^]
+a|`$sorting`
+|How should the result be sorted|link:http://php.net/array[`array`^]
+a|`$results`
+|The result of the search, an array of variation ids|link:http://php.net/int[`int`^]
+a|`$countTotal`
+|Amount of results|link:http://php.net/bool[`bool`^]
+a|`$hasResults`
+|Is there a result?
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getexternalresults]
 ----
 
 public static getExternalResults($container):void
@@ -73,18 +67,19 @@ public static getExternalResults($container):void
 
 
 
-
+Perform the external search
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|xref:Ceres/Helper/ExternalSearch.adoc#[`ExternalSearch`]
 a|`$container`
-|
+|An ExternalSearch object
 |===
 
 
 [source%nowrap, php]
+[#hasexternalsearch]
 ----
 
 public static hasExternalSearch():void
@@ -97,24 +92,39 @@ public static hasExternalSearch():void
 
 
 
+Check if there is an external search plugin?
+
+[source%nowrap, php]
+[#setresults]
+----
+
+public setResults($variationIds, $countTotal = null):void
+
+----
+
+
+
+
+
+
+
+Set the results of the external search
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[`array`^]
+a|`$variationIds`
+|The variation ids found by the search
+
+|link:http://php.net/int[`int`^]
+a|`$countTotal`
+|Optional: The amount of found variation ids
+|===
 
 
 [source%nowrap, php]
-----
-
-public setResults():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
+[#hasresults]
 ----
 
 public hasResults():void
@@ -127,9 +137,10 @@ public hasResults():void
 
 
 
-
+Return true if the search has a result
 
 [source%nowrap, php]
+[#getresults]
 ----
 
 public getResults():void
@@ -142,9 +153,10 @@ public getResults():void
 
 
 
-
+Return the results of the search
 
 [source%nowrap, php]
+[#getcounttotal]
 ----
 
 public getCountTotal():void
@@ -157,5 +169,5 @@ public getCountTotal():void
 
 
 
-
+The amount of found variations
 

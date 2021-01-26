@@ -26,17 +26,17 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 |Type |Name |Value |Description
 
 |link:http://php.net/array[array^]
-    |IMAGE_EXTENSIONS
-    |['jpg','jpeg','png','gif','svg','apng']
-    |
+a|`IMAGE_EXTENSIONS`
+|['jpg','jpeg','png','gif','svg','apng']
+|
 |link:http://php.net/array[array^]
-    |MODERN_IMAGE_EXTENSIONS
-    |['webp']
-    |
+a|`MODERN_IMAGE_EXTENSIONS`
+|['webp']
+|
 |link:http://php.net/array[array^]
-    |TOOLBAR_LAYOUT
-    |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
-    |
+a|`TOOLBAR_LAYOUT`
+|['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
+|
 |===
 
 
@@ -44,15 +44,16 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 |===
 |Type |Name |Description
 
-| 
-    |template
-    |
+|link:http://php.net/string[`string`^]
+a|`$template`
+|The template to be used for this widget
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getdata]
 ----
 
 public getData():void
@@ -65,9 +66,16 @@ public getData():void
 
 
 
-
+Get basic information about the widget. Possible fields are
+- identifier
+- label
+- previewImageURL
+- type
+- categories
+- position
 
 [source%nowrap, php]
+[#getsettings]
 ----
 
 public getSettings():void
@@ -80,12 +88,13 @@ public getSettings():void
 
 
 
-
+Return the structure of the settings for the widget
 
 [source%nowrap, php]
+[#gettemplatedata]
 ----
 
-public getTemplateData():void
+public getTemplateData($widgetSettings, $isPreview):void
 
 ----
 
@@ -95,5 +104,18 @@ public getTemplateData():void
 
 
 
+Get additional data to be passed to the template while rendering
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[`array`^]
+a|`$widgetSettings`
+|The settings provided by the widget
+
+|link:http://php.net/bool[`bool`^]
+a|`$isPreview`
+|A Flag provided to determine if the widget is currently shown in preview
+|===
 
 

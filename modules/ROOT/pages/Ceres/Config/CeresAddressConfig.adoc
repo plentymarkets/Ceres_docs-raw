@@ -23,39 +23,32 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-| 
-    |defaultSalutation
-    |
-| 
-    |billingAddressShow
-    |
-| 
-    |billingAddressShow_en
-    |
-| 
-    |billingAddressRequire
-    |
-| 
-    |billingAddressRequire_en
-    |
-| 
-    |deliveryAddressShow
-    |
-| 
-    |deliveryAddressShow_en
-    |
-| 
-    |deliveryAddressRequire
-    |
-| 
-    |deliveryAddressRequire_en
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultSalutation`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$billingAddressShow`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$billingAddressShow_en`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$billingAddressRequire`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$billingAddressRequire_en`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$deliveryAddressShow`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$deliveryAddressShow_en`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$deliveryAddressRequire`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$deliveryAddressRequire_en`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -68,9 +61,10 @@ public getPluginName():void
 
 
 
-
+Return the name of the plugin to get the configuration values for.
 
 [source%nowrap, php]
+[#load]
 ----
 
 public load():void
@@ -83,5 +77,5 @@ public load():void
 
 
 
-
+Initially load configuration values into member variables.
 

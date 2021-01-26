@@ -23,21 +23,20 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-| 
-    |data
-    |
-| 
-    |performanceLevel
-    |
-| 
-    |checkSyntax
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$data`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$performanceLevel`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$checkSyntax`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -50,9 +49,10 @@ public getPluginName():void
 
 
 
-
+Return the name of the plugin to get the configuration values for.
 
 [source%nowrap, php]
+[#load]
 ----
 
 public load():void
@@ -65,5 +65,5 @@ public load():void
 
 
 
-
+Initially load configuration values into member variables.
 

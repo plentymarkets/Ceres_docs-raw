@@ -23,6 +23,7 @@ xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[`Cont
 ===== Methods
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct():void

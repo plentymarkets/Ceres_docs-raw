@@ -17,7 +17,7 @@
 xref:Ceres/Contexts/GlobalContext.adoc#[`GlobalContext`]
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -25,51 +25,42 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |item
-    |
-| 
-    |attributes
-    |
-| 
-    |variations
-    |
-| 
-    |afterKey
-    |
-| 
-    |customerShowNetPrices
-    |
-| 
-    |defaultCategory
-    |
-| 
-    |assetName
-    |
-| 
-    |dynamicVariationId
-    |
-| 
-    |initPleaseSelectOption
-    |
-| 
-    |isItemSet
-    |
-| 
-    |setComponents
-    |
-| 
-    |setAttributeMap
-    |
-| 
-    |requestedVariationUrl
-    |
+|link:http://php.net/array[`array`^]
+a|`$item`
+|Item data of the current item.|link:http://php.net/array[`array`^]
+a|`$attributes`
+|Attributes data for the current item. Used for the variation select.|link:http://php.net/array[`array`^]
+a|`$variations`
+|Variation data mapped to the attribute IDs. Used for the variation select.|link:http://php.net/array[`array`^]
+a|`$afterKey`
+|Contains the next variation ID and some data of the next item, to be used to continue fetching variations (@see $variations).
+The afterKey is only set, when the variation select requires more data, than is already loaded in the client.|link:http://php.net/array[`array`^]
+a|`$customerShowNetPrices`
+|Check if net prices should be shown.
+*Deprecated*: since 5.0.0 will be removed in 6.0.0|xref:stable7@interface::Category.adoc#category_models_category[`Category`]
+a|`$defaultCategory`
+|Category data of the default category of the current item.|link:http://php.net/string[`string`^]
+a|`$assetName`
+|Key for the assets to be load.|link:http://php.net/int[`int`^]
+a|`$dynamicVariationId`
+|The variation ID of the variation, linked to the "please select"-option.|link:http://php.net/bool[`bool`^]
+a|`$initPleaseSelectOption`
+|Define if the "please select"-option should be shown in the variation select.|link:http://php.net/bool[`bool`^]
+a|`$isItemSet`
+|Defines if an item is of the type "set"|link:http://php.net/array[`array`^]
+a|`$setComponents`
+|Some data of the variations, contained as component for the current item, if the item is of the type "set".|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$setAttributeMap`
+||link:http://php.net/string[`string`^]
+a|`$requestedVariationUrl`
+|Represents the current URL without the parameters
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#init]
 ----
 
 public init($params):void
@@ -87,7 +78,7 @@ public init($params):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$params`
 |
 |===

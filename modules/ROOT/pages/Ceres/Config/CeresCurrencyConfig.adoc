@@ -23,24 +23,22 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-| 
-    |format
-    |
-| 
-    |enableSelection
-    |
-| 
-    |formatSelection
-    |
-| 
-    |availableCurrencies
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$format`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$enableSelection`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$formatSelection`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$availableCurrencies`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -53,9 +51,10 @@ public getPluginName():void
 
 
 
-
+Return the name of the plugin to get the configuration values for.
 
 [source%nowrap, php]
+[#load]
 ----
 
 public load():void
@@ -68,5 +67,5 @@ public load():void
 
 
 
-
+Initially load configuration values into member variables.
 

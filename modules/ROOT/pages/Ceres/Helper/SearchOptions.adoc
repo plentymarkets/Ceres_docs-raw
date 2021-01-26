@@ -21,17 +21,17 @@
 |Type |Name |Value |Description
 
 |link:http://php.net/string[string^]
-    |SCOPE_SEARCH
-    |'search'
-    |
+a|`SCOPE_SEARCH`
+|'search'
+|
 |link:http://php.net/string[string^]
-    |SCOPE_CATEGORY
-    |'category'
-    |
+a|`SCOPE_CATEGORY`
+|'category'
+|
 |link:http://php.net/array[array^]
-    |TRANSLATION_MAP
-    |['itemRecommendedSorting','itemName_asc','itemName_desc','itemPrice_asc','itemPrice_desc','itemVariationCreateTimestamp_desc','itemVariationCreateTimestamp_asc','itemAvailabilityAverageDays_asc','itemAvailabilityAverageDays_desc','itemVariationCustomNumber_asc','itemVariationCustomNumber_desc','itemVariationLastUpdateTimestamp_asc','itemVariationLastUpdateTimestamp_desc','itemProducerName_asc','itemProducerName_desc','itemRelevance','itemRandom','itemVariationTopseller_asc','itemVariationTopseller_desc']
-    |
+a|`TRANSLATION_MAP`
+|['itemRecommendedSorting','itemName_asc','itemName_desc','itemPrice_asc','itemPrice_desc','itemVariationCreateTimestamp_desc','itemVariationCreateTimestamp_asc','itemAvailabilityAverageDays_asc','itemAvailabilityAverageDays_desc','itemVariationCustomNumber_asc','itemVariationCustomNumber_desc','itemVariationLastUpdateTimestamp_asc','itemVariationLastUpdateTimestamp_desc','itemProducerName_asc','itemProducerName_desc','itemRelevance','itemRandom','itemVariationTopseller_asc','itemVariationTopseller_desc']
+|
 |===
 
 
@@ -39,24 +39,22 @@
 |===
 |Type |Name |Description
 
-| 
-    |itemsPerPage
-    |
-| 
-    |defaultItemsPerPage
-    |
-| 
-    |sorting
-    |
-| 
-    |defaultSorting
-    |
+|link:http://php.net/array[`array`^]
+a|`$itemsPerPage`
+|Get all itemsPerPage settings|link:http://php.net/int[`int`^]
+a|`$defaultItemsPerPage`
+|Get the default itemsPerPage setting|link:http://php.net/array[`array`^]
+a|`$sorting`
+|Get all sorting settings|link:http://php.net/string[`string`^]
+a|`$defaultSorting`
+|Get the default sorting setting
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#get]
 ----
 
 public static get($scope):void
@@ -69,21 +67,22 @@ public static get($scope):void
 
 
 
-
+Get an instance of the class containing item search options for the scope
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/string[`string`^]
 a|`$scope`
-|
+|Either 'category' or 'search'
 |===
 
 
 [source%nowrap, php]
+[#validateitemlistoptions]
 ----
 
-public static validateItemListOptions():void
+public static validateItemListOptions($itemListOptions, $scope):void
 
 ----
 
@@ -93,5 +92,18 @@ public static validateItemListOptions():void
 
 
 
+Validate an array of user inputted item search options
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/array[`array`^]
+a|`$itemListOptions`
+|User inputted item search options
+
+|link:http://php.net/string[`string`^]
+a|`$scope`
+|The scope of the item search options
+|===
 
 

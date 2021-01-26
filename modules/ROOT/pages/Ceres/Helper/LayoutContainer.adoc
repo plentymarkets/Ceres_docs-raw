@@ -21,24 +21,23 @@
 |===
 |Type |Name |Description
 
-| 
-    |pluginName
-    |
-| 
-    |containerName
-    |
-| 
-    |contents
-    |
+|link:http://php.net/string[`string`^]
+a|`$pluginName`
+|The plugin, to which the layout container belongs|link:http://php.net/string[`string`^]
+a|`$containerName`
+|The container name for the layout container|link:http://php.net/array[`array`^]
+a|`$contents`
+|The content of the layout container
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getcontents]
 ----
 
-public static getContents():void
+public static getContents($containerWithPluginName, $arguments):void
 
 ----
 
@@ -48,9 +47,23 @@ public static getContents():void
 
 
 
+Get a rendered layout container, normally used in the twig template renderer
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[`string`^]
+a|`$containerWithPluginName`
+|For example: "Ceres::Basket.BeforeBasketTotals"
+
+|link:http://php.net/array[`array`^]
+a|`$arguments`
+|Context for the rendering of the layout container
+|===
 
 
 [source%nowrap, php]
+[#getpluginname]
 ----
 
 public getPluginName():void
@@ -63,9 +76,10 @@ public getPluginName():void
 
 
 
-
+Get the plugin name of the layout container
 
 [source%nowrap, php]
+[#getcontainername]
 ----
 
 public getContainerName():void
@@ -78,29 +92,5 @@ public getContainerName():void
 
 
 
-
-
-[source%nowrap, php]
-----
-
-public addContent($content):void
-
-----
-
-
-
-
-
-
-
-
-
-.*Parameters*
-|===
-|Type |Name |Description
-| 
-a|`$content`
-|
-|===
-
+Get the container name for the layout container
 

@@ -24,20 +24,19 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 |Type |Name |Description
 
 |xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
-    |preset
-    |
-|xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
-    |ceresConfig
-    |
-| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
-    |translator
-    |
+a|`$preset`
+||xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
+a|`$ceresConfig`
+|| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
+a|`$translator`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getwidgets]
 ----
 
 public getWidgets():void

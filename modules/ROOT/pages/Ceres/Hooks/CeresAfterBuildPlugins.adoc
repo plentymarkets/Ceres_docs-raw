@@ -5,7 +5,7 @@
 [[ceres__ceresafterbuildplugins]]
 = CeresAfterBuildPlugins
 
-
+It handles the invalidation of the content cache, the generation of a new build hash and the deactivation for deprecated content links.
 
 
 
@@ -21,6 +21,7 @@
 ===== Methods
 
 [source%nowrap, php]
+[#handle]
 ----
 
 public handle($afterBuildPlugins):void
@@ -33,14 +34,14 @@ public handle($afterBuildPlugins):void
 
 
 
-
+Handler function for the AfterBuildPlugins event.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|xref:stable7@interface::Plugin.adoc#plugin_events_afterbuildplugins[`AfterBuildPlugins`]
 a|`$afterBuildPlugins`
-|
+|The event thrown after the plugins have been built
 |===
 
 

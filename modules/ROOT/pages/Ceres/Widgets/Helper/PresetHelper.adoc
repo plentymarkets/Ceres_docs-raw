@@ -21,15 +21,16 @@
 |===
 |Type |Name |Description
 
-| 
-    |widgetFactories
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$widgetFactories`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#createwidget]
 ----
 
 public createWidget($identifier):void
@@ -47,13 +48,14 @@ public createWidget($identifier):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/string[`string`^]
 a|`$identifier`
-|
+|The identifier of the widget to create
 |===
 
 
 [source%nowrap, php]
+[#toarray]
 ----
 
 public toArray():void
@@ -66,5 +68,5 @@ public toArray():void
 
 
 
-
+Return the widget factory as an array
 

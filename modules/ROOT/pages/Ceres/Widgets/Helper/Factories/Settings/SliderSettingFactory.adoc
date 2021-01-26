@@ -23,6 +23,7 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 ===== Methods
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct():void
@@ -38,16 +39,17 @@ public __construct():void
 
 
 [source%nowrap, php]
+[#withmin]
 ----
 
-public withMin($min):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withMin($min):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
 
 
 
@@ -55,23 +57,24 @@ public withMin($min):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactor
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$min`
 |
 |===
 
 
 [source%nowrap, php]
+[#withmax]
 ----
 
-public withMax($max):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withMax($max):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
 
 
 
@@ -79,23 +82,24 @@ public withMax($max):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactor
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$max`
 |
 |===
 
 
 [source%nowrap, php]
+[#withinterval]
 ----
 
-public withInterval($interval):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withInterval($interval):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
 
 
 
@@ -103,23 +107,24 @@ public withInterval($interval):Ceres\Widgets\Helper\Factories\Settings\SliderSet
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$interval`
 |
 |===
 
 
 [source%nowrap, php]
+[#withprecision]
 ----
 
-public withPrecision($precision):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withPrecision($precision):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
 
 
 
@@ -127,23 +132,24 @@ public withPrecision($precision):Ceres\Widgets\Helper\Factories\Settings\SliderS
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$precision`
 |
 |===
 
 
 [source%nowrap, php]
+[#withshowminmax]
 ----
 
-public withShowMinMax($showMinMax):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withShowMinMax($showMinMax):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
 
 
 
@@ -151,23 +157,24 @@ public withShowMinMax($showMinMax):Ceres\Widgets\Helper\Factories\Settings\Slide
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$showMinMax`
 |
 |===
 
 
 [source%nowrap, php]
+[#withshowticks]
 ----
 
-public withShowTicks($showTicks):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withShowTicks($showTicks):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
 
 
 
@@ -175,7 +182,7 @@ public withShowTicks($showTicks):Ceres\Widgets\Helper\Factories\Settings\SliderS
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$showTicks`
 |
 |===

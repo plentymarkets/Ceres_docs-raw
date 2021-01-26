@@ -22,15 +22,16 @@ Contains interfaces for all common properties of a setting.
 |===
 |Type |Name |Description
 
-| 
-    |data
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$data`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#create]
 ----
 
 public static create($data = []):void
@@ -48,13 +49,14 @@ public static create($data = []):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$data`
 |
 |===
 
 
 [source%nowrap, php]
+[#withtype]
 ----
 
 public withType($type):Ceres\Widgets\Helper\Factories\Settings
@@ -72,13 +74,14 @@ Set the type of the setting.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$type`
 |
 |===
 
 
 [source%nowrap, php]
+[#withoption]
 ----
 
 public withOption($key, $value):Ceres\Widgets\Helper\Factories\Settings
@@ -96,17 +99,18 @@ Set an option for the setting.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |The option key
 
-| 
+|link:http://php.net/mixed[`mixed`^]
 a|`$value`
 |The option value
 |===
 
 
 [source%nowrap, php]
+[#withdefaultvalue]
 ----
 
 public withDefaultValue($defaultValue):Ceres\Widgets\Helper\Factories\Settings
@@ -124,13 +128,14 @@ Set the default value for the setting.
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/mixed[`mixed`^]
 a|`$defaultValue`
 |The default value
 |===
 
 
 [source%nowrap, php]
+[#withcondition]
 ----
 
 public withCondition($condition):Ceres\Widgets\Helper\Factories\Settings
@@ -148,13 +153,14 @@ Set a condition if the setting should be visible or not.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$condition`
 |Condition if the related form element should be visible or not.
 |===
 
 
 [source%nowrap, php]
+[#withname]
 ----
 
 public withName($name):Ceres\Widgets\Helper\Factories\Settings
@@ -172,13 +178,14 @@ Set the name of the setting.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$name`
 |The label of the setting
 |===
 
 
 [source%nowrap, php]
+[#withtooltip]
 ----
 
 public withTooltip($tooltip):Ceres\Widgets\Helper\Factories\Settings
@@ -196,13 +203,14 @@ Set a tooltip text for this input
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$tooltip`
 |An additional description of the setting
 |===
 
 
 [source%nowrap, php]
+[#withlist]
 ----
 
 public withList($min, $max):Ceres\Widgets\Helper\Factories\Settings
@@ -220,20 +228,21 @@ Determines whether the declaration is used to render a list of the specified for
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$min`
 |Minimum number of entries.
 
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$max`
 |Maximum number of entries. If not set or smaller than 0, unlimited entries might be added by the user.
 |===
 
 
 [source%nowrap, php]
+[#toarray]
 ----
 
-public toArray():array
+public toArray():void
 
 ----
 

@@ -5,7 +5,8 @@
 [[ceres__templateserviceprovider]]
 = TemplateServiceProvider
 
-
+The service provider runs on every request and bootstraps the application.
+See https://laravel.com/docs/6.x/providers for further information.
 
 
 
@@ -23,9 +24,9 @@ xref:stable7@interface::Miscellaneous.adoc#miscellaneous_plugin_serviceprovider[
 |Type |Name |Value |Description
 
 |link:http://php.net/int[int^]
-    |EVENT_LISTENER_PRIORITY
-    |100
-    |
+a|`EVENT_LISTENER_PRIORITY`
+|100
+|
 |===
 
 
@@ -33,15 +34,16 @@ xref:stable7@interface::Miscellaneous.adoc#miscellaneous_plugin_serviceprovider[
 |===
 |Type |Name |Description
 
-| 
-    |templateKeyToViewMap
-    |
+|link:http://php.net/array[`array`^]
+a|`$templateKeyToViewMap`
+|This property maps templateKeys to their view and their used contexz
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#register]
 ----
 
 public register():void
@@ -54,12 +56,13 @@ public register():void
 
 
 
-
+Register any application services.
 
 [source%nowrap, php]
+[#boot]
 ----
 
-public boot():void
+public boot($twig, $eventDispatcher, $config):void
 
 ----
 
@@ -69,5 +72,22 @@ public boot():void
 
 
 
+Bootstrap any application services.
+
+.*Parameters*
+|===
+|Type |Name |Description
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_templates_twig[`Twig`]
+a|`$twig`
+|
+
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_events_dispatcher[`Dispatcher`]
+a|`$eventDispatcher`
+|
+
+| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_plugin_configrepository[`ConfigRepository`]
+a|`$config`
+|
+|===
 
 

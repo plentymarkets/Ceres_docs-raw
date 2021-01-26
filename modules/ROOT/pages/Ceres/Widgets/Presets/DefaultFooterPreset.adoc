@@ -24,29 +24,25 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 |Type |Name |Description
 
 |xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
-    |preset
-    |
-|xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
-    |config
-    |
-| PatternFilter
-    |patternFilter
-    |
-| CategoryService
-    |categoryService
-    |
-| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
-    |translator
-    |
-| 
-    |gridDropzoneNames
-    |
+a|`$preset`
+||xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
+a|`$config`
+||         xref:5.0.0@plugin-io::IO/Extensions/Filters/PatternFilter.adoc#[`PatternFilter`]
+a|`$patternFilter`
+||         xref:5.0.0@plugin-io::IO/Services/CategoryService.adoc#[`CategoryService`]
+a|`$categoryService`
+|| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
+a|`$translator`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$gridDropzoneNames`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getwidgets]
 ----
 
 public getWidgets():void

@@ -22,65 +22,49 @@
 |Type |Name |Description
 
 |xref:Ceres/Config/CeresAddressConfig.adoc#[`CeresAddressConfig`]
-    |addresses
-    |
-|xref:Ceres/Config/CeresBasketConfig.adoc#[`CeresBasketConfig`]
-    |basket
-    |
-|xref:Ceres/Config/CeresContactConfig.adoc#[`CeresContactConfig`]
-    |contact
-    |
-|xref:Ceres/Config/CeresCurrencyConfig.adoc#[`CeresCurrencyConfig`]
-    |currency
-    |
-|xref:Ceres/Config/CeresFooterConfig.adoc#[`CeresFooterConfig`]
-    |footer
-    |
-|xref:Ceres/Config/CeresGlobalConfig.adoc#[`CeresGlobalConfig`]
-    |global
-    |
-|xref:Ceres/Config/CeresHeaderConfig.adoc#[`CeresHeaderConfig`]
-    |header
-    |
-|xref:Ceres/Config/CeresHomepageConfig.adoc#[`CeresHomepageConfig`]
-    |homepage
-    |
-|xref:Ceres/Config/CeresItemConfig.adoc#[`CeresItemConfig`]
-    |item
-    |
-|xref:Ceres/Config/CeresItemListsConfig.adoc#[`CeresItemListsConfig`]
-    |itemLists
-    |
-|xref:Ceres/Config/CeresLanguageConfig.adoc#[`CeresLanguageConfig`]
-    |language
-    |
-|xref:Ceres/Config/CeresLogConfig.adoc#[`CeresLogConfig`]
-    |log
-    |
-|xref:Ceres/Config/CeresMetaConfig.adoc#[`CeresMetaConfig`]
-    |meta
-    |
-|xref:Ceres/Config/CeresCheckoutConfig.adoc#[`CeresCheckoutConfig`]
-    |checkout
-    |
-|xref:Ceres/Config/CeresMyAccountConfig.adoc#[`CeresMyAccountConfig`]
-    |myAccount
-    |
-|xref:Ceres/Config/CeresPaginationConfig.adoc#[`CeresPaginationConfig`]
-    |pagination
-    |
-|xref:Ceres/Config/CeresSearchConfig.adoc#[`CeresSearchConfig`]
-    |search
-    |
-|xref:Ceres/Config/CeresSortingConfig.adoc#[`CeresSortingConfig`]
-    |sorting
-    |
+a|`$addresses`
+||xref:Ceres/Config/CeresBasketConfig.adoc#[`CeresBasketConfig`]
+a|`$basket`
+||xref:Ceres/Config/CeresContactConfig.adoc#[`CeresContactConfig`]
+a|`$contact`
+||xref:Ceres/Config/CeresCurrencyConfig.adoc#[`CeresCurrencyConfig`]
+a|`$currency`
+||xref:Ceres/Config/CeresFooterConfig.adoc#[`CeresFooterConfig`]
+a|`$footer`
+||xref:Ceres/Config/CeresGlobalConfig.adoc#[`CeresGlobalConfig`]
+a|`$global`
+||xref:Ceres/Config/CeresHeaderConfig.adoc#[`CeresHeaderConfig`]
+a|`$header`
+||xref:Ceres/Config/CeresHomepageConfig.adoc#[`CeresHomepageConfig`]
+a|`$homepage`
+||xref:Ceres/Config/CeresItemConfig.adoc#[`CeresItemConfig`]
+a|`$item`
+||xref:Ceres/Config/CeresItemListsConfig.adoc#[`CeresItemListsConfig`]
+a|`$itemLists`
+||xref:Ceres/Config/CeresLanguageConfig.adoc#[`CeresLanguageConfig`]
+a|`$language`
+||xref:Ceres/Config/CeresLogConfig.adoc#[`CeresLogConfig`]
+a|`$log`
+||xref:Ceres/Config/CeresMetaConfig.adoc#[`CeresMetaConfig`]
+a|`$meta`
+||xref:Ceres/Config/CeresCheckoutConfig.adoc#[`CeresCheckoutConfig`]
+a|`$checkout`
+||xref:Ceres/Config/CeresMyAccountConfig.adoc#[`CeresMyAccountConfig`]
+a|`$myAccount`
+||xref:Ceres/Config/CeresPaginationConfig.adoc#[`CeresPaginationConfig`]
+a|`$pagination`
+||xref:Ceres/Config/CeresSearchConfig.adoc#[`CeresSearchConfig`]
+a|`$search`
+||xref:Ceres/Config/CeresSortingConfig.adoc#[`CeresSortingConfig`]
+a|`$sorting`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct():void

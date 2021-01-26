@@ -26,9 +26,9 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_widget[`Widget`]
 |Type |Name |Value |Description
 
 |link:http://php.net/array[array^]
-    |TOOLBAR_LAYOUT
-    |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
-    |
+a|`TOOLBAR_LAYOUT`
+|['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
+|
 |===
 
 
@@ -36,29 +36,22 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_widget[`Widget`]
 |===
 |Type |Name |Description
 
-| 
-    |suggestionType
-    |
-| 
-    |widgetKey
-    |
-| 
-    |widgetLabel
-    |
-| 
-    |previewImageUrl
-    |
-| 
-    |headline
-    |
-| 
-    |position
-    |
-| 
-    |hasCountOption
-    |
-| 
-    |hasAdditionalInformationOption
-    |
+|link:http://php.net/string[`string`^]
+a|`$suggestionType`
+|The type of the suggestion widget|link:http://php.net/string[`string`^]
+a|`$widgetKey`
+|The key of the widget|link:http://php.net/string[`string`^]
+a|`$widgetLabel`
+|The label of the widget|link:http://php.net/string[`string`^]
+a|`$previewImageUrl`
+|The url of the preview image|link:http://php.net/string[`string`^]
+a|`$headline`
+|The headline of the suggestion widget|link:http://php.net/int[`int`^]
+a|`$position`
+|The position of the widget|link:http://php.net/bool[`bool`^]
+a|`$hasCountOption`
+|Indicate if the suggestion widget has the option to show counts behind the suggestions|link:http://php.net/bool[`bool`^]
+a|`$hasAdditionalInformationOption`
+|Indicate if the suggestion widget has the option to show additional information for the suggestions
 |===
 

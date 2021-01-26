@@ -23,6 +23,7 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 ===== Methods
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct():void
@@ -38,16 +39,17 @@ public __construct():void
 
 
 [source%nowrap, php]
+[#withcalendartop]
 ----
 
-public withCalendarTop($isCalendarTop):Ceres\Widgets\Helper\Factories\Settings\DateSettingFactory
+public withCalendarTop($isCalendarTop):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/DateSettingFactory.adoc#[`DateSettingFactory`]
+
 
 
 
@@ -55,23 +57,24 @@ public withCalendarTop($isCalendarTop):Ceres\Widgets\Helper\Factories\Settings\D
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$isCalendarTop`
 |
 |===
 
 
 [source%nowrap, php]
+[#withdisplaydateformat]
 ----
 
-public withDisplayDateFormat($format):Ceres\Widgets\Helper\Factories\Settings\DateSettingFactory
+public withDisplayDateFormat($format):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/DateSettingFactory.adoc#[`DateSettingFactory`]
+
 
 
 
@@ -79,7 +82,7 @@ public withDisplayDateFormat($format):Ceres\Widgets\Helper\Factories\Settings\Da
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$format`
 |
 |===

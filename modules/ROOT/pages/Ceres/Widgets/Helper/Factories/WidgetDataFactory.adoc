@@ -21,25 +21,26 @@
 |===
 |Type |Name |Description
 
-| 
-    |data
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$data`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#make]
 ----
 
-public static make($identifier):Ceres\Widgets\Helper\Factories\WidgetDataFactory
+public static make($identifier):void
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/WidgetDataFactory.adoc#[`WidgetDataFactory`]
+
 
 
 Create a new widget factory instance.
@@ -47,13 +48,14 @@ Create a new widget factory instance.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$identifier`
 |Unique identifier of the widget.
 |===
 
 
 [source%nowrap, php]
+[#withlabel]
 ----
 
 public withLabel($label):Ceres\Widgets\Helper\Factories
@@ -71,13 +73,14 @@ Set a label for this widget. Will be translated.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$label`
 |Label of the widget to be displayed in the shop builder
 |===
 
 
 [source%nowrap, php]
+[#withpreviewimageurl]
 ----
 
 public withPreviewImageUrl($previewImageUrl):Ceres\Widgets\Helper\Factories
@@ -95,13 +98,14 @@ Set the url of a preview image for the widget.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$previewImageUrl`
 |
 |===
 
 
 [source%nowrap, php]
+[#withtype]
 ----
 
 public withType($type):Ceres\Widgets\Helper\Factories
@@ -119,13 +123,14 @@ Set the type of the widget.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$type`
 |Type of the widget
 |===
 
 
 [source%nowrap, php]
+[#withcategory]
 ----
 
 public withCategory($category):Ceres\Widgets\Helper\Factories
@@ -143,13 +148,14 @@ Add a category for the widget. A widget might be assigned to multiple categories
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$category`
 |
 |===
 
 
 [source%nowrap, php]
+[#withposition]
 ----
 
 public withPosition($position):Ceres\Widgets\Helper\Factories
@@ -167,13 +173,14 @@ Set the position of the widget.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$position`
 |Position of the widget
 |===
 
 
 [source%nowrap, php]
+[#withmaxperpage]
 ----
 
 public withMaxPerPage($maxPerPage):Ceres\Widgets\Helper\Factories
@@ -191,13 +198,14 @@ Limit the amount of times a widget can be placed on a content.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$maxPerPage`
 |Maximum allowed amount of instances of the widget on a content
 |===
 
 
 [source%nowrap, php]
+[#withallowednestingtypes]
 ----
 
 public withAllowedNestingTypes($allowedTypes):Ceres\Widgets\Helper\Factories
@@ -215,13 +223,14 @@ Limits the widget types that you can drop into this widget.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$allowedTypes`
 |
 |===
 
 
 [source%nowrap, php]
+[#withdeprecated]
 ----
 
 public withDeprecated():Ceres\Widgets\Helper\Factories
@@ -237,9 +246,10 @@ public withDeprecated():Ceres\Widgets\Helper\Factories
 Set the widget as deprecated.
 
 [source%nowrap, php]
+[#toarray]
 ----
 
-public toArray():array
+public toArray():void
 
 ----
 

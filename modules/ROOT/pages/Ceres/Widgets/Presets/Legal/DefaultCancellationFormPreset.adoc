@@ -24,14 +24,15 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 |Type |Name |Description
 
 |xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
-    |preset
-    |
+a|`$preset`
+|
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#getwidgets]
 ----
 
 public getWidgets():void
@@ -44,5 +45,5 @@ public getWidgets():void
 
 
 
-
+Get the widget configurations of the presets to be assigned to the created content.
 

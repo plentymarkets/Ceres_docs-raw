@@ -5,7 +5,7 @@
 [[ceres__twigitemdatafield]]
 = TwigItemDataField
 
-
+Created for the shop builder text widget.
 
 
 
@@ -17,8 +17,8 @@
 xref:stable7@interface::Miscellaneous.adoc#miscellaneous_extensions_twig_extension[`Twig_Extension`]
 
 ===== Implements
-GlobalsInterface
-ExtensionInterface
+xref:5.0.0@plugin-twig::Twig/Extension/GlobalsInterface.adoc#[`GlobalsInterface`]
+xref:5.0.0@plugin-twig::Twig/Extension/ExtensionInterface.adoc#[`ExtensionInterface`]
 
 
 
@@ -27,18 +27,17 @@ ExtensionInterface
 |Type |Name |Description
 
 | xref:stable7@interface::Miscellaneous.adoc#miscellaneous_factories_twigfactory[`TwigFactory`]
-    |twig
-    |
-|link:http://php.net/array[array^]
-    |itemData
-    |This array acts as a stack (LIFO)
-The last element is used for datafield fetches
+a|`$twig`
+|The factory to render TWIG.|link:http://php.net/array[`array`^]
+a|`$itemData`
+|This array acts as a stack (LIFO). The last element is used for datafield fetches.
 |===
 
 
 ===== Methods
 
 [source%nowrap, php]
+[#__construct]
 ----
 
 public __construct($twig):void
@@ -51,21 +50,22 @@ public __construct($twig):void
 
 
 
-TwigStyleScriptTagFilter constructor.
+TwigItemDataField constructor.
 
 .*Parameters*
 |===
 |Type |Name |Description
 | xref:stable7@interface::Miscellaneous.adoc#miscellaneous_factories_twigfactory[`TwigFactory`]
 a|`$twig`
-|
+|The factory to render TWIG.
 |===
 
 
 [source%nowrap, php]
+[#getname]
 ----
 
-public getName():string
+public getName():void
 
 ----
 
@@ -75,12 +75,13 @@ public getName():string
 
 
 
-Return the name of the extension. The name must be unique.
+Return the name of the extension.
 
 [source%nowrap, php]
+[#getfunctions]
 ----
 
-public getFunctions():array
+public getFunctions():void
 
 ----
 
@@ -93,9 +94,10 @@ public getFunctions():array
 Return a list of functions to add.
 
 [source%nowrap, php]
+[#getfilters]
 ----
 
-public getFilters():array
+public getFilters():void
 
 ----
 
@@ -108,6 +110,7 @@ public getFilters():array
 Return a list of filters to add.
 
 [source%nowrap, php]
+[#setitemdatabase]
 ----
 
 public setItemDataBase($itemData):void
@@ -120,18 +123,19 @@ public setItemDataBase($itemData):void
 
 
 
-
+Add an item data array into the property itemData.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/array[`array`^]
 a|`$itemData`
-|
+|Item data array.
 |===
 
 
 [source%nowrap, php]
+[#popitemdatabase]
 ----
 
 public popItemDataBase():void
@@ -144,9 +148,80 @@ public popItemDataBase():void
 
 
 
+Calls array_pop against the property itemData.
+
+[source%nowrap, php]
+[#getdatafield]
+----
+
+public getDataField($field, $filter = null, $directiveType = &quot;text&quot;, $htmlTagType = &quot;span&quot;, $linkType = &quot;&quot;):void
+
+----
+
+
+
+
+
+
+
+Return a created HTML element. The content of the element is a TWIG statement, to print a field from the item data.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[`string`^]
+a|`$field`
+|The accessor for the field in the item data.
+
+|link:http://php.net/string[`string`^]
+a|`$filter`
+|Add a filter in the TWIG string.
+
+|link:http://php.net/string[`string`^]
+a|`$directiveType`
+|Vue.js directive type for the element.
+
+|link:http://php.net/string[`string`^]
+a|`$htmlTagType`
+|HTML Tag for element.
+
+|link:http://php.net/string[`string`^]
+a|`$linkType`
+|If set to "file", the element gets the attribute target="_black".
+|===
 
 
 [source%nowrap, php]
+[#getdatafieldhtml]
+----
+
+public getDataFieldHtml($field, $filter = null):void
+
+----
+
+
+
+
+
+
+
+Call method getDataField with the directiveType &quot;html&quot;.
+
+.*Parameters*
+|===
+|Type |Name |Description
+|link:http://php.net/string[`string`^]
+a|`$field`
+|The accessor for the field in the item data.
+
+|link:http://php.net/string[`string`^]
+a|`$filter`
+|Add a filter in the TWIG string.
+|===
+
+
+[source%nowrap, php]
+[#formatagerestriction]
 ----
 
 public formatAgeRestriction($age):void
@@ -159,18 +234,19 @@ public formatAgeRestriction($age):void
 
 
 
-
+Convert an age to the assigned translation string.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/int[`int`^]
 a|`$age`
-|
+|The age.
 |===
 
 
 [source%nowrap, php]
+[#formatdate]
 ----
 
 public formatDate($date):void
@@ -183,21 +259,22 @@ public formatDate($date):void
 
 
 
-
+Format a date string.
 
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|link:http://php.net/string[`string`^]
 a|`$date`
-|
+|The date string.
 |===
 
 
 [source%nowrap, php]
+[#getglobals]
 ----
 
-public getGlobals():array
+public getGlobals():void
 
 ----
 
