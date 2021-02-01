@@ -5,7 +5,7 @@
 [[ceres__buildhash]]
 = BuildHash
 
-
+Helper to store build dependent hash for cache busting.
 
 
 

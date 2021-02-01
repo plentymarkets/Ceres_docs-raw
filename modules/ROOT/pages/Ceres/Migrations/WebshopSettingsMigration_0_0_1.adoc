@@ -5,6 +5,7 @@
 [[ceres__webshopsettingsmigration_0_0_1]]
 = WebshopSettingsMigration_0_0_1
 
+This migration is used for transferring settings from the webstore configuration into the Ceres configuration.
 Migrations are referenced in the &#039;runOnBuild&#039; section of the plugin.json and run exactly once.
 
 

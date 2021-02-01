@@ -5,7 +5,7 @@
 [[ceres__searchoptions]]
 = SearchOptions
 
-
+Helper class for getting item search options
 
 
 

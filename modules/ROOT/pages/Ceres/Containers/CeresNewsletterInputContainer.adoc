@@ -5,7 +5,7 @@
 [[ceres__ceresnewsletterinputcontainer]]
 = CeresNewsletterInputContainer
 
-
+This class was previously a DataProvider. It is now a stub.
 
 [WARNING]
 .Deprecated! 

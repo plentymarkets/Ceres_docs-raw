@@ -5,7 +5,7 @@
 [[ceres__shopbuildersettingshandler]]
 = ShopBuilderSettingsHandler
 
-
+Maps the routing settings from IO to Ceres. This allows us to set routing settings in the shop builder.
 
 
 

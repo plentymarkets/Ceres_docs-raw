@@ -5,7 +5,7 @@
 [[ceres__externalsearchoptions]]
 = ExternalSearchOptions
 
-
+Exposes the search options of external search plugins
 
 
 

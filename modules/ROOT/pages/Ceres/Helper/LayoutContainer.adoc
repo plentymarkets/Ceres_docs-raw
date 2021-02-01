@@ -5,7 +5,7 @@
 [[ceres__layoutcontainer]]
 = LayoutContainer
 
-
+Helper class for working with layout containers
 
 
 

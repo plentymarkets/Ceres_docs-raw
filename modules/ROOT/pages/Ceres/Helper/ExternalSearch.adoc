@@ -5,7 +5,7 @@
 [[ceres__externalsearch]]
 = ExternalSearch
 
-
+Helper class to allow searches form external plugins
 
 
 

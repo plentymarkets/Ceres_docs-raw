@@ -5,6 +5,7 @@
 [[ceres__configpropertiesmigration_0_0_1]]
 = ConfigPropertiesMigration_0_0_1
 
+This migration is used for migrating a config property into the translation.
 Migrations are referenced in the &#039;runOnBuild&#039; section of the plugin.json and run exactly once.
 
 
