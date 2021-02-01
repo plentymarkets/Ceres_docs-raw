@@ -1,524 +1,523 @@
-                            * Ceres
-                                                    ** Config
+                            * Config
                         
-*** xref:Ceres/Config/CeresAddressConfig.adoc[CeresAddressConfig]
+** xref:Ceres/Config/CeresAddressConfig.adoc[CeresAddressConfig]
         
-*** xref:Ceres/Config/CeresItemConfig.adoc[CeresItemConfig]
+** xref:Ceres/Config/CeresItemConfig.adoc[CeresItemConfig]
         
-*** xref:Ceres/Config/CeresSearchConfig.adoc[CeresSearchConfig]
+** xref:Ceres/Config/CeresSearchConfig.adoc[CeresSearchConfig]
         
-*** xref:Ceres/Config/CeresPaginationConfig.adoc[CeresPaginationConfig]
+** xref:Ceres/Config/CeresPaginationConfig.adoc[CeresPaginationConfig]
         
-*** xref:Ceres/Config/CeresMyAccountConfig.adoc[CeresMyAccountConfig]
+** xref:Ceres/Config/CeresMyAccountConfig.adoc[CeresMyAccountConfig]
         
-*** xref:Ceres/Config/CeresMetaConfig.adoc[CeresMetaConfig]
+** xref:Ceres/Config/CeresMetaConfig.adoc[CeresMetaConfig]
         
-*** xref:Ceres/Config/CeresLogConfig.adoc[CeresLogConfig]
+** xref:Ceres/Config/CeresLogConfig.adoc[CeresLogConfig]
         
-*** xref:Ceres/Config/CeresLanguageConfig.adoc[CeresLanguageConfig]
+** xref:Ceres/Config/CeresLanguageConfig.adoc[CeresLanguageConfig]
         
-*** xref:Ceres/Config/CeresItemListsConfig.adoc[CeresItemListsConfig]
+** xref:Ceres/Config/CeresItemListsConfig.adoc[CeresItemListsConfig]
         
-*** xref:Ceres/Config/CeresHomepageConfig.adoc[CeresHomepageConfig]
+** xref:Ceres/Config/CeresHomepageConfig.adoc[CeresHomepageConfig]
         
-*** xref:Ceres/Config/CeresBasketConfig.adoc[CeresBasketConfig]
+** xref:Ceres/Config/CeresBasketConfig.adoc[CeresBasketConfig]
         
-*** xref:Ceres/Config/CeresHeaderConfig.adoc[CeresHeaderConfig]
+** xref:Ceres/Config/CeresHeaderConfig.adoc[CeresHeaderConfig]
         
-*** xref:Ceres/Config/CeresGlobalConfig.adoc[CeresGlobalConfig]
+** xref:Ceres/Config/CeresGlobalConfig.adoc[CeresGlobalConfig]
         
-*** xref:Ceres/Config/CeresFooterConfig.adoc[CeresFooterConfig]
+** xref:Ceres/Config/CeresFooterConfig.adoc[CeresFooterConfig]
         
-*** xref:Ceres/Config/CeresCurrencyConfig.adoc[CeresCurrencyConfig]
+** xref:Ceres/Config/CeresCurrencyConfig.adoc[CeresCurrencyConfig]
         
-*** xref:Ceres/Config/CeresContactConfig.adoc[CeresContactConfig]
+** xref:Ceres/Config/CeresContactConfig.adoc[CeresContactConfig]
         
-*** xref:Ceres/Config/CeresConfig.adoc[CeresConfig]
+** xref:Ceres/Config/CeresConfig.adoc[CeresConfig]
         
-*** xref:Ceres/Config/CeresCheckoutConfig.adoc[CeresCheckoutConfig]
+** xref:Ceres/Config/CeresCheckoutConfig.adoc[CeresCheckoutConfig]
         
-*** xref:Ceres/Config/CeresSortingConfig.adoc[CeresSortingConfig]
+** xref:Ceres/Config/CeresSortingConfig.adoc[CeresSortingConfig]
         
-                                    ** Containers
+                                    * Containers
                         
-*** xref:Ceres/Containers/CeresItemListContainer1.adoc[CeresItemListContainer1]
+** xref:Ceres/Containers/CeresItemListContainer1.adoc[CeresItemListContainer1]
         
-*** xref:Ceres/Containers/CeresItemListContainer2.adoc[CeresItemListContainer2]
+** xref:Ceres/Containers/CeresItemListContainer2.adoc[CeresItemListContainer2]
         
-*** xref:Ceres/Containers/CeresItemListContainer3.adoc[CeresItemListContainer3]
+** xref:Ceres/Containers/CeresItemListContainer3.adoc[CeresItemListContainer3]
         
-*** xref:Ceres/Containers/CeresNewsletterInputContainer.adoc[CeresNewsletterInputContainer]
+** xref:Ceres/Containers/CeresNewsletterInputContainer.adoc[CeresNewsletterInputContainer]
         
-                                    ** Contexts
+                                    * Contexts
                         
-*** xref:Ceres/Contexts/CategoryContext.adoc[CategoryContext]
+** xref:Ceres/Contexts/CategoryContext.adoc[CategoryContext]
         
-*** xref:Ceres/Contexts/CategoryItemContext.adoc[CategoryItemContext]
+** xref:Ceres/Contexts/CategoryItemContext.adoc[CategoryItemContext]
         
-*** xref:Ceres/Contexts/ChangeMailContext.adoc[ChangeMailContext]
+** xref:Ceres/Contexts/ChangeMailContext.adoc[ChangeMailContext]
         
-*** xref:Ceres/Contexts/CheckoutContext.adoc[CheckoutContext]
+** xref:Ceres/Contexts/CheckoutContext.adoc[CheckoutContext]
         
-*** xref:Ceres/Contexts/GlobalContext.adoc[GlobalContext]
+** xref:Ceres/Contexts/GlobalContext.adoc[GlobalContext]
         
-*** xref:Ceres/Contexts/ItemSearchContext.adoc[ItemSearchContext]
+** xref:Ceres/Contexts/ItemSearchContext.adoc[ItemSearchContext]
         
-*** xref:Ceres/Contexts/MyAccountContext.adoc[MyAccountContext]
+** xref:Ceres/Contexts/MyAccountContext.adoc[MyAccountContext]
         
-*** xref:Ceres/Contexts/OrderConfirmationContext.adoc[OrderConfirmationContext]
+** xref:Ceres/Contexts/OrderConfirmationContext.adoc[OrderConfirmationContext]
         
-*** xref:Ceres/Contexts/OrderReturnContext.adoc[OrderReturnContext]
+** xref:Ceres/Contexts/OrderReturnContext.adoc[OrderReturnContext]
         
-*** xref:Ceres/Contexts/PasswordResetContext.adoc[PasswordResetContext]
+** xref:Ceres/Contexts/PasswordResetContext.adoc[PasswordResetContext]
         
-*** xref:Ceres/Contexts/SingleItemContext.adoc[SingleItemContext]
+** xref:Ceres/Contexts/SingleItemContext.adoc[SingleItemContext]
         
-*** xref:Ceres/Contexts/TagSearchContext.adoc[TagSearchContext]
+** xref:Ceres/Contexts/TagSearchContext.adoc[TagSearchContext]
         
-                                    ** Extensions
+                                    * Extensions
                         
-*** xref:Ceres/Extensions/TwigItemDataField.adoc[TwigItemDataField]
+** xref:Ceres/Extensions/TwigItemDataField.adoc[TwigItemDataField]
         
-*** xref:Ceres/Extensions/TwigJsonDataContainer.adoc[TwigJsonDataContainer]
+** xref:Ceres/Extensions/TwigJsonDataContainer.adoc[TwigJsonDataContainer]
         
-*** xref:Ceres/Extensions/TwigLayoutContainerInternal.adoc[TwigLayoutContainerInternal]
+** xref:Ceres/Extensions/TwigLayoutContainerInternal.adoc[TwigLayoutContainerInternal]
         
-*** xref:Ceres/Extensions/TwigStyleScriptTagFilter.adoc[TwigStyleScriptTagFilter]
+** xref:Ceres/Extensions/TwigStyleScriptTagFilter.adoc[TwigStyleScriptTagFilter]
+        
+                                    * Helper
+                        
+** xref:Ceres/Helper/BuildHash.adoc[BuildHash]
+        
+** xref:Ceres/Helper/ExternalSearch.adoc[ExternalSearch]
+        
+** xref:Ceres/Helper/ExternalSearchOptions.adoc[ExternalSearchOptions]
+        
+** xref:Ceres/Helper/LayoutContainer.adoc[LayoutContainer]
+        
+** xref:Ceres/Helper/SearchOptions.adoc[SearchOptions]
+        
+                                    * Hooks
+                        
+** xref:Ceres/Hooks/CeresAfterBuildPlugins.adoc[CeresAfterBuildPlugins]
+        
+                                    * Migrations
+                        
+** xref:Ceres/Migrations/ConfigPropertiesMigration_0_0_1.adoc[ConfigPropertiesMigration_0_0_1]
+        
+** xref:Ceres/Migrations/Migration_2018_07_06_001_RebuildShopBuilderHomepage.adoc[Migration_2018_07_06_001_RebuildShopBuilderHomepage]
+        
+** xref:Ceres/Migrations/WebshopSettingsMigration_0_0_1.adoc[WebshopSettingsMigration_0_0_1]
+        
+                                    * Providers
+                        
+** xref:Ceres/Providers/TemplateServiceProvider.adoc[TemplateServiceProvider]
+        
+                                    * ShopBuilder
+                                                    ** DataFieldProvider
+                                                    *** Item
+                        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/AvailabilityDataFieldProvider.adoc[AvailabilityDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/BarcodeDataFieldProvider.adoc[BarcodeDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/BarcodeListDataFieldProvider.adoc[BarcodeListDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/ItemDataFieldProvider.adoc[ItemDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/ItemGlobalDataFieldProvider.adoc[ItemGlobalDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/ManufacturerDataFieldProvider.adoc[ManufacturerDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/PropertyDataFieldProvider.adoc[PropertyDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/PropertyGroupDataFieldProvider.adoc[PropertyGroupDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/PropertyListDataFieldProvider.adoc[PropertyListDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/TextsDataFieldProvider.adoc[TextsDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/UnitDataFieldProvider.adoc[UnitDataFieldProvider]
+        
+**** xref:Ceres/ShopBuilder/DataFieldProvider/Item/VariationGlobalDataFieldProvider.adoc[VariationGlobalDataFieldProvider]
+        
+        
+                                    ** Handler
+                        
+*** xref:Ceres/ShopBuilder/Handler/ShopBuilderSettingsHandler.adoc[ShopBuilderSettingsHandler]
+        
+        
+                                    * Widgets
+                                                    ** Basket
+                        
+*** xref:Ceres/Widgets/Basket/BasketTotalsWidget.adoc[BasketTotalsWidget]
+        
+*** xref:Ceres/Widgets/Basket/BasketWidget.adoc[BasketWidget]
+        
+*** xref:Ceres/Widgets/Basket/CouponWidget.adoc[CouponWidget]
+        
+*** xref:Ceres/Widgets/Basket/ShippingCountryWidget.adoc[ShippingCountryWidget]
         
                                     ** Helper
+                                                    *** Factories
+                                                    **** Settings
                         
-*** xref:Ceres/Helper/BuildHash.adoc[BuildHash]
+***** xref:Ceres/Widgets/Helper/Factories/Settings/AlignmentSettingFactory.adoc[AlignmentSettingFactory]
         
-*** xref:Ceres/Helper/ExternalSearch.adoc[ExternalSearch]
+***** xref:Ceres/Widgets/Helper/Factories/Settings/IconSettingFactory.adoc[IconSettingFactory]
         
-*** xref:Ceres/Helper/ExternalSearchOptions.adoc[ExternalSearchOptions]
+***** xref:Ceres/Widgets/Helper/Factories/Settings/UrlSettingFactory.adoc[UrlSettingFactory]
         
-*** xref:Ceres/Helper/LayoutContainer.adoc[LayoutContainer]
+***** xref:Ceres/Widgets/Helper/Factories/Settings/UUIDSettingFactory.adoc[UUIDSettingFactory]
         
-*** xref:Ceres/Helper/SearchOptions.adoc[SearchOptions]
+***** xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc[TextareaSettingFactory]
         
-                                    ** Hooks
+***** xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc[TextSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/SuggestionSettingFactory.adoc[SuggestionSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/SpacingSettingFactory.adoc[SpacingSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc[SliderSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc[SelectSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/RadioGroupSettingFactory.adoc[RadioGroupSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/ManufacturerSettingFactory.adoc[ManufacturerSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/ItemSortValueListFactory.adoc[ItemSortValueListFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/HeightSettingFactory.adoc[HeightSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/AppearanceSettingFactory.adoc[AppearanceSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc[FileSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc[EditorSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/DoubleSettingFactory.adoc[DoubleSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/DateSettingFactory.adoc[DateSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/CustomClassSettingFactory.adoc[CustomClassSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc[ContainerSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/ColorPaletteSettingFactory.adoc[ColorPaletteSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxSettingFactory.adoc[CheckboxSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc[CheckboxGroupSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc[CategorySettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/ButtonSizeSettingFactory.adoc[ButtonSizeSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc[BaseSettingFactory]
+        
+***** xref:Ceres/Widgets/Helper/Factories/Settings/ValueListFactory.adoc[ValueListFactory]
+        
+        
+**** xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc[PresetWidgetFactory]
+        
+**** xref:Ceres/Widgets/Helper/Factories/WidgetDataFactory.adoc[WidgetDataFactory]
+        
+**** xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc[WidgetSettingsFactory]
+        
+        
+*** xref:Ceres/Widgets/Helper/BaseWidget.adoc[BaseWidget]
+        
+*** xref:Ceres/Widgets/Helper/PresetHelper.adoc[PresetHelper]
+        
+*** xref:Ceres/Widgets/Helper/WidgetCategories.adoc[WidgetCategories]
+        
+*** xref:Ceres/Widgets/Helper/WidgetTypes.adoc[WidgetTypes]
+        
+                                    ** Presets
+                                                    *** Legal
                         
-*** xref:Ceres/Hooks/CeresAfterBuildPlugins.adoc[CeresAfterBuildPlugins]
+**** xref:Ceres/Widgets/Presets/Legal/DefaultCancellationFormPreset.adoc[DefaultCancellationFormPreset]
         
-                                    ** Migrations
+**** xref:Ceres/Widgets/Presets/Legal/DefaultCancellationRightsPreset.adoc[DefaultCancellationRightsPreset]
+        
+**** xref:Ceres/Widgets/Presets/Legal/DefaultGTCPreset.adoc[DefaultGTCPreset]
+        
+**** xref:Ceres/Widgets/Presets/Legal/DefaultLegalDisclosurePreset.adoc[DefaultLegalDisclosurePreset]
+        
+**** xref:Ceres/Widgets/Presets/Legal/DefaultPrivacyPolicyPreset.adoc[DefaultPrivacyPolicyPreset]
+        
+        
+*** xref:Ceres/Widgets/Presets/ChangePasswordPreset.adoc[ChangePasswordPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultOrderConfirmationPreset.adoc[DefaultOrderConfirmationPreset]
+        
+*** xref:Ceres/Widgets/Presets/RegistrationPreset.adoc[RegistrationPreset]
+        
+*** xref:Ceres/Widgets/Presets/OrderReturnPreset.adoc[OrderReturnPreset]
+        
+*** xref:Ceres/Widgets/Presets/ItemSetPreset.adoc[ItemSetPreset]
+        
+*** xref:Ceres/Widgets/Presets/ItemSearchPreset.adoc[ItemSearchPreset]
+        
+*** xref:Ceres/Widgets/Presets/ItemCategoryPreset.adoc[ItemCategoryPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultSingleItemPreset.adoc[DefaultSingleItemPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultPageNotFoundPreset.adoc[DefaultPageNotFoundPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultNewsletterUnsubscribePreset.adoc[DefaultNewsletterUnsubscribePreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultBasketPreset.adoc[DefaultBasketPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultMyAccountPreset.adoc[DefaultMyAccountPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultLoginPreset.adoc[DefaultLoginPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultHomepagePreset.adoc[DefaultHomepagePreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultHeaderPreset.adoc[DefaultHeaderPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultFooterPreset.adoc[DefaultFooterPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultContactPreset.adoc[DefaultContactPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultCheckoutPreset.adoc[DefaultCheckoutPreset]
+        
+*** xref:Ceres/Widgets/Presets/DefaultChangeMailPreset.adoc[DefaultChangeMailPreset]
+        
+*** xref:Ceres/Widgets/Presets/WishListPreset.adoc[WishListPreset]
+        
+                                    ** OrderConfirmation
                         
-*** xref:Ceres/Migrations/ConfigPropertiesMigration_0_0_1.adoc[ConfigPropertiesMigration_0_0_1]
+*** xref:Ceres/Widgets/OrderConfirmation/OrderConfirmationBaseWidget.adoc[OrderConfirmationBaseWidget]
         
-*** xref:Ceres/Migrations/Migration_2018_07_06_001_RebuildShopBuilderHomepage.adoc[Migration_2018_07_06_001_RebuildShopBuilderHomepage]
+*** xref:Ceres/Widgets/OrderConfirmation/OrderDataWidget.adoc[OrderDataWidget]
         
-*** xref:Ceres/Migrations/WebshopSettingsMigration_0_0_1.adoc[WebshopSettingsMigration_0_0_1]
+*** xref:Ceres/Widgets/OrderConfirmation/OrderDocumentsWidget.adoc[OrderDocumentsWidget]
         
-                                    ** Providers
+*** xref:Ceres/Widgets/OrderConfirmation/OrderReturnWidget.adoc[OrderReturnWidget]
+        
+*** xref:Ceres/Widgets/OrderConfirmation/OrderTotalsWidget.adoc[OrderTotalsWidget]
+        
+*** xref:Ceres/Widgets/OrderConfirmation/PurchasedItemsWidget.adoc[PurchasedItemsWidget]
+        
+                                    ** Navigation
                         
-*** xref:Ceres/Providers/TemplateServiceProvider.adoc[TemplateServiceProvider]
+*** xref:Ceres/Widgets/Navigation/NavigationTreeWidget.adoc[NavigationTreeWidget]
         
-                                    ** ShopBuilder
-                                                    *** DataFieldProvider
-                                                    **** Item
+*** xref:Ceres/Widgets/Navigation/StepByStepNavigationWidget.adoc[StepByStepNavigationWidget]
+        
+                                    ** MyAccount
                         
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/AvailabilityDataFieldProvider.adoc[AvailabilityDataFieldProvider]
+*** xref:Ceres/Widgets/MyAccount/AccountSettingsWidget.adoc[AccountSettingsWidget]
         
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/BarcodeDataFieldProvider.adoc[BarcodeDataFieldProvider]
+*** xref:Ceres/Widgets/MyAccount/BankDataSelectWidget.adoc[BankDataSelectWidget]
         
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/BarcodeListDataFieldProvider.adoc[BarcodeListDataFieldProvider]
+*** xref:Ceres/Widgets/MyAccount/GreetingWidget.adoc[GreetingWidget]
         
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/ItemDataFieldProvider.adoc[ItemDataFieldProvider]
+*** xref:Ceres/Widgets/MyAccount/LogoutButtonWidget.adoc[LogoutButtonWidget]
         
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/ItemGlobalDataFieldProvider.adoc[ItemGlobalDataFieldProvider]
+*** xref:Ceres/Widgets/MyAccount/OrderHistoryWidget.adoc[OrderHistoryWidget]
         
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/ManufacturerDataFieldProvider.adoc[ManufacturerDataFieldProvider]
+*** xref:Ceres/Widgets/MyAccount/OrderReturnHistoryWidget.adoc[OrderReturnHistoryWidget]
         
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/PropertyDataFieldProvider.adoc[PropertyDataFieldProvider]
-        
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/PropertyGroupDataFieldProvider.adoc[PropertyGroupDataFieldProvider]
-        
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/PropertyListDataFieldProvider.adoc[PropertyListDataFieldProvider]
-        
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/TextsDataFieldProvider.adoc[TextsDataFieldProvider]
-        
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/UnitDataFieldProvider.adoc[UnitDataFieldProvider]
-        
-***** xref:Ceres/ShopBuilder/DataFieldProvider/Item/VariationGlobalDataFieldProvider.adoc[VariationGlobalDataFieldProvider]
-        
-        
-                                    *** Handler
+                                    ** Login
                         
-**** xref:Ceres/ShopBuilder/Handler/ShopBuilderSettingsHandler.adoc[ShopBuilderSettingsHandler]
+*** xref:Ceres/Widgets/Login/GuestLoginWidget.adoc[GuestLoginWidget]
         
+*** xref:Ceres/Widgets/Login/LoginWidget.adoc[LoginWidget]
         
-                                    ** Widgets
-                                                    *** Basket
+*** xref:Ceres/Widgets/Login/RegistrationWidget.adoc[RegistrationWidget]
+        
+                                    ** Legal
                         
-**** xref:Ceres/Widgets/Basket/BasketTotalsWidget.adoc[BasketTotalsWidget]
+*** xref:Ceres/Widgets/Legal/LegalTextsWidget.adoc[LegalTextsWidget]
         
-**** xref:Ceres/Widgets/Basket/BasketWidget.adoc[BasketWidget]
-        
-**** xref:Ceres/Widgets/Basket/CouponWidget.adoc[CouponWidget]
-        
-**** xref:Ceres/Widgets/Basket/ShippingCountryWidget.adoc[ShippingCountryWidget]
-        
-                                    *** Helper
-                                                    **** Factories
-                                                                                            
-***** xref:Ceres/Widgets/Helper/Factories/Settings/AlignmentSettingFactory.adoc[Settings/AlignmentSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/IconSettingFactory.adoc[Settings/IconSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/UrlSettingFactory.adoc[Settings/UrlSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/UUIDSettingFactory.adoc[Settings/UUIDSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc[Settings/TextareaSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc[Settings/TextSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/SuggestionSettingFactory.adoc[Settings/SuggestionSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/SpacingSettingFactory.adoc[Settings/SpacingSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc[Settings/SliderSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc[Settings/SelectSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/RadioGroupSettingFactory.adoc[Settings/RadioGroupSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/ManufacturerSettingFactory.adoc[Settings/ManufacturerSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/ItemSortValueListFactory.adoc[Settings/ItemSortValueListFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/HeightSettingFactory.adoc[Settings/HeightSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/AppearanceSettingFactory.adoc[Settings/AppearanceSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc[Settings/FileSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc[Settings/EditorSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/DoubleSettingFactory.adoc[Settings/DoubleSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/DateSettingFactory.adoc[Settings/DateSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/CustomClassSettingFactory.adoc[Settings/CustomClassSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc[Settings/ContainerSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/ColorPaletteSettingFactory.adoc[Settings/ColorPaletteSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxSettingFactory.adoc[Settings/CheckboxSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc[Settings/CheckboxGroupSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc[Settings/CategorySettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/ButtonSizeSettingFactory.adoc[Settings/ButtonSizeSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc[Settings/BaseSettingFactory]
-        
-***** xref:Ceres/Widgets/Helper/Factories/Settings/ValueListFactory.adoc[Settings/ValueListFactory]
-        
-        
-**** xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc[Settings/PresetWidgetFactory]
-        
-**** xref:Ceres/Widgets/Helper/Factories/WidgetDataFactory.adoc[Settings/WidgetDataFactory]
-        
-**** xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc[Settings/WidgetSettingsFactory]
-        
-        
-**** xref:Ceres/Widgets/Helper/BaseWidget.adoc[BaseWidget]
-        
-**** xref:Ceres/Widgets/Helper/PresetHelper.adoc[PresetHelper]
-        
-**** xref:Ceres/Widgets/Helper/WidgetCategories.adoc[WidgetCategories]
-        
-**** xref:Ceres/Widgets/Helper/WidgetTypes.adoc[WidgetTypes]
-        
-                                    *** Presets
-                                                    **** Legal
+                                    ** Item
                         
-***** xref:Ceres/Widgets/Presets/Legal/DefaultCancellationFormPreset.adoc[DefaultCancellationFormPreset]
+*** xref:Ceres/Widgets/Item/AddToBasketWidget.adoc[AddToBasketWidget]
         
-***** xref:Ceres/Widgets/Presets/Legal/DefaultCancellationRightsPreset.adoc[DefaultCancellationRightsPreset]
+*** xref:Ceres/Widgets/Item/AddToWishListWidget.adoc[AddToWishListWidget]
         
-***** xref:Ceres/Widgets/Presets/Legal/DefaultGTCPreset.adoc[DefaultGTCPreset]
+*** xref:Ceres/Widgets/Item/AttributeWidget.adoc[AttributeWidget]
         
-***** xref:Ceres/Widgets/Presets/Legal/DefaultLegalDisclosurePreset.adoc[DefaultLegalDisclosurePreset]
+*** xref:Ceres/Widgets/Item/GraduatedPriceWidget.adoc[GraduatedPriceWidget]
         
-***** xref:Ceres/Widgets/Presets/Legal/DefaultPrivacyPolicyPreset.adoc[DefaultPrivacyPolicyPreset]
+*** xref:Ceres/Widgets/Item/ItemAvailabilityWidget.adoc[ItemAvailabilityWidget]
         
+*** xref:Ceres/Widgets/Item/ItemBundleWidget.adoc[ItemBundleWidget]
         
-**** xref:Ceres/Widgets/Presets/ChangePasswordPreset.adoc[ChangePasswordPreset]
+*** xref:Ceres/Widgets/Item/ItemDataTableWidget.adoc[ItemDataTableWidget]
         
-**** xref:Ceres/Widgets/Presets/DefaultOrderConfirmationPreset.adoc[DefaultOrderConfirmationPreset]
+*** xref:Ceres/Widgets/Item/ItemImageWidget.adoc[ItemImageWidget]
         
-**** xref:Ceres/Widgets/Presets/RegistrationPreset.adoc[RegistrationPreset]
+*** xref:Ceres/Widgets/Item/ItemPriceWidget.adoc[ItemPriceWidget]
         
-**** xref:Ceres/Widgets/Presets/OrderReturnPreset.adoc[OrderReturnPreset]
+*** xref:Ceres/Widgets/Item/ItemSetWidget.adoc[ItemSetWidget]
         
-**** xref:Ceres/Widgets/Presets/ItemSetPreset.adoc[ItemSetPreset]
+*** xref:Ceres/Widgets/Item/OrderPropertyWidget.adoc[OrderPropertyWidget]
         
-**** xref:Ceres/Widgets/Presets/ItemSearchPreset.adoc[ItemSearchPreset]
+*** xref:Ceres/Widgets/Item/QuantityInputWidget.adoc[QuantityInputWidget]
         
-**** xref:Ceres/Widgets/Presets/ItemCategoryPreset.adoc[ItemCategoryPreset]
+*** xref:Ceres/Widgets/Item/TagsWidget.adoc[TagsWidget]
         
-**** xref:Ceres/Widgets/Presets/DefaultSingleItemPreset.adoc[DefaultSingleItemPreset]
+*** xref:Ceres/Widgets/Item/WishListWidget.adoc[WishListWidget]
         
-**** xref:Ceres/Widgets/Presets/DefaultPageNotFoundPreset.adoc[DefaultPageNotFoundPreset]
-        
-**** xref:Ceres/Widgets/Presets/DefaultNewsletterUnsubscribePreset.adoc[DefaultNewsletterUnsubscribePreset]
-        
-**** xref:Ceres/Widgets/Presets/DefaultBasketPreset.adoc[DefaultBasketPreset]
-        
-**** xref:Ceres/Widgets/Presets/DefaultMyAccountPreset.adoc[DefaultMyAccountPreset]
-        
-**** xref:Ceres/Widgets/Presets/DefaultLoginPreset.adoc[DefaultLoginPreset]
-        
-**** xref:Ceres/Widgets/Presets/DefaultHomepagePreset.adoc[DefaultHomepagePreset]
-        
-**** xref:Ceres/Widgets/Presets/DefaultHeaderPreset.adoc[DefaultHeaderPreset]
-        
-**** xref:Ceres/Widgets/Presets/DefaultFooterPreset.adoc[DefaultFooterPreset]
-        
-**** xref:Ceres/Widgets/Presets/DefaultContactPreset.adoc[DefaultContactPreset]
-        
-**** xref:Ceres/Widgets/Presets/DefaultCheckoutPreset.adoc[DefaultCheckoutPreset]
-        
-**** xref:Ceres/Widgets/Presets/DefaultChangeMailPreset.adoc[DefaultChangeMailPreset]
-        
-**** xref:Ceres/Widgets/Presets/WishListPreset.adoc[WishListPreset]
-        
-                                    *** OrderConfirmation
+                                    ** Header
+                                                    *** Search
                         
-**** xref:Ceres/Widgets/OrderConfirmation/OrderConfirmationBaseWidget.adoc[OrderConfirmationBaseWidget]
+**** xref:Ceres/Widgets/Header/Search/SearchSuggestionBaseWidget.adoc[SearchSuggestionBaseWidget]
         
-**** xref:Ceres/Widgets/OrderConfirmation/OrderDataWidget.adoc[OrderDataWidget]
+**** xref:Ceres/Widgets/Header/Search/SearchSuggestionCategoryWidget.adoc[SearchSuggestionCategoryWidget]
         
-**** xref:Ceres/Widgets/OrderConfirmation/OrderDocumentsWidget.adoc[OrderDocumentsWidget]
+**** xref:Ceres/Widgets/Header/Search/SearchSuggestionItemWidget.adoc[SearchSuggestionItemWidget]
         
-**** xref:Ceres/Widgets/OrderConfirmation/OrderReturnWidget.adoc[OrderReturnWidget]
+**** xref:Ceres/Widgets/Header/Search/SearchSuggestionSuggestionWidget.adoc[SearchSuggestionSuggestionWidget]
         
-**** xref:Ceres/Widgets/OrderConfirmation/OrderTotalsWidget.adoc[OrderTotalsWidget]
         
-**** xref:Ceres/Widgets/OrderConfirmation/PurchasedItemsWidget.adoc[PurchasedItemsWidget]
+*** xref:Ceres/Widgets/Header/BreadcrumbWidget.adoc[BreadcrumbWidget]
         
-                                    *** Navigation
+*** xref:Ceres/Widgets/Header/NavigationWidget.adoc[NavigationWidget]
+        
+*** xref:Ceres/Widgets/Header/TopBarWidget.adoc[TopBarWidget]
+        
+                                    ** Category
+                                                    *** Filter
                         
-**** xref:Ceres/Widgets/Navigation/NavigationTreeWidget.adoc[NavigationTreeWidget]
+**** xref:Ceres/Widgets/Category/Filter/AttributesPropertiesCharacteristicsFilterWidget.adoc[AttributesPropertiesCharacteristicsFilterWidget]
         
-**** xref:Ceres/Widgets/Navigation/StepByStepNavigationWidget.adoc[StepByStepNavigationWidget]
+**** xref:Ceres/Widgets/Category/Filter/AvailabilityFilterWidget.adoc[AvailabilityFilterWidget]
         
-                                    *** MyAccount
+**** xref:Ceres/Widgets/Category/Filter/CategoryFilterWidget.adoc[CategoryFilterWidget]
+        
+**** xref:Ceres/Widgets/Category/Filter/FilterBaseWidget.adoc[FilterBaseWidget]
+        
+**** xref:Ceres/Widgets/Category/Filter/ManufacturerFilterWidget.adoc[ManufacturerFilterWidget]
+        
+**** xref:Ceres/Widgets/Category/Filter/PriceFilterWidget.adoc[PriceFilterWidget]
+        
+**** xref:Ceres/Widgets/Category/Filter/SelectedFilterWidget.adoc[SelectedFilterWidget]
+        
+        
+*** xref:Ceres/Widgets/Category/ItemGridWidget.adoc[ItemGridWidget]
+        
+*** xref:Ceres/Widgets/Category/ItemSortingWidget.adoc[ItemSortingWidget]
+        
+*** xref:Ceres/Widgets/Category/ItemsPerPageWidget.adoc[ItemsPerPageWidget]
+        
+*** xref:Ceres/Widgets/Category/PaginationWidget.adoc[PaginationWidget]
+        
+*** xref:Ceres/Widgets/Category/ToolbarWidget.adoc[ToolbarWidget]
+        
+                                    ** Grid
                         
-**** xref:Ceres/Widgets/MyAccount/AccountSettingsWidget.adoc[AccountSettingsWidget]
+*** xref:Ceres/Widgets/Grid/AdditionalInformationWidget.adoc[AdditionalInformationWidget]
         
-**** xref:Ceres/Widgets/MyAccount/BankDataSelectWidget.adoc[BankDataSelectWidget]
+*** xref:Ceres/Widgets/Grid/FourColumnWidget.adoc[FourColumnWidget]
         
-**** xref:Ceres/Widgets/MyAccount/GreetingWidget.adoc[GreetingWidget]
+*** xref:Ceres/Widgets/Grid/GridWidget.adoc[GridWidget]
         
-**** xref:Ceres/Widgets/MyAccount/LogoutButtonWidget.adoc[LogoutButtonWidget]
+*** xref:Ceres/Widgets/Grid/StickyContainerWidget.adoc[StickyContainerWidget]
         
-**** xref:Ceres/Widgets/MyAccount/OrderHistoryWidget.adoc[OrderHistoryWidget]
+*** xref:Ceres/Widgets/Grid/TabWidget.adoc[TabWidget]
         
-**** xref:Ceres/Widgets/MyAccount/OrderReturnHistoryWidget.adoc[OrderReturnHistoryWidget]
+*** xref:Ceres/Widgets/Grid/ThreeColumnWidget.adoc[ThreeColumnWidget]
         
-                                    *** Login
+*** xref:Ceres/Widgets/Grid/TwoColumnWidget.adoc[TwoColumnWidget]
+        
+                                    ** Form
                         
-**** xref:Ceres/Widgets/Login/GuestLoginWidget.adoc[GuestLoginWidget]
+*** xref:Ceres/Widgets/Form/AcceptPrivacyPolicyWidget.adoc[AcceptPrivacyPolicyWidget]
         
-**** xref:Ceres/Widgets/Login/LoginWidget.adoc[LoginWidget]
+*** xref:Ceres/Widgets/Form/MailFormWidget.adoc[MailFormWidget]
         
-**** xref:Ceres/Widgets/Login/RegistrationWidget.adoc[RegistrationWidget]
+*** xref:Ceres/Widgets/Form/MailInputWidget.adoc[MailInputWidget]
         
-                                    *** Legal
+*** xref:Ceres/Widgets/Form/SelectionWidget.adoc[SelectionWidget]
+        
+*** xref:Ceres/Widgets/Form/TextAreaWidget.adoc[TextAreaWidget]
+        
+*** xref:Ceres/Widgets/Form/TextInputWidget.adoc[TextInputWidget]
+        
+                                    ** Footer
                         
-**** xref:Ceres/Widgets/Legal/LegalTextsWidget.adoc[LegalTextsWidget]
+*** xref:Ceres/Widgets/Footer/CookieBarWidget.adoc[CookieBarWidget]
         
-                                    *** Item
+*** xref:Ceres/Widgets/Footer/LegalInformationWidget.adoc[LegalInformationWidget]
+        
+                                    ** Customer
                         
-**** xref:Ceres/Widgets/Item/AddToBasketWidget.adoc[AddToBasketWidget]
+*** xref:Ceres/Widgets/Customer/AddressWidget.adoc[AddressWidget]
         
-**** xref:Ceres/Widgets/Item/AddToWishListWidget.adoc[AddToWishListWidget]
+*** xref:Ceres/Widgets/Customer/ChangeMailWidget.adoc[ChangeMailWidget]
         
-**** xref:Ceres/Widgets/Item/AttributeWidget.adoc[AttributeWidget]
+*** xref:Ceres/Widgets/Customer/ChangePasswordWidget.adoc[ChangePasswordWidget]
         
-**** xref:Ceres/Widgets/Item/GraduatedPriceWidget.adoc[GraduatedPriceWidget]
-        
-**** xref:Ceres/Widgets/Item/ItemAvailabilityWidget.adoc[ItemAvailabilityWidget]
-        
-**** xref:Ceres/Widgets/Item/ItemBundleWidget.adoc[ItemBundleWidget]
-        
-**** xref:Ceres/Widgets/Item/ItemDataTableWidget.adoc[ItemDataTableWidget]
-        
-**** xref:Ceres/Widgets/Item/ItemImageWidget.adoc[ItemImageWidget]
-        
-**** xref:Ceres/Widgets/Item/ItemPriceWidget.adoc[ItemPriceWidget]
-        
-**** xref:Ceres/Widgets/Item/ItemSetWidget.adoc[ItemSetWidget]
-        
-**** xref:Ceres/Widgets/Item/OrderPropertyWidget.adoc[OrderPropertyWidget]
-        
-**** xref:Ceres/Widgets/Item/QuantityInputWidget.adoc[QuantityInputWidget]
-        
-**** xref:Ceres/Widgets/Item/TagsWidget.adoc[TagsWidget]
-        
-**** xref:Ceres/Widgets/Item/WishListWidget.adoc[WishListWidget]
-        
-                                    *** Header
-                                                    **** Search
+                                    ** Contact
                         
-***** xref:Ceres/Widgets/Header/Search/SearchSuggestionBaseWidget.adoc[SearchSuggestionBaseWidget]
+*** xref:Ceres/Widgets/Contact/ContactDetailsWidget.adoc[ContactDetailsWidget]
         
-***** xref:Ceres/Widgets/Header/Search/SearchSuggestionCategoryWidget.adoc[SearchSuggestionCategoryWidget]
-        
-***** xref:Ceres/Widgets/Header/Search/SearchSuggestionItemWidget.adoc[SearchSuggestionItemWidget]
-        
-***** xref:Ceres/Widgets/Header/Search/SearchSuggestionSuggestionWidget.adoc[SearchSuggestionSuggestionWidget]
-        
-        
-**** xref:Ceres/Widgets/Header/BreadcrumbWidget.adoc[BreadcrumbWidget]
-        
-**** xref:Ceres/Widgets/Header/NavigationWidget.adoc[NavigationWidget]
-        
-**** xref:Ceres/Widgets/Header/TopBarWidget.adoc[TopBarWidget]
-        
-                                    *** Category
-                                                    **** Filter
+                                    ** Common
                         
-***** xref:Ceres/Widgets/Category/Filter/AttributesPropertiesCharacteristicsFilterWidget.adoc[AttributesPropertiesCharacteristicsFilterWidget]
+*** xref:Ceres/Widgets/Common/BackgroundWidget.adoc[BackgroundWidget]
         
-***** xref:Ceres/Widgets/Category/Filter/AvailabilityFilterWidget.adoc[AvailabilityFilterWidget]
+*** xref:Ceres/Widgets/Common/ListWidget.adoc[ListWidget]
         
-***** xref:Ceres/Widgets/Category/Filter/CategoryFilterWidget.adoc[CategoryFilterWidget]
+*** xref:Ceres/Widgets/Common/TextWidget.adoc[TextWidget]
         
-***** xref:Ceres/Widgets/Category/Filter/FilterBaseWidget.adoc[FilterBaseWidget]
+*** xref:Ceres/Widgets/Common/SeparatorWidget.adoc[SeparatorWidget]
         
-***** xref:Ceres/Widgets/Category/Filter/ManufacturerFilterWidget.adoc[ManufacturerFilterWidget]
+*** xref:Ceres/Widgets/Common/PrivacySettingsWidget.adoc[PrivacySettingsWidget]
         
-***** xref:Ceres/Widgets/Category/Filter/PriceFilterWidget.adoc[PriceFilterWidget]
+*** xref:Ceres/Widgets/Common/PrintButtonWidget.adoc[PrintButtonWidget]
         
-***** xref:Ceres/Widgets/Category/Filter/SelectedFilterWidget.adoc[SelectedFilterWidget]
+*** xref:Ceres/Widgets/Common/NewsletterWidget.adoc[NewsletterWidget]
         
+*** xref:Ceres/Widgets/Common/NewsletterUnsubscribeWidget.adoc[NewsletterUnsubscribeWidget]
         
-**** xref:Ceres/Widgets/Category/ItemGridWidget.adoc[ItemGridWidget]
+*** xref:Ceres/Widgets/Common/LiveShoppingWidget.adoc[LiveShoppingWidget]
         
-**** xref:Ceres/Widgets/Category/ItemSortingWidget.adoc[ItemSortingWidget]
+*** xref:Ceres/Widgets/Common/LinkWidget.adoc[LinkWidget]
         
-**** xref:Ceres/Widgets/Category/ItemsPerPageWidget.adoc[ItemsPerPageWidget]
+*** xref:Ceres/Widgets/Common/CodeWidget.adoc[CodeWidget]
         
-**** xref:Ceres/Widgets/Category/PaginationWidget.adoc[PaginationWidget]
+*** xref:Ceres/Widgets/Common/LinkListWidget.adoc[LinkListWidget]
         
-**** xref:Ceres/Widgets/Category/ToolbarWidget.adoc[ToolbarWidget]
+*** xref:Ceres/Widgets/Common/ItemListWidget.adoc[ItemListWidget]
         
-                                    *** Grid
+*** xref:Ceres/Widgets/Common/InlineTextWidget.adoc[InlineTextWidget]
+        
+*** xref:Ceres/Widgets/Common/ImageCarouselWidget.adoc[ImageCarouselWidget]
+        
+*** xref:Ceres/Widgets/Common/ImageBoxWidget.adoc[ImageBoxWidget]
+        
+*** xref:Ceres/Widgets/Common/GoogleMapsWidget.adoc[GoogleMapsWidget]
+        
+*** xref:Ceres/Widgets/Common/CollapseWidget.adoc[CollapseWidget]
+        
+*** xref:Ceres/Widgets/Common/TitleBarWidget.adoc[TitleBarWidget]
+        
+                                    ** Checkout
                         
-**** xref:Ceres/Widgets/Grid/AdditionalInformationWidget.adoc[AdditionalInformationWidget]
+*** xref:Ceres/Widgets/Checkout/CancelPaymentWidget.adoc[CancelPaymentWidget]
         
-**** xref:Ceres/Widgets/Grid/FourColumnWidget.adoc[FourColumnWidget]
+*** xref:Ceres/Widgets/Checkout/ContactWishWidget.adoc[ContactWishWidget]
         
-**** xref:Ceres/Widgets/Grid/GridWidget.adoc[GridWidget]
+*** xref:Ceres/Widgets/Checkout/CustomerSignWidget.adoc[CustomerSignWidget]
         
-**** xref:Ceres/Widgets/Grid/StickyContainerWidget.adoc[StickyContainerWidget]
+*** xref:Ceres/Widgets/Checkout/GtcCheckWidget.adoc[GtcCheckWidget]
         
-**** xref:Ceres/Widgets/Grid/TabWidget.adoc[TabWidget]
+*** xref:Ceres/Widgets/Checkout/PaymentProviderWidget.adoc[PaymentProviderWidget]
         
-**** xref:Ceres/Widgets/Grid/ThreeColumnWidget.adoc[ThreeColumnWidget]
+*** xref:Ceres/Widgets/Checkout/PlaceOrderWidget.adoc[PlaceOrderWidget]
         
-**** xref:Ceres/Widgets/Grid/TwoColumnWidget.adoc[TwoColumnWidget]
+*** xref:Ceres/Widgets/Checkout/ShippingPrivacyCheckWidget.adoc[ShippingPrivacyCheckWidget]
         
-                                    *** Form
-                        
-**** xref:Ceres/Widgets/Form/AcceptPrivacyPolicyWidget.adoc[AcceptPrivacyPolicyWidget]
+*** xref:Ceres/Widgets/Checkout/ShippingProfileWidget.adoc[ShippingProfileWidget]
         
-**** xref:Ceres/Widgets/Form/MailFormWidget.adoc[MailFormWidget]
-        
-**** xref:Ceres/Widgets/Form/MailInputWidget.adoc[MailInputWidget]
-        
-**** xref:Ceres/Widgets/Form/SelectionWidget.adoc[SelectionWidget]
-        
-**** xref:Ceres/Widgets/Form/TextAreaWidget.adoc[TextAreaWidget]
-        
-**** xref:Ceres/Widgets/Form/TextInputWidget.adoc[TextInputWidget]
-        
-                                    *** Footer
-                        
-**** xref:Ceres/Widgets/Footer/CookieBarWidget.adoc[CookieBarWidget]
-        
-**** xref:Ceres/Widgets/Footer/LegalInformationWidget.adoc[LegalInformationWidget]
-        
-                                    *** Customer
-                        
-**** xref:Ceres/Widgets/Customer/AddressWidget.adoc[AddressWidget]
-        
-**** xref:Ceres/Widgets/Customer/ChangeMailWidget.adoc[ChangeMailWidget]
-        
-**** xref:Ceres/Widgets/Customer/ChangePasswordWidget.adoc[ChangePasswordWidget]
-        
-                                    *** Contact
-                        
-**** xref:Ceres/Widgets/Contact/ContactDetailsWidget.adoc[ContactDetailsWidget]
-        
-                                    *** Common
-                        
-**** xref:Ceres/Widgets/Common/BackgroundWidget.adoc[BackgroundWidget]
-        
-**** xref:Ceres/Widgets/Common/ListWidget.adoc[ListWidget]
-        
-**** xref:Ceres/Widgets/Common/TextWidget.adoc[TextWidget]
-        
-**** xref:Ceres/Widgets/Common/SeparatorWidget.adoc[SeparatorWidget]
-        
-**** xref:Ceres/Widgets/Common/PrivacySettingsWidget.adoc[PrivacySettingsWidget]
-        
-**** xref:Ceres/Widgets/Common/PrintButtonWidget.adoc[PrintButtonWidget]
-        
-**** xref:Ceres/Widgets/Common/NewsletterWidget.adoc[NewsletterWidget]
-        
-**** xref:Ceres/Widgets/Common/NewsletterUnsubscribeWidget.adoc[NewsletterUnsubscribeWidget]
-        
-**** xref:Ceres/Widgets/Common/LiveShoppingWidget.adoc[LiveShoppingWidget]
-        
-**** xref:Ceres/Widgets/Common/LinkWidget.adoc[LinkWidget]
-        
-**** xref:Ceres/Widgets/Common/CodeWidget.adoc[CodeWidget]
-        
-**** xref:Ceres/Widgets/Common/LinkListWidget.adoc[LinkListWidget]
-        
-**** xref:Ceres/Widgets/Common/ItemListWidget.adoc[ItemListWidget]
-        
-**** xref:Ceres/Widgets/Common/InlineTextWidget.adoc[InlineTextWidget]
-        
-**** xref:Ceres/Widgets/Common/ImageCarouselWidget.adoc[ImageCarouselWidget]
-        
-**** xref:Ceres/Widgets/Common/ImageBoxWidget.adoc[ImageBoxWidget]
-        
-**** xref:Ceres/Widgets/Common/GoogleMapsWidget.adoc[GoogleMapsWidget]
-        
-**** xref:Ceres/Widgets/Common/CollapseWidget.adoc[CollapseWidget]
-        
-**** xref:Ceres/Widgets/Common/TitleBarWidget.adoc[TitleBarWidget]
-        
-                                    *** Checkout
-                        
-**** xref:Ceres/Widgets/Checkout/CancelPaymentWidget.adoc[CancelPaymentWidget]
-        
-**** xref:Ceres/Widgets/Checkout/ContactWishWidget.adoc[ContactWishWidget]
-        
-**** xref:Ceres/Widgets/Checkout/CustomerSignWidget.adoc[CustomerSignWidget]
-        
-**** xref:Ceres/Widgets/Checkout/GtcCheckWidget.adoc[GtcCheckWidget]
-        
-**** xref:Ceres/Widgets/Checkout/PaymentProviderWidget.adoc[PaymentProviderWidget]
-        
-**** xref:Ceres/Widgets/Checkout/PlaceOrderWidget.adoc[PlaceOrderWidget]
-        
-**** xref:Ceres/Widgets/Checkout/ShippingPrivacyCheckWidget.adoc[ShippingPrivacyCheckWidget]
-        
-**** xref:Ceres/Widgets/Checkout/ShippingProfileWidget.adoc[ShippingProfileWidget]
-        
-**** xref:Ceres/Widgets/Checkout/SubscribeNewsletterCheckWidget.adoc[SubscribeNewsletterCheckWidget]
+*** xref:Ceres/Widgets/Checkout/SubscribeNewsletterCheckWidget.adoc[SubscribeNewsletterCheckWidget]
         
         
-*** xref:Ceres/Widgets/WidgetCollection.adoc[WidgetCollection]
-        
+** xref:Ceres/Widgets/WidgetCollection.adoc[WidgetCollection]
         
         
