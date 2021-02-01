@@ -24,39 +24,32 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 |Type |Name |Description
 
 |xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
-    |preset
-    |
-|xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
-    |ceresConfig
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |twoColumnWidget
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |secondTwoColumnWidget
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |stickyContainer
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |tabWidget
-    |
-| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
-    |translator
-    |
+a|`$preset`
+||xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
+a|`$ceresConfig`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$twoColumnWidget`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$secondTwoColumnWidget`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$stickyContainer`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$tabWidget`
+|| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
+a|`$translator`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getwidgets]
 ----
 
-public getWidgets():void
+public getWidgets()
 
 ----
-
-
 
 
 

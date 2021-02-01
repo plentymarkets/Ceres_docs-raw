@@ -21,9 +21,9 @@
 |Type |Name |Value |Description
 
 |link:http://php.net/string[string^]
-    |EVENT_NAME
-    |'Ceres.Search.Query'
-    |
+a|`EVENT_NAME`
+|'Ceres.Search.Query'
+|
 |===
 
 
@@ -31,43 +31,35 @@
 |===
 |Type |Name |Description
 
-| 
-    |searchString
-    |
-| 
-    |categoryId
-    |
-| 
-    |page
-    |
-| 
-    |itemsPerPage
-    |
-| 
-    |sorting
-    |
-| 
-    |results
-    |
-| 
-    |countTotal
-    |
-| 
-    |hasResults
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$searchString`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$categoryId`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$page`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemsPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$sorting`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$results`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$countTotal`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$hasResults`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getexternalresults]
 ----
 
-public static getExternalResults($container):void
+public static getExternalResults($container)
 
 ----
-
-
 
 
 
@@ -78,31 +70,17 @@ public static getExternalResults($container):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$container`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#hasexternalsearch]
 ----
 
-public static hasExternalSearch():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public setResults():void
+public static hasExternalSearch()
 
 ----
 
@@ -112,27 +90,11 @@ public setResults():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#setresults]
 ----
 
-public hasResults():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public getResults():void
+public setResults()
 
 ----
 
@@ -142,16 +104,41 @@ public getResults():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#hasresults]
 ----
 
-public getCountTotal():void
+public hasResults()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#getresults]
+----
+
+public getResults()
+
+----
+
+
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#getcounttotal]
+----
+
+public getCountTotal()
+
+----
 
 
 

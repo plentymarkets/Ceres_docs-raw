@@ -17,7 +17,7 @@
 xref:Ceres/Contexts/GlobalContext.adoc#[`GlobalContext`]
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -25,40 +25,33 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |item
-    |
-| 
-    |attributes
-    |
-| 
-    |variations
-    |
-| 
-    |customerShowNetPrices
-    |
-| 
-    |defaultCategory
-    |
-| 
-    |dynamicVariationId
-    |
-| 
-    |initPleaseSelectOption
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$item`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$attributes`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$variations`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$customerShowNetPrices`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultCategory`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$dynamicVariationId`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$initPleaseSelectOption`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#init]
 ----
 
-public init($params):void
+public init($params)
 
 ----
-
-
 
 
 
@@ -69,7 +62,7 @@ public init($params):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$params`
 |
 |===

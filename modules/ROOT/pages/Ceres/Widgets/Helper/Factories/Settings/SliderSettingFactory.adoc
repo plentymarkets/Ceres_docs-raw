@@ -22,32 +22,30 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public withMin($min):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public __construct()
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
+
+
+
+[source%nowrap, php, subs=+macros]
+[#withmin]
+----
+
+public withMin($min):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
+
+----
+
+
+
 
 
 
@@ -55,23 +53,22 @@ public withMin($min):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactor
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$min`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withmax]
 ----
 
-public withMax($max):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withMax($max):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
 
 
 
@@ -79,23 +76,22 @@ public withMax($max):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactor
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$max`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withinterval]
 ----
 
-public withInterval($interval):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withInterval($interval):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
 
 
 
@@ -103,23 +99,22 @@ public withInterval($interval):Ceres\Widgets\Helper\Factories\Settings\SliderSet
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$interval`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withprecision]
 ----
 
-public withPrecision($precision):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withPrecision($precision):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
 
 
 
@@ -127,23 +122,22 @@ public withPrecision($precision):Ceres\Widgets\Helper\Factories\Settings\SliderS
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$precision`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withshowminmax]
 ----
 
-public withShowMinMax($showMinMax):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withShowMinMax($showMinMax):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
 
 
 
@@ -151,23 +145,22 @@ public withShowMinMax($showMinMax):Ceres\Widgets\Helper\Factories\Settings\Slide
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$showMinMax`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withshowticks]
 ----
 
-public withShowTicks($showTicks):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public withShowTicks($showTicks):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
 
 
 
@@ -175,7 +168,7 @@ public withShowTicks($showTicks):Ceres\Widgets\Helper\Factories\Settings\SliderS
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$showTicks`
 |
 |===

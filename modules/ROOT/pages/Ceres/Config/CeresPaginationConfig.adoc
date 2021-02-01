@@ -14,7 +14,7 @@
 `Ceres\Config`
 
 ===== Extends
-PluginConfig
+xref:5.0.0@plugin-io::IO/Helper/PluginConfig.adoc#[`PluginConfig`]
 
 
 
@@ -23,40 +23,33 @@ PluginConfig
 |===
 |Type |Name |Description
 
-| 
-    |position
-    |
-| 
-    |showFirstPage
-    |
-| 
-    |showLastPage
-    |
-| 
-    |columnsPerPage
-    |
-| 
-    |rowsPerPage
-    |
-| 
-    |itemsPerPage
-    |
-| 
-    |noIndex
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$position`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showFirstPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showLastPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$columnsPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$rowsPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemsPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$noIndex`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct($configRepository):void
+public __construct($configRepository)
 
 ----
-
-
 
 
 
@@ -67,7 +60,7 @@ public __construct($configRepository):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$configRepository`
 |
 |===

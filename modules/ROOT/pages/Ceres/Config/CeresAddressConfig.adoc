@@ -14,7 +14,7 @@
 `Ceres\Config`
 
 ===== Extends
-PluginConfig
+xref:5.0.0@plugin-io::IO/Helper/PluginConfig.adoc#[`PluginConfig`]
 
 
 
@@ -23,46 +23,37 @@ PluginConfig
 |===
 |Type |Name |Description
 
-| 
-    |defaultSalutation
-    |
-| 
-    |billingAddressShow
-    |
-| 
-    |billingAddressShow_en
-    |
-| 
-    |billingAddressRequire
-    |
-| 
-    |billingAddressRequire_en
-    |
-| 
-    |deliveryAddressShow
-    |
-| 
-    |deliveryAddressShow_en
-    |
-| 
-    |deliveryAddressRequire
-    |
-| 
-    |deliveryAddressRequire_en
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultSalutation`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$billingAddressShow`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$billingAddressShow_en`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$billingAddressRequire`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$billingAddressRequire_en`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$deliveryAddressShow`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$deliveryAddressShow_en`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$deliveryAddressRequire`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$deliveryAddressRequire_en`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct($configRepository):void
+public __construct($configRepository)
 
 ----
-
-
 
 
 
@@ -73,7 +64,7 @@ public __construct($configRepository):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$configRepository`
 |
 |===

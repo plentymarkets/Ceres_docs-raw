@@ -17,7 +17,7 @@
 xref:Ceres/Contexts/CategoryContext.adoc#[`CategoryContext`]
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -25,49 +25,39 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |currentPage
-    |
-| 
-    |pageMax
-    |
-| 
-    |itemsPerPage
-    |
-| 
-    |itemCountPage
-    |
-| 
-    |itemCountTotal
-    |
-| 
-    |itemSorting
-    |
-| 
-    |query
-    |
-| 
-    |itemList
-    |
-| 
-    |facets
-    |
-|xref:Ceres/Helper/SearchOptions.adoc#[`SearchOptions`]
-    |searchOptions
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$currentPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$pageMax`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemsPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemCountPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemCountTotal`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemSorting`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$query`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemList`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$facets`
+||xref:Ceres/Helper/SearchOptions.adoc#[`SearchOptions`]
+a|`$searchOptions`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#init]
 ----
 
-public init($params):void
+public init($params)
 
 ----
-
-
 
 
 
@@ -78,20 +68,19 @@ public init($params):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$params`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#inititemlist]
 ----
 
-public initItemList():void
+public initItemList()
 
 ----
-
-
 
 
 

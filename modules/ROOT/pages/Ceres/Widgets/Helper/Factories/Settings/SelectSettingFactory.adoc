@@ -22,32 +22,30 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public withOpenOnTop($openOnTop):Ceres\Widgets\Helper\Factories\Settings\SelectSettingFactory
+public __construct()
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[`SelectSettingFactory`]
+
+
+
+[source%nowrap, php, subs=+macros]
+[#withopenontop]
+----
+
+public withOpenOnTop($openOnTop):xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[SelectSettingFactory]
+
+----
+
+
+
 
 
 
@@ -55,23 +53,22 @@ public withOpenOnTop($openOnTop):Ceres\Widgets\Helper\Factories\Settings\SelectS
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$openOnTop`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withlistboxvalues]
 ----
 
-public withListBoxValues($listBoxValues):Ceres\Widgets\Helper\Factories\Settings\SelectSettingFactory
+public withListBoxValues($listBoxValues):xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[SelectSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[`SelectSettingFactory`]
 
 
 
@@ -79,7 +76,7 @@ public withListBoxValues($listBoxValues):Ceres\Widgets\Helper\Factories\Settings
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$listBoxValues`
 |
 |===

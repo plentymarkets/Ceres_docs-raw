@@ -22,32 +22,30 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public withListBoxValues($listBoxValues):Ceres\Widgets\Helper\Factories\Settings\SuggestionSettingFactory
+public __construct()
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SuggestionSettingFactory.adoc#[`SuggestionSettingFactory`]
+
+
+
+[source%nowrap, php, subs=+macros]
+[#withlistboxvalues]
+----
+
+public withListBoxValues($listBoxValues):xref:Ceres/Widgets/Helper/Factories/Settings/SuggestionSettingFactory.adoc#[SuggestionSettingFactory]
+
+----
+
+
+
 
 
 
@@ -55,7 +53,7 @@ public withListBoxValues($listBoxValues):Ceres\Widgets\Helper\Factories\Settings
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$listBoxValues`
 |
 |===

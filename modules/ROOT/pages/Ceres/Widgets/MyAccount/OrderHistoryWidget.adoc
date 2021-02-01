@@ -26,9 +26,9 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 |Type |Name |Value |Description
 
 |link:http://php.net/array[array^]
-    |TOOLBAR_LAYOUT
-    |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
-    |
+a|`TOOLBAR_LAYOUT`
+|['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
+|
 |===
 
 
@@ -36,39 +36,23 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_dynamicwidget[`Dy
 |===
 |Type |Name |Description
 
-| 
-    |statuses
-    |
-| 
-    |lang
-    |
-| 
-    |template
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$statuses`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$lang`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$template`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getdata]
 ----
 
-public getData():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public getSettings():void
+public getData()
 
 ----
 
@@ -78,16 +62,27 @@ public getSettings():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getsettings]
 ----
 
-public getItemsPerPage($widgetSettings):void
+public getSettings()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#getitemsperpage]
+----
+
+public getItemsPerPage($widgetSettings)
+
+----
 
 
 
@@ -98,20 +93,19 @@ public getItemsPerPage($widgetSettings):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$widgetSettings`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#gettemplatedata]
 ----
 
-public getTemplateData():void
+public getTemplateData()
 
 ----
-
-
 
 
 

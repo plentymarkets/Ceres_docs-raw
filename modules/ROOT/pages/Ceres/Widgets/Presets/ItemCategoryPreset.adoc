@@ -24,39 +24,32 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 |Type |Name |Description
 
 |xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
-    |ceresConfig
-    |
-|link:http://php.net/bool[bool^]
-    |showNavigationTree
-    |
-|xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
-    |preset
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |backgroundWidget
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |toolbarWidget
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |threeColumnWidget
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |twoColumnWidget
-    |
+a|`$ceresConfig`
+||link:http://php.net/bool[`bool`^]
+a|`$showNavigationTree`
+||xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
+a|`$preset`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$backgroundWidget`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$toolbarWidget`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$threeColumnWidget`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$twoColumnWidget`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getwidgets]
 ----
 
-public getWidgets():void
+public getWidgets()
 
 ----
-
-
 
 
 

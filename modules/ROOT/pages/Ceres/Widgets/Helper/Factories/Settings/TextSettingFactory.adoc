@@ -22,32 +22,30 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public withPassword($isPassword):Ceres\Widgets\Helper\Factories\Settings\TextSettingFactory
+public __construct()
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[`TextSettingFactory`]
+
+
+
+[source%nowrap, php, subs=+macros]
+[#withpassword]
+----
+
+public withPassword($isPassword):xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[TextSettingFactory]
+
+----
+
+
+
 
 
 
@@ -55,23 +53,22 @@ public withPassword($isPassword):Ceres\Widgets\Helper\Factories\Settings\TextSet
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$isPassword`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withiban]
 ----
 
-public withIBAN($isIBAN):Ceres\Widgets\Helper\Factories\Settings\TextSettingFactory
+public withIBAN($isIBAN):xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[TextSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[`TextSettingFactory`]
 
 
 
@@ -79,23 +76,22 @@ public withIBAN($isIBAN):Ceres\Widgets\Helper\Factories\Settings\TextSettingFact
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$isIBAN`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withreadonly]
 ----
 
-public withReadonly($isReadonly):Ceres\Widgets\Helper\Factories\Settings\TextSettingFactory
+public withReadonly($isReadonly):xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[TextSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[`TextSettingFactory`]
 
 
 
@@ -103,7 +99,7 @@ public withReadonly($isReadonly):Ceres\Widgets\Helper\Factories\Settings\TextSet
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$isReadonly`
 |
 |===

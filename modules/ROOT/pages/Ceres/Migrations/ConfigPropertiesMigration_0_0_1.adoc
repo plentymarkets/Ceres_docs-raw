@@ -21,37 +21,35 @@
 |===
 |Type |Name |Description
 
-| 
-    |translationMap
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$translationMap`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#run]
 ----
 
-public run():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public migrate():void
+public run()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#migrate]
+----
+
+public migrate()
+
+----
 
 
 

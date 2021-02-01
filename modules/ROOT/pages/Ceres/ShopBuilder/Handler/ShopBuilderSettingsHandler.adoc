@@ -25,43 +25,39 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_globalsettingshan
 |===
 |Type |Name |Description
 
-| 
-    |mappings
-    |
-| 
-    |casts
-    |
-| 
-    |enabledRoutes
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$mappings`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$casts`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$enabledRoutes`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_homeenableroute]
 ----
 
-public readRouting_HomeEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_HomeEnableRoute($enableHomeRoute):void
+public readRouting_HomeEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_homeenableroute]
+----
+
+public writeRouting_HomeEnableRoute($enableHomeRoute)
+
+----
 
 
 
@@ -72,35 +68,33 @@ public writeRouting_HomeEnableRoute($enableHomeRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableHomeRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_basketenableroute]
 ----
 
-public readRouting_BasketEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_BasketEnableRoute($enableBasketRoute):void
+public readRouting_BasketEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_basketenableroute]
+----
+
+public writeRouting_BasketEnableRoute($enableBasketRoute)
+
+----
 
 
 
@@ -111,35 +105,33 @@ public writeRouting_BasketEnableRoute($enableBasketRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableBasketRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_checkoutenableroute]
 ----
 
-public readRouting_CheckoutEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_CheckoutEnableRoute($enableCheckoutRoute):void
+public readRouting_CheckoutEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_checkoutenableroute]
+----
+
+public writeRouting_CheckoutEnableRoute($enableCheckoutRoute)
+
+----
 
 
 
@@ -150,35 +142,33 @@ public writeRouting_CheckoutEnableRoute($enableCheckoutRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableCheckoutRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_myaccountenableroute]
 ----
 
-public readRouting_MyAccountEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_MyAccountEnableRoute($enableMyAccountRoute):void
+public readRouting_MyAccountEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_myaccountenableroute]
+----
+
+public writeRouting_MyAccountEnableRoute($enableMyAccountRoute)
+
+----
 
 
 
@@ -189,35 +179,33 @@ public writeRouting_MyAccountEnableRoute($enableMyAccountRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableMyAccountRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_searchenableroute]
 ----
 
-public readRouting_searchEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_searchEnableRoute($enableSearchRoute):void
+public readRouting_searchEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_searchenableroute]
+----
+
+public writeRouting_searchEnableRoute($enableSearchRoute)
+
+----
 
 
 
@@ -228,35 +216,33 @@ public writeRouting_searchEnableRoute($enableSearchRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableSearchRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_confirmationenableroute]
 ----
 
-public readRouting_ConfirmationEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_ConfirmationEnableRoute($enableConfirmationRoute):void
+public readRouting_ConfirmationEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_confirmationenableroute]
+----
+
+public writeRouting_ConfirmationEnableRoute($enableConfirmationRoute)
+
+----
 
 
 
@@ -267,35 +253,33 @@ public writeRouting_ConfirmationEnableRoute($enableConfirmationRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableConfirmationRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_loginenableroute]
 ----
 
-public readRouting_LoginEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_LoginEnableRoute($enableLoginRoute):void
+public readRouting_LoginEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_loginenableroute]
+----
+
+public writeRouting_LoginEnableRoute($enableLoginRoute)
+
+----
 
 
 
@@ -306,35 +290,33 @@ public writeRouting_LoginEnableRoute($enableLoginRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableLoginRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_registerenableroute]
 ----
 
-public readRouting_RegisterEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_RegisterEnableRoute($enableRegisterRoute):void
+public readRouting_RegisterEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_registerenableroute]
+----
+
+public writeRouting_RegisterEnableRoute($enableRegisterRoute)
+
+----
 
 
 
@@ -345,35 +327,33 @@ public writeRouting_RegisterEnableRoute($enableRegisterRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableRegisterRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_cancellationrightsenableroute]
 ----
 
-public readRouting_CancellationRightsEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_CancellationRightsEnableRoute($enableCancellationRightsRoute):void
+public readRouting_CancellationRightsEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_cancellationrightsenableroute]
+----
+
+public writeRouting_CancellationRightsEnableRoute($enableCancellationRightsRoute)
+
+----
 
 
 
@@ -384,35 +364,33 @@ public writeRouting_CancellationRightsEnableRoute($enableCancellationRightsRoute
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableCancellationRightsRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_cancellationformenableroute]
 ----
 
-public readRouting_CancellationFormEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_CancellationFormEnableRoute($enableCancellationFormRoute):void
+public readRouting_CancellationFormEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_cancellationformenableroute]
+----
+
+public writeRouting_CancellationFormEnableRoute($enableCancellationFormRoute)
+
+----
 
 
 
@@ -423,35 +401,33 @@ public writeRouting_CancellationFormEnableRoute($enableCancellationFormRoute):vo
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableCancellationFormRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_legaldisclosureenableroute]
 ----
 
-public readRouting_LegalDisclosureEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_LegalDisclosureEnableRoute($enableLegalDisclosureRoute):void
+public readRouting_LegalDisclosureEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_legaldisclosureenableroute]
+----
+
+public writeRouting_LegalDisclosureEnableRoute($enableLegalDisclosureRoute)
+
+----
 
 
 
@@ -462,35 +438,33 @@ public writeRouting_LegalDisclosureEnableRoute($enableLegalDisclosureRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableLegalDisclosureRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_privacypolicyenableroute]
 ----
 
-public readRouting_PrivacyPolicyEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_PrivacyPolicyEnableRoute($enablePrivacyPolicyRoute):void
+public readRouting_PrivacyPolicyEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_privacypolicyenableroute]
+----
+
+public writeRouting_PrivacyPolicyEnableRoute($enablePrivacyPolicyRoute)
+
+----
 
 
 
@@ -501,35 +475,33 @@ public writeRouting_PrivacyPolicyEnableRoute($enablePrivacyPolicyRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enablePrivacyPolicyRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_gtcenableroute]
 ----
 
-public readRouting_GtcEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_GtcEnableRoute($enableGtcRoute):void
+public readRouting_GtcEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_gtcenableroute]
+----
+
+public writeRouting_GtcEnableRoute($enableGtcRoute)
+
+----
 
 
 
@@ -540,35 +512,33 @@ public writeRouting_GtcEnableRoute($enableGtcRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableGtcRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_contactenableroute]
 ----
 
-public readRouting_ContactEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_ContactEnableRoute($enableContactRoute):void
+public readRouting_ContactEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_contactenableroute]
+----
+
+public writeRouting_ContactEnableRoute($enableContactRoute)
+
+----
 
 
 
@@ -579,35 +549,33 @@ public writeRouting_ContactEnableRoute($enableContactRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableContactRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_wishlistenableroute]
 ----
 
-public readRouting_WishListEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_WishListEnableRoute($enableWishListRoute):void
+public readRouting_WishListEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_wishlistenableroute]
+----
+
+public writeRouting_WishListEnableRoute($enableWishListRoute)
+
+----
 
 
 
@@ -618,35 +586,33 @@ public writeRouting_WishListEnableRoute($enableWishListRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableWishListRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_changemailenableroute]
 ----
 
-public readRouting_ChangeMailEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_ChangeMailEnableRoute($enableWishListRoute):void
+public readRouting_ChangeMailEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_changemailenableroute]
+----
+
+public writeRouting_ChangeMailEnableRoute($enableWishListRoute)
+
+----
 
 
 
@@ -657,35 +623,33 @@ public writeRouting_ChangeMailEnableRoute($enableWishListRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableWishListRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_passwordresetenableroute]
 ----
 
-public readRouting_PasswordResetEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_PasswordResetEnableRoute($enableWishListRoute):void
+public readRouting_PasswordResetEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_passwordresetenableroute]
+----
+
+public writeRouting_PasswordResetEnableRoute($enableWishListRoute)
+
+----
 
 
 
@@ -696,35 +660,33 @@ public writeRouting_PasswordResetEnableRoute($enableWishListRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableWishListRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_newsletteroptoutenableroute]
 ----
 
-public readRouting_NewsletterOptOutEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_NewsletterOptOutEnableRoute($enableWishListRoute):void
+public readRouting_NewsletterOptOutEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_newsletteroptoutenableroute]
+----
+
+public writeRouting_NewsletterOptOutEnableRoute($enableWishListRoute)
+
+----
 
 
 
@@ -735,35 +697,33 @@ public writeRouting_NewsletterOptOutEnableRoute($enableWishListRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableWishListRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_orderreturnenableroute]
 ----
 
-public readRouting_OrderReturnEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_OrderReturnEnableRoute($enableWishListRoute):void
+public readRouting_OrderReturnEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_orderreturnenableroute]
+----
+
+public writeRouting_OrderReturnEnableRoute($enableWishListRoute)
+
+----
 
 
 
@@ -774,35 +734,33 @@ public writeRouting_OrderReturnEnableRoute($enableWishListRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enableWishListRoute`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#readrouting_pagenotfoundenableroute]
 ----
 
-public readRouting_PageNotFoundEnableRoute():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public writeRouting_PageNotFoundEnableRoute($enablePageNotFoundRoute):void
+public readRouting_PageNotFoundEnableRoute()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#writerouting_pagenotfoundenableroute]
+----
+
+public writeRouting_PageNotFoundEnableRoute($enablePageNotFoundRoute)
+
+----
 
 
 
@@ -813,7 +771,7 @@ public writeRouting_PageNotFoundEnableRoute($enablePageNotFoundRoute):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$enablePageNotFoundRoute`
 |
 |===

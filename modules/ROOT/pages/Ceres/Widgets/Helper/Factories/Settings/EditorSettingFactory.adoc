@@ -22,14 +22,13 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withplaceholder]
 ----
 
-public withPlaceHolder($placeholder):void
+public withPlaceHolder($placeholder):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory] \| xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[EditorSettingFactory]
 
 ----
-
-
 
 
 
@@ -40,20 +39,19 @@ public withPlaceHolder($placeholder):void
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$placeholder`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withfixedheight]
 ----
 
-public withFixedHeight($fixedHeight):void
+public withFixedHeight($fixedHeight):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory] \| xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[EditorSettingFactory]
 
 ----
-
-
 
 
 
@@ -64,20 +62,19 @@ public withFixedHeight($fixedHeight):void
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$fixedHeight`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withminheight]
 ----
 
-public withMinHeight($minHeight):void
+public withMinHeight($minHeight):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory] \| xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[EditorSettingFactory]
 
 ----
-
-
 
 
 
@@ -88,7 +85,7 @@ public withMinHeight($minHeight):void
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$minHeight`
 |
 |===

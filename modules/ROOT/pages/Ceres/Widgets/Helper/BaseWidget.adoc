@@ -24,9 +24,9 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_widget[`Widget`]
 |Type |Name |Value |Description
 
 |link:http://php.net/array[array^]
-    |TOOLBAR_LAYOUT
-    |['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
-    |
+a|`TOOLBAR_LAYOUT`
+|['','bold,italic,underline,strike|h1,h2,h3|align|translation','bold,italic,underline,strike|headline|link|align,ul,ol|color,background|translation']
+|
 |===
 
 
@@ -34,45 +34,27 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_widget[`Widget`]
 |===
 |Type |Name |Description
 
-| 
-    |mapTypeToTemplate
-    |
-|link:http://php.net/string[string^]
-    |template
-    |The template to be used for this widget
-| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_templates_twig[`Twig`]
-    |twig
-    |
-| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_plugin_application[`Application`]
-    |app
-    |
-|link:http://php.net/string[string^]
-    |pluginNamespace
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$mapTypeToTemplate`
+||link:http://php.net/string[`string`^]
+a|`$template`
+|The template to be used for this widget| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_templates_twig[`Twig`]
+a|`$twig`
+|| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_plugin_application[`Application`]
+a|`$app`
+||link:http://php.net/string[`string`^]
+a|`$pluginNamespace`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public getData():void
+public __construct()
 
 ----
 
@@ -82,31 +64,47 @@ public getData():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getdata]
 ----
 
-public getSettings():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public getPreview($widgetSettings = [], $children = []):string
+public getData():link:http://php.net/array[array^]
 
 ----
 
 
+
+
+
+Get basic information about the widget. Possible fields are
+- identifier
+- label
+- previewImageURL
+- type
+- categories
+- position
+
+[source%nowrap, php, subs=+macros]
+[#getsettings]
+----
+
+public getSettings():link:http://php.net/array[array^]
+
+----
+
+
+
+
+
+Return the structure of the settings for the widget
+
+[source%nowrap, php, subs=+macros]
+[#getpreview]
+----
+
+public getPreview($widgetSettings = [], $children = []):link:http://php.net/string[string^]
+
+----
 
 
 
@@ -117,24 +115,23 @@ Get the html representation of the widget.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$widgetSettings`
 |
 
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$children`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#render]
 ----
 
-public render($widgetSettings = [], $children = []):string
+public render($widgetSettings = [], $children = []):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -145,24 +142,23 @@ Render the template of the widget.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$widgetSettings`
 |
 
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$children`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#mockpaginatedresult]
 ----
 
-public mockPaginatedResult():void
+public mockPaginatedResult()
 
 ----
-
-
 
 
 

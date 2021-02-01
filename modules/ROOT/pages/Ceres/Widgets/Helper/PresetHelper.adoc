@@ -21,22 +21,21 @@
 |===
 |Type |Name |Description
 
-| 
-    |widgetFactories
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$widgetFactories`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createwidget]
 ----
 
-public createWidget($identifier):void
+public createWidget($identifier)
 
 ----
-
-
 
 
 
@@ -47,20 +46,19 @@ public createWidget($identifier):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$identifier`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#toarray]
 ----
 
-public toArray():void
+public toArray()
 
 ----
-
-
 
 
 

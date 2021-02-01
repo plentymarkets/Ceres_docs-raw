@@ -23,9 +23,9 @@ xref:stable7@interface::Miscellaneous.adoc#miscellaneous_plugin_serviceprovider[
 |Type |Name |Value |Description
 
 |link:http://php.net/int[int^]
-    |EVENT_LISTENER_PRIORITY
-    |100
-    |
+a|`EVENT_LISTENER_PRIORITY`
+|100
+|
 |===
 
 
@@ -33,37 +33,35 @@ xref:stable7@interface::Miscellaneous.adoc#miscellaneous_plugin_serviceprovider[
 |===
 |Type |Name |Description
 
-| 
-    |templateKeyToViewMap
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$templateKeyToViewMap`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#register]
 ----
 
-public register():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public boot():void
+public register()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#boot]
+----
+
+public boot()
+
+----
 
 
 

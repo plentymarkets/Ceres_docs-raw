@@ -22,32 +22,30 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public withRadioValues($radioValues):Ceres\Widgets\Helper\Factories\Settings\RadioGroupSettingFactory
+public __construct()
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/RadioGroupSettingFactory.adoc#[`RadioGroupSettingFactory`]
+
+
+
+[source%nowrap, php, subs=+macros]
+[#withradiovalues]
+----
+
+public withRadioValues($radioValues):xref:Ceres/Widgets/Helper/Factories/Settings/RadioGroupSettingFactory.adoc#[RadioGroupSettingFactory]
+
+----
+
+
+
 
 
 
@@ -55,7 +53,7 @@ public withRadioValues($radioValues):Ceres\Widgets\Helper\Factories\Settings\Rad
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$radioValues`
 |
 |===

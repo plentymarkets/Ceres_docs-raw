@@ -17,7 +17,7 @@
 xref:Ceres/Contexts/CategoryContext.adoc#[`CategoryContext`]
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -25,28 +25,25 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |data
-    |
-| 
-    |totals
-    |
-| 
-    |showAdditionalPaymentInformation
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$data`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$totals`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showAdditionalPaymentInformation`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#init]
 ----
 
-public init($params):void
+public init($params)
 
 ----
-
-
 
 
 
@@ -57,7 +54,7 @@ public init($params):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$params`
 |
 |===

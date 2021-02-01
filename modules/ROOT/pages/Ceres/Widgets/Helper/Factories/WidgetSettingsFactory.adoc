@@ -21,28 +21,26 @@
 |===
 |Type |Name |Description
 
-| 
-    |settings
-    |
-| 
-    |pointer
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$settings`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$pointer`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#inherit]
 ----
 
-public static inherit($parentWidgetClass):Ceres\Widgets\Helper\Factories\WidgetSettingsFactory
+public static inherit($parentWidgetClass):xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc#[WidgetSettingsFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc#[`WidgetSettingsFactory`]
 
 
 Create a new factory instance and initialize values from given widget class.
@@ -50,23 +48,22 @@ Create a new factory instance and initialize values from given widget class.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$parentWidgetClass`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#create]
 ----
 
-public static create($data = []):Ceres\Widgets\Helper\Factories\WidgetSettingsFactory
+public static create($data = []):xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc#[WidgetSettingsFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc#[`WidgetSettingsFactory`]
 
 
 Create a new factory instance with initial values.
@@ -74,23 +71,22 @@ Create a new factory instance with initial values.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$data`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createsetting]
 ----
 
-public createSetting($key):Ceres\Widgets\Helper\Factories\Settings\BaseSettingFactory
+public createSetting($key):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
 
 
 Create a generic widget settings entry.
@@ -98,23 +94,22 @@ Create a generic widget settings entry.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |The key of the new settings entry. If key already exists, previous entry will be overridden.
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createcontainer]
 ----
 
-public createContainer($key):Ceres\Widgets\Helper\Factories\Settings\ContainerSettingFactory
+public createContainer($key):xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[ContainerSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[`ContainerSettingFactory`]
 
 
 Create a container entry which may contain nested settings.
@@ -122,23 +117,22 @@ Create a container entry which may contain nested settings.
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createverticalcontainer]
 ----
 
-public createVerticalContainer($key):Ceres\Widgets\Helper\Factories\Settings\ContainerSettingFactory
+public createVerticalContainer($key):xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[ContainerSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[`ContainerSettingFactory`]
 
 
 Create a vertical container
@@ -146,23 +140,22 @@ Create a vertical container
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createhorizontalcontainer]
 ----
 
-public createHorizontalContainer($key):Ceres\Widgets\Helper\Factories\Settings\ContainerSettingFactory
+public createHorizontalContainer($key):xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[ContainerSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[`ContainerSettingFactory`]
 
 
 Create a horizontal container
@@ -170,23 +163,22 @@ Create a horizontal container
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createtext]
 ----
 
-public createText($key):Ceres\Widgets\Helper\Factories\Settings\TextSettingFactory
+public createText($key):xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[TextSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[`TextSettingFactory`]
 
 
 Create a text input setting
@@ -194,23 +186,22 @@ Create a text input setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createcheckbox]
 ----
 
-public createCheckbox($key):Ceres\Widgets\Helper\Factories\Settings\CheckboxSettingFactory
+public createCheckbox($key):xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxSettingFactory.adoc#[CheckboxSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxSettingFactory.adoc#[`CheckboxSettingFactory`]
 
 
 Create a checkbox setting
@@ -218,38 +209,36 @@ Create a checkbox setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createcolorpalette]
 ----
 
-public createColorPalette():Ceres\Widgets\Helper\Factories\Settings\ColorPaletteSettingFactory
+public createColorPalette():xref:Ceres/Widgets/Helper/Factories/Settings/ColorPaletteSettingFactory.adoc#[ColorPaletteSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ColorPaletteSettingFactory.adoc#[`ColorPaletteSettingFactory`]
 
 
 Create a color setting
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createdate]
 ----
 
-public createDate($key):Ceres\Widgets\Helper\Factories\Settings\DateSettingFactory
+public createDate($key):xref:Ceres/Widgets/Helper/Factories/Settings/DateSettingFactory.adoc#[DateSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/DateSettingFactory.adoc#[`DateSettingFactory`]
 
 
 Create a date input setting
@@ -257,23 +246,22 @@ Create a date input setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createfile]
 ----
 
-public createFile($key):Ceres\Widgets\Helper\Factories\Settings\FileSettingFactory
+public createFile($key):xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[FileSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[`FileSettingFactory`]
 
 
 Create a file picker setting
@@ -281,23 +269,22 @@ Create a file picker setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createtextarea]
 ----
 
-public createTextarea($key):Ceres\Widgets\Helper\Factories\Settings\TextareaSettingFactory
+public createTextarea($key):xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc#[TextareaSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc#[`TextareaSettingFactory`]
 
 
 Create a textarea input setting
@@ -305,23 +292,22 @@ Create a textarea input setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createnumber]
 ----
 
-public createNumber($key):Ceres\Widgets\Helper\Factories\Settings\BaseSettingFactory
+public createNumber($key):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
 
 
 
@@ -329,23 +315,22 @@ public createNumber($key):Ceres\Widgets\Helper\Factories\Settings\BaseSettingFac
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createdouble]
 ----
 
-public createDouble($key):Ceres\Widgets\Helper\Factories\Settings\DoubleSettingFactory
+public createDouble($key):xref:Ceres/Widgets/Helper/Factories/Settings/DoubleSettingFactory.adoc#[DoubleSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/DoubleSettingFactory.adoc#[`DoubleSettingFactory`]
 
 
 Create a double input setting
@@ -353,23 +338,22 @@ Create a double input setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createselect]
 ----
 
-public createSelect($key):Ceres\Widgets\Helper\Factories\Settings\SelectSettingFactory
+public createSelect($key):xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[SelectSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[`SelectSettingFactory`]
 
 
 Create a dropdown setting
@@ -377,23 +361,22 @@ Create a dropdown setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createsuggestion]
 ----
 
-public createSuggestion($key):Ceres\Widgets\Helper\Factories\Settings\SuggestionSettingFactory
+public createSuggestion($key):xref:Ceres/Widgets/Helper/Factories/Settings/SuggestionSettingFactory.adoc#[SuggestionSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SuggestionSettingFactory.adoc#[`SuggestionSettingFactory`]
 
 
 Create a dropdown setting
@@ -401,23 +384,22 @@ Create a dropdown setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createcategory]
 ----
 
-public createCategory($key):Ceres\Widgets\Helper\Factories\Settings\CategorySettingFactory
+public createCategory($key):xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[CategorySettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[`CategorySettingFactory`]
 
 
 Create a category select setting
@@ -425,23 +407,22 @@ Create a category select setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createcolor]
 ----
 
-public createColor($key):Ceres\Widgets\Helper\Factories\Settings\BaseSettingFactory
+public createColor($key):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSettingFactory`]
 
 
 
@@ -449,23 +430,22 @@ public createColor($key):Ceres\Widgets\Helper\Factories\Settings\BaseSettingFact
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createslider]
 ----
 
-public createSlider($key):Ceres\Widgets\Helper\Factories\Settings\SliderSettingFactory
+public createSlider($key):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[`SliderSettingFactory`]
 
 
 Create a slider setting
@@ -473,23 +453,22 @@ Create a slider setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createcheckboxgroup]
 ----
 
-public createCheckboxGroup($key):Ceres\Widgets\Helper\Factories\Settings\CheckboxGroupSettingFactory
+public createCheckboxGroup($key):xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[CheckboxGroupSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[`CheckboxGroupSettingFactory`]
 
 
 Create a checkbox group setting
@@ -497,23 +476,22 @@ Create a checkbox group setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createradiogroup]
 ----
 
-public createRadioGroup($key):Ceres\Widgets\Helper\Factories\Settings\RadioGroupSettingFactory
+public createRadioGroup($key):xref:Ceres/Widgets/Helper/Factories/Settings/RadioGroupSettingFactory.adoc#[RadioGroupSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/RadioGroupSettingFactory.adoc#[`RadioGroupSettingFactory`]
 
 
 Create a checkbox group setting
@@ -521,23 +499,22 @@ Create a checkbox group setting
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createurl]
 ----
 
-public createUrl($key):Ceres\Widgets\Helper\Factories\Settings\UrlSettingFactory
+public createUrl($key):xref:Ceres/Widgets/Helper/Factories/Settings/UrlSettingFactory.adoc#[UrlSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/UrlSettingFactory.adoc#[`UrlSettingFactory`]
 
 
 Create a url picker
@@ -545,23 +522,22 @@ Create a url picker
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createnoteeditor]
 ----
 
-public createNoteEditor($key):Ceres\Widgets\Helper\Factories\Settings\EditorSettingFactory
+public createNoteEditor($key):xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[EditorSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[`EditorSettingFactory`]
 
 
 
@@ -569,23 +545,22 @@ public createNoteEditor($key):Ceres\Widgets\Helper\Factories\Settings\EditorSett
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createcodeeditor]
 ----
 
-public createCodeEditor($key):Ceres\Widgets\Helper\Factories\Settings\EditorSettingFactory
+public createCodeEditor($key):xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[EditorSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[`EditorSettingFactory`]
 
 
 
@@ -593,95 +568,89 @@ public createCodeEditor($key):Ceres\Widgets\Helper\Factories\Settings\EditorSett
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createcustomclass]
 ----
 
-public createCustomClass():Ceres\Widgets\Helper\Factories\Settings\CustomClassSettingFactory
-
-----
-
-
-
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CustomClassSettingFactory.adoc#[`CustomClassSettingFactory`]
-
-
-
-
-[source%nowrap, php]
-----
-
-public createIcon():Ceres\Widgets\Helper\Factories\Settings\IconSettingFactory
+public createCustomClass():xref:Ceres/Widgets/Helper/Factories/Settings/CustomClassSettingFactory.adoc#[CustomClassSettingFactory]
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/IconSettingFactory.adoc#[`IconSettingFactory`]
 
 
 
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createicon]
 ----
 
-public createHeight():Ceres\Widgets\Helper\Factories\Settings\HeightSettingFactory
-
-----
-
-
-
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/HeightSettingFactory.adoc#[`HeightSettingFactory`]
-
-
-
-
-[source%nowrap, php]
-----
-
-public createButtonSize():Ceres\Widgets\Helper\Factories\Settings\ButtonSizeSettingFactory
+public createIcon():xref:Ceres/Widgets/Helper/Factories/Settings/IconSettingFactory.adoc#[IconSettingFactory]
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/ButtonSizeSettingFactory.adoc#[`ButtonSizeSettingFactory`]
 
 
 
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createheight]
 ----
 
-public createAlignment():Ceres\Widgets\Helper\Factories\Settings\AlignmentSettingFactory
-
-----
-
-
-
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/AlignmentSettingFactory.adoc#[`AlignmentSettingFactory`]
-
-
-
-
-[source%nowrap, php]
-----
-
-public toArray():void
+public createHeight():xref:Ceres/Widgets/Helper/Factories/Settings/HeightSettingFactory.adoc#[HeightSettingFactory]
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#createbuttonsize]
+----
+
+public createButtonSize():xref:Ceres/Widgets/Helper/Factories/Settings/ButtonSizeSettingFactory.adoc#[ButtonSizeSettingFactory]
+
+----
+
+
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#createalignment]
+----
+
+public createAlignment():xref:Ceres/Widgets/Helper/Factories/Settings/AlignmentSettingFactory.adoc#[AlignmentSettingFactory]
+
+----
+
+
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#toarray]
+----
+
+public toArray()
+
+----
 
 
 

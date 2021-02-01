@@ -22,32 +22,30 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public withDecimalCount($decimalCount):Ceres\Widgets\Helper\Factories\Settings\DoubleSettingFactory
+public __construct()
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/DoubleSettingFactory.adoc#[`DoubleSettingFactory`]
+
+
+
+[source%nowrap, php, subs=+macros]
+[#withdecimalcount]
+----
+
+public withDecimalCount($decimalCount):xref:Ceres/Widgets/Helper/Factories/Settings/DoubleSettingFactory.adoc#[DoubleSettingFactory]
+
+----
+
+
+
 
 
 
@@ -55,7 +53,7 @@ public withDecimalCount($decimalCount):Ceres\Widgets\Helper\Factories\Settings\D
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$decimalCount`
 |
 |===

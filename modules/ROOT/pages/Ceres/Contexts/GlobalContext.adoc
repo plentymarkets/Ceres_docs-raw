@@ -15,7 +15,7 @@
 
 
 ===== Implements
-ContextInterface
+xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 
 
 
@@ -23,85 +23,71 @@ ContextInterface
 |===
 |Type |Name |Description
 
-| 
-    |params
-    |
-|xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
-    |ceresConfig
-    |
-| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_http_request[`Request`]
-    |request
-    |
-| 
-    |lang
-    |
-| 
-    |metaLang
-    |
-| 
-    |forceNoIndex
-    |
-| 
-    |template
-    |
-| 
-    |templateName
-    |
-| 
-    |categories
-    |
-| 
-    |categoryBreadcrumbs
-    |
-| 
-    |notifications
-    |
-| 
-    |basket
-    |
-| 
-    |webstoreConfig
-    |
-| 
-    |currencyData
-    |
-| 
-    |showNetPrices
-    |
-| 
-    |homepageURL
-    |
-| 
-    |splitItemBundle
-    |
-| 
-    |templateEvent
-    |
-| 
-    |isShopBuilder
-    |
-| 
-    |isSafeMode
-    |
-| 
-    |bodyClasses
-    |
-| 
-    |buildHash
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$params`
+||xref:Ceres/Config/CeresConfig.adoc#[`CeresConfig`]
+a|`$ceresConfig`
+|| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_http_request[`Request`]
+a|`$request`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$lang`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$metaLang`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$forceNoIndex`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$template`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$templateName`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$categories`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$categoryBreadcrumbs`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$notifications`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$basket`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$webstoreConfig`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$currencyData`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showNetPrices`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$homepageURL`
+|
+
+    
+*Deprecated*: since 4.3
+Use IO\Extensions\Constants\ShopUrls::$home instead|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$splitItemBundle`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$templateEvent`
+|
+
+    
+*Deprecated*: since 4.5
+Use IO\Extensions\Constants\ShopUrls::getTemplateType() instead|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$isShopBuilder`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$isSafeMode`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$bodyClasses`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$buildHash`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#init]
 ----
 
-public init($params):void
+public init($params)
 
 ----
-
-
 
 
 
@@ -112,20 +98,19 @@ public init($params):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$params`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getparam]
 ----
 
-public getParam():void
+public getParam()
 
 ----
-
-
 
 
 

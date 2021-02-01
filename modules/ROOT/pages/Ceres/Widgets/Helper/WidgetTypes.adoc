@@ -21,61 +21,61 @@
 |Type |Name |Value |Description
 
 |link:http://php.net/string[string^]
-    |DEFAULT
-    |'default'
-    |
+a|`DEFAULT`
+|'default'
+|
 |link:http://php.net/string[string^]
-    |STRUCTURE
-    |'structure'
-    |
+a|`STRUCTURE`
+|'structure'
+|
 |link:http://php.net/string[string^]
-    |STATIC
-    |'static'
-    |
+a|`STATIC`
+|'static'
+|
 |link:http://php.net/string[string^]
-    |HEADER
-    |'header'
-    |
+a|`HEADER`
+|'header'
+|
 |link:http://php.net/string[string^]
-    |FOOTER
-    |'footer'
-    |
+a|`FOOTER`
+|'footer'
+|
 |link:http://php.net/string[string^]
-    |ITEM
-    |'item'
-    |
+a|`ITEM`
+|'item'
+|
 |link:http://php.net/string[string^]
-    |CATEGORY_ITEM
-    |'categoryitem'
-    |
+a|`CATEGORY_ITEM`
+|'categoryitem'
+|
 |link:http://php.net/string[string^]
-    |ITEM_SEARCH
-    |'itemsearch'
-    |
+a|`ITEM_SEARCH`
+|'itemsearch'
+|
 |link:http://php.net/string[string^]
-    |TOOLBAR
-    |'toolbar'
-    |
+a|`TOOLBAR`
+|'toolbar'
+|
 |link:http://php.net/string[string^]
-    |NAVIGATION
-    |'navigation'
-    |
+a|`NAVIGATION`
+|'navigation'
+|
 |link:http://php.net/string[string^]
-    |CHECKOUT
-    |'checkout'
-    |
+a|`CHECKOUT`
+|'checkout'
+|
 |link:http://php.net/string[string^]
-    |CUSTOMER
-    |'customer'
-    |
+a|`CUSTOMER`
+|'customer'
+|
 |link:http://php.net/string[string^]
-    |MY_ACCOUNT
-    |'myaccount'
-    |
+a|`MY_ACCOUNT`
+|'myaccount'
+|
 |link:http://php.net/string[string^]
-    |FORM
-    |'form'
-    |
+a|`FORM`
+|'form'
+|
 |===
 
 

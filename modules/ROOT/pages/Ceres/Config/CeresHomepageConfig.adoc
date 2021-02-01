@@ -14,7 +14,7 @@
 `Ceres\Config`
 
 ===== Extends
-PluginConfig
+xref:5.0.0@plugin-io::IO/Helper/PluginConfig.adoc#[`PluginConfig`]
 
 
 
@@ -23,73 +23,55 @@ PluginConfig
 |===
 |Type |Name |Description
 
-| 
-    |showShopBuilderContent
-    |
-| 
-    |showDefaultHomepage
-    |
-| 
-    |sliderItemId1
-    |
-| 
-    |sliderImageUrl1
-    |
-| 
-    |sliderItemId2
-    |
-| 
-    |sliderImageUrl2
-    |
-| 
-    |sliderItemId3
-    |
-| 
-    |sliderImageUrl3
-    |
-| 
-    |heroExtraItemId1
-    |
-| 
-    |heroExtraImageUrl1
-    |
-| 
-    |heroExtraItemId2
-    |
-| 
-    |heroExtraImageUrl2
-    |
-| 
-    |homepageCategory1
-    |
-| 
-    |homepageCategory2
-    |
-| 
-    |homepageCategory3
-    |
-| 
-    |homepageCategory4
-    |
-| 
-    |homepageCategory5
-    |
-| 
-    |homepageCategory6
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showShopBuilderContent`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showDefaultHomepage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$sliderItemId1`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$sliderImageUrl1`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$sliderItemId2`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$sliderImageUrl2`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$sliderItemId3`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$sliderImageUrl3`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$heroExtraItemId1`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$heroExtraImageUrl1`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$heroExtraItemId2`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$heroExtraImageUrl2`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$homepageCategory1`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$homepageCategory2`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$homepageCategory3`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$homepageCategory4`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$homepageCategory5`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$homepageCategory6`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct($configRepository):void
+public __construct($configRepository)
 
 ----
-
-
 
 
 
@@ -100,7 +82,7 @@ public __construct($configRepository):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$configRepository`
 |
 |===

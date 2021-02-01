@@ -23,22 +23,21 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_providers_datafieldprovider
 |===
 |Type |Name |Description
 
-| xref:stable7@interface::Item.adoc#item_models_barcode[`Barcode`]
-    |barcode
-    |
+|xref:stable7@interface::Item.adoc#item_models_barcode[`Barcode`]
+a|`$barcode`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct($barcode):void
+public __construct($barcode)
 
 ----
-
-
 
 
 
@@ -49,20 +48,19 @@ public __construct($barcode):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$barcode`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#register]
 ----
 
-public register():void
+public register()
 
 ----
-
-
 
 
 

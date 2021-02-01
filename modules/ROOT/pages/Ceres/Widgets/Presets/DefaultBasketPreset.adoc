@@ -24,33 +24,28 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 |Type |Name |Description
 
 |xref:Ceres/Widgets/Helper/PresetHelper.adoc#[`PresetHelper`]
-    |preset
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |twoColumnWidget
-    |
-|xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
-    |stickyContainer
-    |
-| ShopUrls
-    |shopUrls
-    |
-| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
-    |translator
-    |
+a|`$preset`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$twoColumnWidget`
+||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
+a|`$stickyContainer`
+||         xref:5.0.0@plugin-io::IO/Extensions/Constants/ShopUrls.adoc#[`ShopUrls`]
+a|`$shopUrls`
+|| xref:stable7@interface::Miscellaneous.adoc#miscellaneous_translation_translator[`Translator`]
+a|`$translator`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getwidgets]
 ----
 
-public getWidgets():void
+public getWidgets()
 
 ----
-
-
 
 
 

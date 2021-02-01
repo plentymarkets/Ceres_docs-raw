@@ -22,32 +22,30 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public withDisplayResetButton($displayResetButton):Ceres\Widgets\Helper\Factories\Settings\CategorySettingFactory
+public __construct()
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[`CategorySettingFactory`]
+
+
+
+[source%nowrap, php, subs=+macros]
+[#withdisplayresetbutton]
+----
+
+public withDisplayResetButton($displayResetButton):xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[CategorySettingFactory]
+
+----
+
+
+
 
 
 
@@ -55,23 +53,22 @@ public withDisplayResetButton($displayResetButton):Ceres\Widgets\Helper\Factorie
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$displayResetButton`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withdisplaysearch]
 ----
 
-public withDisplaySearch($displaySearch):Ceres\Widgets\Helper\Factories\Settings\CategorySettingFactory
+public withDisplaySearch($displaySearch):xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[CategorySettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[`CategorySettingFactory`]
 
 
 
@@ -79,23 +76,22 @@ public withDisplaySearch($displaySearch):Ceres\Widgets\Helper\Factories\Settings
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$displaySearch`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withshowfullselectionpath]
 ----
 
-public withShowFullSelectionPath($showFullSelectionPath):Ceres\Widgets\Helper\Factories\Settings\CategorySettingFactory
+public withShowFullSelectionPath($showFullSelectionPath):xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[CategorySettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[`CategorySettingFactory`]
 
 
 
@@ -103,7 +99,7 @@ public withShowFullSelectionPath($showFullSelectionPath):Ceres\Widgets\Helper\Fa
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$showFullSelectionPath`
 |
 |===

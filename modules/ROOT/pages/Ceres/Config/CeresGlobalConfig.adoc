@@ -14,7 +14,7 @@
 `Ceres\Config`
 
 ===== Extends
-PluginConfig
+xref:5.0.0@plugin-io::IO/Helper/PluginConfig.adoc#[`PluginConfig`]
 
 
 
@@ -23,46 +23,37 @@ PluginConfig
 |===
 |Type |Name |Description
 
-| 
-    |favicon
-    |
-| 
-    |shippingCostsCategoryId
-    |
-| 
-    |defaultContactClassB2B
-    |
-| 
-    |enableOldUrlPattern
-    |
-| 
-    |googleRecaptchaVersion
-    |
-| 
-    |googleRecaptchaApiKey
-    |
-| 
-    |googleMapsApiKey
-    |
-| 
-    |registrationRequirePrivacyPolicyConfirmation
-    |
-| 
-    |blockCookies
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$favicon`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$shippingCostsCategoryId`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultContactClassB2B`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$enableOldUrlPattern`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$googleRecaptchaVersion`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$googleRecaptchaApiKey`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$googleMapsApiKey`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$registrationRequirePrivacyPolicyConfirmation`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$blockCookies`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct($configRepository):void
+public __construct($configRepository)
 
 ----
-
-
 
 
 
@@ -73,7 +64,7 @@ public __construct($configRepository):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$configRepository`
 |
 |===

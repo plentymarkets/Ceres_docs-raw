@@ -22,32 +22,30 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public withShowPreview($showPreview):Ceres\Widgets\Helper\Factories\Settings\FileSettingFactory
+public __construct()
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[`FileSettingFactory`]
+
+
+
+[source%nowrap, php, subs=+macros]
+[#withshowpreview]
+----
+
+public withShowPreview($showPreview):xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[FileSettingFactory]
+
+----
+
+
+
 
 
 
@@ -55,23 +53,22 @@ public withShowPreview($showPreview):Ceres\Widgets\Helper\Factories\Settings\Fil
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$showPreview`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withallowedextensions]
 ----
 
-public withAllowedExtensions($allowedExtensions):Ceres\Widgets\Helper\Factories\Settings\FileSettingFactory
+public withAllowedExtensions($allowedExtensions):xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[FileSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[`FileSettingFactory`]
 
 
 
@@ -79,23 +76,22 @@ public withAllowedExtensions($allowedExtensions):Ceres\Widgets\Helper\Factories\
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$allowedExtensions`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withfoldersallowed]
 ----
 
-public withFoldersAllowed($foldersAllowed):Ceres\Widgets\Helper\Factories\Settings\FileSettingFactory
+public withFoldersAllowed($foldersAllowed):xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[FileSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[`FileSettingFactory`]
 
 
 
@@ -103,7 +99,7 @@ public withFoldersAllowed($foldersAllowed):Ceres\Widgets\Helper\Factories\Settin
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$foldersAllowed`
 |
 |===

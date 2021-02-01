@@ -21,17 +21,17 @@
 |Type |Name |Value |Description
 
 |link:http://php.net/string[string^]
-    |SCOPE_SEARCH
-    |'search'
-    |
+a|`SCOPE_SEARCH`
+|'search'
+|
 |link:http://php.net/string[string^]
-    |SCOPE_CATEGORY
-    |'category'
-    |
+a|`SCOPE_CATEGORY`
+|'category'
+|
 |link:http://php.net/array[array^]
-    |TRANSLATION_MAP
-    |['itemRecommendedSorting','itemName_asc','itemName_desc','itemPrice_asc','itemPrice_desc','itemVariationCreateTimestamp_desc','itemVariationCreateTimestamp_asc','itemAvailabilityAverageDays_asc','itemAvailabilityAverageDays_desc','itemVariationCustomNumber_asc','itemVariationCustomNumber_desc','itemVariationLastUpdateTimestamp_asc','itemVariationLastUpdateTimestamp_desc','itemProducerName_asc','itemProducerName_desc','itemRelevance','itemRandom','itemVariationTopseller_asc','itemVariationTopseller_desc']
-    |
+a|`TRANSLATION_MAP`
+|['itemRecommendedSorting','itemName_asc','itemName_desc','itemPrice_asc','itemPrice_desc','itemVariationCreateTimestamp_desc','itemVariationCreateTimestamp_asc','itemAvailabilityAverageDays_asc','itemAvailabilityAverageDays_desc','itemVariationCustomNumber_asc','itemVariationCustomNumber_desc','itemVariationLastUpdateTimestamp_asc','itemVariationLastUpdateTimestamp_desc','itemProducerName_asc','itemProducerName_desc','itemRelevance','itemRandom','itemVariationTopseller_asc','itemVariationTopseller_desc']
+|
 |===
 
 
@@ -39,31 +39,27 @@
 |===
 |Type |Name |Description
 
-| 
-    |itemsPerPage
-    |
-| 
-    |defaultItemsPerPage
-    |
-| 
-    |sorting
-    |
-| 
-    |defaultSorting
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemsPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultItemsPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$sorting`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultSorting`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#get]
 ----
 
-public static get($scope):void
+public static get($scope)
 
 ----
-
-
 
 
 
@@ -74,20 +70,19 @@ public static get($scope):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$scope`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#validateitemlistoptions]
 ----
 
-public static validateItemListOptions():void
+public static validateItemListOptions()
 
 ----
-
-
 
 
 

@@ -22,32 +22,30 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public withCollapsed($collapsed):Ceres\Widgets\Helper\Factories\Settings\CheckboxGroupSettingFactory
+public __construct()
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[`CheckboxGroupSettingFactory`]
+
+
+
+[source%nowrap, php, subs=+macros]
+[#withcollapsed]
+----
+
+public withCollapsed($collapsed):xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[CheckboxGroupSettingFactory]
+
+----
+
+
+
 
 
 
@@ -55,23 +53,22 @@ public withCollapsed($collapsed):Ceres\Widgets\Helper\Factories\Settings\Checkbo
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$collapsed`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withcheckboxvalues]
 ----
 
-public withCheckboxValues($checkboxValues):Ceres\Widgets\Helper\Factories\Settings\CheckboxGroupSettingFactory
+public withCheckboxValues($checkboxValues):xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[CheckboxGroupSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[`CheckboxGroupSettingFactory`]
 
 
 
@@ -79,23 +76,22 @@ public withCheckboxValues($checkboxValues):Ceres\Widgets\Helper\Factories\Settin
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$checkboxValues`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withdefaultvalue]
 ----
 
-public withDefaultValue($defaultValue):Ceres\Widgets\Helper\Factories\Settings
+public withDefaultValue($defaultValue):xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[Settings]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
 
 
 
@@ -103,7 +99,7 @@ public withDefaultValue($defaultValue):Ceres\Widgets\Helper\Factories\Settings
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/array[array^]
+|link:http://php.net/array[`array`^]
 a|`$defaultValue`
 |
 |===

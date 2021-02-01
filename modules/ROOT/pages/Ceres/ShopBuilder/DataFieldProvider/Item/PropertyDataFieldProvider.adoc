@@ -23,22 +23,21 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_providers_datafieldprovider
 |===
 |Type |Name |Description
 
-| xref:stable7@interface::Property.adoc#property_models_property[`Property`]
-    |property
-    |
+|xref:stable7@interface::Property.adoc#property_models_property[`Property`]
+a|`$property`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct($property):void
+public __construct($property)
 
 ----
-
-
 
 
 
@@ -49,20 +48,19 @@ public __construct($property):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$property`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#register]
 ----
 
-public register():void
+public register()
 
 ----
-
-
 
 
 

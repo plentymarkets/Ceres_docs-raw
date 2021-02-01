@@ -20,14 +20,13 @@
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#get]
 ----
 
-public static get():string
+public static get():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -35,14 +34,13 @@ public static get():string
 
 Get the current build hash.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#unset]
 ----
 
-public static unset():void
+public static unset()
 
 ----
-
-
 
 
 

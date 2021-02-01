@@ -14,7 +14,7 @@
 `Ceres\Config`
 
 ===== Extends
-PluginConfig
+xref:5.0.0@plugin-io::IO/Helper/PluginConfig.adoc#[`PluginConfig`]
 
 
 
@@ -23,43 +23,35 @@ PluginConfig
 |===
 |Type |Name |Description
 
-| 
-    |toTopButton
-    |
-| 
-    |numberOfFeatures
-    |
-| 
-    |numberOfCols
-    |
-| 
-    |col1Categories
-    |
-| 
-    |col2Categories
-    |
-| 
-    |col3Categories
-    |
-| 
-    |cancellationUsePdf
-    |
-| 
-    |cancellationPdfPath
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$toTopButton`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$numberOfFeatures`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$numberOfCols`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$col1Categories`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$col2Categories`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$col3Categories`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$cancellationUsePdf`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$cancellationPdfPath`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct($configRepository):void
+public __construct($configRepository)
 
 ----
-
-
 
 
 
@@ -70,7 +62,7 @@ public __construct($configRepository):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$configRepository`
 |
 |===

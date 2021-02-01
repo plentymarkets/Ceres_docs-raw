@@ -21,31 +21,28 @@
 |===
 |Type |Name |Description
 
-| 
-    |identifier
-    |
-| 
-    |settings
-    |
-| 
-    |children
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$identifier`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$settings`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$children`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withsetting]
 ----
 
-public withSetting($key, $value):Ceres\Widgets\Helper\Factories\PresetWidgetFactory
+public withSetting($key, $value):xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[PresetWidgetFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
 
 
 
@@ -53,27 +50,26 @@ public withSetting($key, $value):Ceres\Widgets\Helper\Factories\PresetWidgetFact
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$key`
 |
 
-| 
+|link:http://php.net/mixed[`mixed`^]
 a|`$value`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#createchild]
 ----
 
-public createChild($dropzone, $identifier):Ceres\Widgets\Helper\Factories\PresetWidgetFactory
+public createChild($dropzone, $identifier):xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[PresetWidgetFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
 
 
 
@@ -81,24 +77,23 @@ public createChild($dropzone, $identifier):Ceres\Widgets\Helper\Factories\Preset
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$dropzone`
 |
 
-|link:http://php.net/string[string^]
+|link:http://php.net/string[`string`^]
 a|`$identifier`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#toarray]
 ----
 
-public toArray():void
+public toArray()
 
 ----
-
-
 
 
 

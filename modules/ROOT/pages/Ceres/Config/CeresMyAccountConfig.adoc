@@ -14,7 +14,7 @@
 `Ceres\Config`
 
 ===== Extends
-PluginConfig
+xref:5.0.0@plugin-io::IO/Helper/PluginConfig.adoc#[`PluginConfig`]
 
 
 
@@ -23,40 +23,33 @@ PluginConfig
 |===
 |Type |Name |Description
 
-| 
-    |ordersPerPage
-    |
-| 
-    |orderReturnActive
-    |
-| 
-    |orderReturnDays
-    |
-| 
-    |orderReturnInitialStatus
-    |
-| 
-    |changePayment
-    |
-| 
-    |confirmationLinkLoginRedirect
-    |
-| 
-    |confirmationLinkExpiration
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$ordersPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$orderReturnActive`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$orderReturnDays`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$orderReturnInitialStatus`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$changePayment`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$confirmationLinkLoginRedirect`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$confirmationLinkExpiration`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct($configRepository):void
+public __construct($configRepository)
 
 ----
-
-
 
 
 
@@ -67,7 +60,7 @@ public __construct($configRepository):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$configRepository`
 |
 |===

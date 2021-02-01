@@ -21,7 +21,7 @@ since 4.4.0. This class will be removed in 5.0.0
 `Ceres\Config`
 
 ===== Extends
-PluginConfig
+xref:5.0.0@plugin-io::IO/Helper/PluginConfig.adoc#[`PluginConfig`]
 
 
 
@@ -30,43 +30,35 @@ PluginConfig
 |===
 |Type |Name |Description
 
-| 
-    |shopMail
-    |
-| 
-    |mailCC
-    |
-| 
-    |mailBCC
-    |
-| 
-    |showData
-    |
-| 
-    |apiKey
-    |
-| 
-    |mapZoom
-    |
-| 
-    |mapShowInMobile
-    |
-| 
-    |enableConfirmingPrivacyPolicy
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$shopMail`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$mailCC`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$mailBCC`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$showData`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$apiKey`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$mapZoom`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$mapShowInMobile`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$enableConfirmingPrivacyPolicy`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct($configRepository):void
+public __construct($configRepository)
 
 ----
-
-
 
 
 
@@ -77,7 +69,7 @@ public __construct($configRepository):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$configRepository`
 |
 |===

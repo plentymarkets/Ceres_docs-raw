@@ -22,32 +22,30 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public withFixedHeight($isFixedHeight):Ceres\Widgets\Helper\Factories\Settings\TextareaSettingFactory
+public __construct()
 
 ----
 
 
 
 
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc#[`TextareaSettingFactory`]
+
+
+
+[source%nowrap, php, subs=+macros]
+[#withfixedheight]
+----
+
+public withFixedHeight($isFixedHeight):xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc#[TextareaSettingFactory]
+
+----
+
+
+
 
 
 
@@ -55,23 +53,22 @@ public withFixedHeight($isFixedHeight):Ceres\Widgets\Helper\Factories\Settings\T
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/bool[bool^]
+|link:http://php.net/bool[`bool`^]
 a|`$isFixedHeight`
 |
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#withmaxrows]
 ----
 
-public withMaxRows($maxRows):Ceres\Widgets\Helper\Factories\Settings\TextareaSettingFactory
+public withMaxRows($maxRows):xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc#[TextareaSettingFactory]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc#[`TextareaSettingFactory`]
 
 
 
@@ -79,7 +76,7 @@ public withMaxRows($maxRows):Ceres\Widgets\Helper\Factories\Settings\TextareaSet
 .*Parameters*
 |===
 |Type |Name |Description
-|link:http://php.net/int[int^]
+|link:http://php.net/int[`int`^]
 a|`$maxRows`
 |
 |===

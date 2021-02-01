@@ -21,39 +21,23 @@
 |===
 |Type |Name |Description
 
-| 
-    |pluginName
-    |
-| 
-    |containerName
-    |
-| 
-    |contents
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$pluginName`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$containerName`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$contents`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getcontents]
 ----
 
-public static getContents():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public getPluginName():void
+public static getContents()
 
 ----
 
@@ -63,31 +47,41 @@ public getPluginName():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getpluginname]
 ----
 
-public getContainerName():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public addContent($content):void
+public getPluginName()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#getcontainername]
+----
+
+public getContainerName()
+
+----
+
+
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#addcontent]
+----
+
+public addContent($content)
+
+----
 
 
 
@@ -98,7 +92,7 @@ public addContent($content):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$content`
 |
 |===

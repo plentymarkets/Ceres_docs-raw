@@ -21,9 +21,9 @@
 |Type |Name |Value |Description
 
 |link:http://php.net/string[string^]
-    |EVENT_NAME
-    |'Ceres.Search.Options'
-    |
+a|`EVENT_NAME`
+|'Ceres.Search.Options'
+|
 |===
 
 
@@ -31,48 +31,29 @@
 |===
 |Type |Name |Description
 
-| 
-    |itemsPerPage
-    |
-| 
-    |defaultItemsPerPage
-    |
-| 
-    |hasItemsPerPage
-    |
-| 
-    |sortingOptions
-    |
-| 
-    |defaultSorting
-    |
-| 
-    |hasSortingOptions
-    |
+|         xref:5.0.0@plugin-::.adoc#[``]
+a|`$itemsPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultItemsPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$hasItemsPerPage`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$sortingOptions`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$defaultSorting`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$hasSortingOptions`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getexternalsearchoptions]
 ----
 
-public static getExternalSearchOptions():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public setItemsPerPage():void
+public static getExternalSearchOptions()
 
 ----
 
@@ -82,27 +63,11 @@ public setItemsPerPage():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#setitemsperpage]
 ----
 
-public getItemsPerPage():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public getDefaultItemsPerPage():void
+public setItemsPerPage()
 
 ----
 
@@ -112,27 +77,11 @@ public getDefaultItemsPerPage():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getitemsperpage]
 ----
 
-public setSortingOptions():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public getSortingOptions():void
+public getItemsPerPage()
 
 ----
 
@@ -142,31 +91,69 @@ public getSortingOptions():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getdefaultitemsperpage]
 ----
 
-public getDefaultSortingOption():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public hasOptions():void
+public getDefaultItemsPerPage()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#setsortingoptions]
+----
+
+public setSortingOptions()
+
+----
+
+
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#getsortingoptions]
+----
+
+public getSortingOptions()
+
+----
+
+
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#getdefaultsortingoption]
+----
+
+public getDefaultSortingOption()
+
+----
+
+
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#hasoptions]
+----
+
+public hasOptions()
+
+----
 
 
 

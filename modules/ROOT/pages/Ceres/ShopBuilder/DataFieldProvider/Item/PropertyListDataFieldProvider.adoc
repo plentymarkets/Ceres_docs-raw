@@ -23,25 +23,23 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_providers_datafieldprovider
 |===
 |Type |Name |Description
 
-|link:http://php.net/array[array^]
-    |properties
-    |
-|link:http://php.net/int[int^]
-    |propertyGroupId
-    |
+|link:http://php.net/array[`array`^]
+a|`$properties`
+||link:http://php.net/int[`int`^]
+a|`$propertyGroupId`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#register]
 ----
 
-public register():void
+public register()
 
 ----
-
-
 
 
 

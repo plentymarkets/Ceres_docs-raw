@@ -20,14 +20,13 @@
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#call]
 ----
 
-public call($twig):void
+public call($twig)
 
 ----
-
-
 
 
 
@@ -38,7 +37,7 @@ public call($twig):void
 .*Parameters*
 |===
 |Type |Name |Description
-| 
+|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$twig`
 |
 |===

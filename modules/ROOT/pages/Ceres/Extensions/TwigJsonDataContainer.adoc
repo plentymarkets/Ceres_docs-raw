@@ -17,8 +17,8 @@
 xref:stable7@interface::Miscellaneous.adoc#miscellaneous_extensions_twig_extension[`Twig_Extension`]
 
 ===== Implements
-GlobalsInterface
-ExtensionInterface
+xref:5.0.0@plugin-twig::Twig/Extension/GlobalsInterface.adoc#[`GlobalsInterface`]
+xref:5.0.0@plugin-twig::Twig/Extension/ExtensionInterface.adoc#[`ExtensionInterface`]
 
 
 
@@ -27,24 +27,22 @@ ExtensionInterface
 |Type |Name |Description
 
 | xref:stable7@interface::Miscellaneous.adoc#miscellaneous_factories_twigfactory[`TwigFactory`]
-    |twig
-    |
-| 
-    |dataStorage
-    |
+a|`$twig`
+||         xref:5.0.0@plugin-::.adoc#[``]
+a|`$dataStorage`
+|
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#__construct]
 ----
 
-public __construct($twig):void
+public __construct($twig)
 
 ----
-
-
 
 
 
@@ -61,14 +59,13 @@ a|`$twig`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getname]
 ----
 
-public getName():string
+public getName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -76,14 +73,13 @@ public getName():string
 
 Return the name of the extension. The name must be unique.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getfilters]
 ----
 
-public getFilters():array
+public getFilters():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -91,14 +87,13 @@ public getFilters():array
 
 Return a list of filters to add.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getfunctions]
 ----
 
-public getFunctions():array
+public getFunctions():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -106,25 +101,11 @@ public getFunctions():array
 
 Return a list of functions to add.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#storejsondata]
 ----
 
-public storeJsonData():void
-
-----
-
-
-
-
-
-
-
-
-
-[source%nowrap, php]
-----
-
-public getJsonData():void
+public storeJsonData()
 
 ----
 
@@ -134,16 +115,27 @@ public getJsonData():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
+[#getjsondata]
 ----
 
-public getGlobals():array
+public getJsonData()
 
 ----
 
 
+
+
+
+
+
+[source%nowrap, php, subs=+macros]
+[#getglobals]
+----
+
+public getGlobals():link:http://php.net/array[array^]
+
+----
 
 
 
