@@ -5,7 +5,7 @@
 [[ceres__migration_2018_07_06_001_rebuildshopbuilderhomepage]]
 = Migration_2018_07_06_001_RebuildShopBuilderHomepage
 
-This migration is used for re-rendering all contents.
+This migration is used for re-rendering all contents. +
 Migrations are referenced in the &#039;runOnBuild&#039; section of the plugin.json and run exactly once.
 
 

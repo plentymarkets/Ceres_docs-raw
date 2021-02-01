@@ -5,7 +5,7 @@
 [[ceres__basesettingfactory]]
 = BaseSettingFactory
 
-Base factory class to generate widget settings.
+Base factory class to generate widget settings. +
 Contains interfaces for all common properties of a setting.
 
 

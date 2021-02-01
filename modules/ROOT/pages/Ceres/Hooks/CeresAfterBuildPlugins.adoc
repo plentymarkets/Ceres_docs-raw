@@ -5,7 +5,7 @@
 [[ceres__ceresafterbuildplugins]]
 = CeresAfterBuildPlugins
 
-This class is a hook, which runs after the plugin build.
+This class is a hook, which runs after the plugin build. +
 It handles the invalidation of the content cache, the generation of a new build hash and the deactivation for deprecated content links.
 
 
