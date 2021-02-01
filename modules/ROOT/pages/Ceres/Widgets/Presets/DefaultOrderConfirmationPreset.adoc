@@ -45,15 +45,13 @@ a|`$backgroundWidget`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getwidgets]
 ----
 
-public getWidgets():void
+public getWidgets():link:http://php.net/mixed[mixed^]
 
 ----
-
-
 
 
 
@@ -61,15 +59,13 @@ public getWidgets():void
 
 Get the widget configurations of the presets to be assigned to the created content.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createbackground]
 ----
 
-public createBackground($preset):void
+public createBackground($preset):xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[PresetWidgetFactory]
 
 ----
-
-
 
 
 
@@ -86,15 +82,13 @@ a|`$preset`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#setbackgroundwidgetsettings]
 ----
 
-public setBackgroundWidgetSettings($widget):void
+public setBackgroundWidgetSettings($widget):xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[PresetWidgetFactory]
 
 ----
-
-
 
 
 
@@ -111,15 +105,13 @@ a|`$widget`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createwidget]
 ----
 
-public createWidget($identifier):void
+public createWidget($identifier):xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[PresetWidgetFactory]
 
 ----
-
-
 
 
 

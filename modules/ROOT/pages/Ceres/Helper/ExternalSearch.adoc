@@ -53,15 +53,13 @@ a|`$hasResults`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getexternalresults]
 ----
 
-public static getExternalResults($container):void
+public static getExternalResults($container):link:http://php.net/mixed[mixed^]
 
 ----
-
-
 
 
 
@@ -78,15 +76,13 @@ a|`$container`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#hasexternalsearch]
 ----
 
-public static hasExternalSearch():void
+public static hasExternalSearch():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -94,15 +90,13 @@ public static hasExternalSearch():void
 
 Check if there is an external search plugin?
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#setresults]
 ----
 
-public setResults($variationIds, $countTotal = null):void
+public setResults($variationIds, $countTotal = null)
 
 ----
-
-
 
 
 
@@ -123,15 +117,13 @@ a|`$countTotal`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#hasresults]
 ----
 
-public hasResults():void
+public hasResults():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -139,15 +131,13 @@ public hasResults():void
 
 Return true if the search has a result
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getresults]
 ----
 
-public getResults():void
+public getResults():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -155,15 +145,13 @@ public getResults():void
 
 Return the results of the search
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getcounttotal]
 ----
 
-public getCountTotal():void
+public getCountTotal():link:http://php.net/int[int^]
 
 ----
-
-
 
 
 

@@ -5,7 +5,7 @@
 [[ceres__ceresmetaconfig]]
 = CeresMetaConfig
 
-
+PluginConfig class, including all plugin settings for the meta data.
 
 
 
@@ -23,37 +23,35 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/string[`string`^]
 a|`$robotsHome`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Robots for homepage.|link:http://php.net/string[`string`^]
 a|`$robotsContact`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Robots for contact page.|link:http://php.net/string[`string`^]
 a|`$robotsCancellationRights`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Robots for cancellation rights.|link:http://php.net/string[`string`^]
 a|`$robotsCancellationForm`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Robots for cancellation form.|link:http://php.net/string[`string`^]
 a|`$robotsLegalDisclosure`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Robots for legal disclosure.|link:http://php.net/string[`string`^]
 a|`$robotsPrivacyPolicy`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Robots for privacy policy.|link:http://php.net/string[`string`^]
 a|`$robotsTermsAndConditions`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Robots for terms and conditions.|link:http://php.net/string[`string`^]
 a|`$robotsSearchResult`
-|
+|Robots for search result.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -61,15 +59,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

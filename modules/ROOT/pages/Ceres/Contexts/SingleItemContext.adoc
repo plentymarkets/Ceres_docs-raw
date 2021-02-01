@@ -5,7 +5,7 @@
 [[ceres__singleitemcontext]]
 = SingleItemContext
 
-
+Context class with additional data, required for the single item view.
 
 
 
@@ -37,6 +37,8 @@ a|`$afterKey`
 The afterKey is only set, when the variation select requires more data, than is already loaded in the client.|link:http://php.net/array[`array`^]
 a|`$customerShowNetPrices`
 |Check if net prices should be shown.
+
+    
 *Deprecated*: since 5.0.0 will be removed in 6.0.0|xref:stable7@interface::Category.adoc#category_models_category[`Category`]
 a|`$defaultCategory`
 |Category data of the default category of the current item.|link:http://php.net/string[`string`^]
@@ -59,15 +61,13 @@ a|`$requestedVariationUrl`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#init]
 ----
 
-public init($params):void
+public init($params)
 
 ----
-
-
 
 
 

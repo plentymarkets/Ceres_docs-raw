@@ -35,15 +35,13 @@ a|`TOOLBAR_LAYOUT`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpreviewdata]
 ----
 
-public getPreviewData($widgetSettings):void
+public getPreviewData($widgetSettings)
 
 ----
-
-
 
 
 

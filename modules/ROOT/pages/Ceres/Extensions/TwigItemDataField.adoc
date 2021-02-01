@@ -36,15 +36,13 @@ a|`$itemData`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct($twig):void
+public __construct($twig)
 
 ----
-
-
 
 
 
@@ -61,15 +59,13 @@ a|`$twig`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getname]
 ----
 
-public getName():void
+public getName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -77,15 +73,13 @@ public getName():void
 
 Return the name of the extension.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getfunctions]
 ----
 
-public getFunctions():void
+public getFunctions():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -93,15 +87,13 @@ public getFunctions():void
 
 Return a list of functions to add.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getfilters]
 ----
 
-public getFilters():void
+public getFilters():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -109,15 +101,13 @@ public getFilters():void
 
 Return a list of filters to add.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#setitemdatabase]
 ----
 
-public setItemDataBase($itemData):void
+public setItemDataBase($itemData):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -134,15 +124,13 @@ a|`$itemData`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#popitemdatabase]
 ----
 
-public popItemDataBase():void
+public popItemDataBase():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -150,15 +138,13 @@ public popItemDataBase():void
 
 Calls array_pop against the property itemData.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getdatafield]
 ----
 
-public getDataField($field, $filter = null, $directiveType = &quot;text&quot;, $htmlTagType = &quot;span&quot;, $linkType = &quot;&quot;):void
+public getDataField($field, $filter = null, $directiveType = &quot;text&quot;, $htmlTagType = &quot;span&quot;, $linkType = &quot;&quot;):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -191,15 +177,13 @@ a|`$linkType`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getdatafieldhtml]
 ----
 
-public getDataFieldHtml($field, $filter = null):void
+public getDataFieldHtml($field, $filter = null):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -220,15 +204,13 @@ a|`$filter`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#formatagerestriction]
 ----
 
-public formatAgeRestriction($age):void
+public formatAgeRestriction($age):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -245,15 +227,13 @@ a|`$age`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#formatdate]
 ----
 
-public formatDate($date):void
+public formatDate($date):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -270,15 +250,13 @@ a|`$date`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getglobals]
 ----
 
-public getGlobals():void
+public getGlobals():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 

@@ -22,15 +22,13 @@ xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[`SelectS
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct():void
+public __construct()
 
 ----
-
-
 
 
 

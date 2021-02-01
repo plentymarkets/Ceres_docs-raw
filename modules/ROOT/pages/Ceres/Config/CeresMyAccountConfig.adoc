@@ -5,7 +5,7 @@
 [[ceres__ceresmyaccountconfig]]
 = CeresMyAccountConfig
 
-
+PluginConfig class, including all plugin settings for the my account.
 
 
 
@@ -23,35 +23,39 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/int[`int`^]
 a|`$ordersPerPage`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Number of orders to show per page in order history.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$orderReturnActive`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Defines if returns are allowed in my account.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$orderReturnDays`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Number of days to return items of an order|link:http://php.net/string[`string`^]
 a|`$orderReturnInitialStatus`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Default status for return.|link:http://php.net/bool[`bool`^]
 a|`$changePayment`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Allow customer to change the payment method.|link:http://php.net/bool[`bool`^]
 a|`$confirmationLinkLoginRedirect`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Forward to login page after clicking link in order confirmation.|link:http://php.net/string[`string`^]
 a|`$confirmationLinkExpiration`
-|
+|Validity of checkout URL.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -59,15 +63,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

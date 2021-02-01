@@ -5,7 +5,7 @@
 [[ceres__ceresglobalconfig]]
 = CeresGlobalConfig
 
-
+PluginConfig class, including all global plugin settings.
 
 
 
@@ -23,45 +23,49 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/string[`string`^]
 a|`$favicon`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Favicon of the online store.|link:http://php.net/int[`int`^]
 a|`$shippingCostsCategoryId`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Category to display shipping information.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$defaultContactClassB2B`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Default customer class B2B.|link:http://php.net/bool[`bool`^]
 a|`$enableOldUrlPattern`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Enable Callisto route pattern for items.|link:http://php.net/int[`int`^]
 a|`$googleRecaptchaVersion`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Google reCAPTCHA version.|link:http://php.net/string[`string`^]
 a|`$googleRecaptchaApiKey`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Google reCAPTCHA website key.|link:http://php.net/string[`string`^]
 a|`$googleRecaptchaSecret`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Google reCAPTCHA secret key.|link:http://php.net/float[`float`^]
 a|`$googleRecaptchaThreshold`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Google reCAPTCHA v3 threshold.|link:http://php.net/string[`string`^]
 a|`$googleMapsApiKey`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Google Maps API key.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$registrationRequirePrivacyPolicyConfirmation`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Require acceptance of privacy policy for customer registration.|link:http://php.net/bool[`bool`^]
 a|`$blockCookies`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Block unaccepted cookies.|link:http://php.net/int[`int`^]
 a|`$userDataHashMaxAge`
-|
+|Validity of URLs to change password and email address.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -69,15 +73,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

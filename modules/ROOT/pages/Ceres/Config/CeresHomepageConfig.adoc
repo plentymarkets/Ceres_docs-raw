@@ -5,7 +5,7 @@
 [[ceres__cereshomepageconfig]]
 = CeresHomepageConfig
 
-
+PluginConfig class, including all plugin settings for the homepage.
 
 [WARNING]
 .Deprecated! 
@@ -30,57 +30,109 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/bool[`bool`^]
 a|`$showShopBuilderContent`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show Shop Builder homepage.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$showDefaultHomepage`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show default homepage.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$sliderItemId1`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|ID of the item variation to display in the first slide of the image slider.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$sliderImageUrl1`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|URL to the image of the first slide.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$sliderItemId2`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|ID of the item variation to display in the second slide of the image slider.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$sliderImageUrl2`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|URL to the image of the second slide.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$sliderItemId3`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|ID of the item variation to display in the third slide of the image slider.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$sliderImageUrl3`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|URL to the image of the third slide.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$heroExtraItemId1`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|ID of the item variation to display in the upper item preview.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$heroExtraImageUrl1`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|URL to the image of the upper item preview.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$heroExtraItemId2`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|ID of the item variation to display in the lower item preview.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$heroExtraImageUrl2`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|URL to the image of the lower item preview.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$homepageCategory1`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Category to display in the first category preview.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$homepageCategory2`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Category to display in the second category preview.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$homepageCategory3`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Category to display in the first list of items.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$homepageCategory4`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Category to display in the third category preview.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$homepageCategory5`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Category to display in the fourth category preview.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$homepageCategory6`
-|
+|Category to display in the second list of items.
+
+    
+*Deprecated*: will be removed in 6.0.0.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -88,15 +140,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

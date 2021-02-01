@@ -29,15 +29,13 @@ a|`$data`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#make]
 ----
 
-public static make($identifier):void
+public static make($identifier):xref:Ceres/Widgets/Helper/Factories/WidgetDataFactory.adoc#[WidgetDataFactory]
 
 ----
-
-
 
 
 
@@ -54,18 +52,16 @@ a|`$identifier`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withlabel]
 ----
 
-public withLabel($label):Ceres\Widgets\Helper\Factories
+public withLabel($label):xref:Ceres/Widgets/Helper/Factories.adoc#[Factories]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
 
 
 Set a label for this widget. Will be translated.
@@ -79,18 +75,16 @@ a|`$label`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withpreviewimageurl]
 ----
 
-public withPreviewImageUrl($previewImageUrl):Ceres\Widgets\Helper\Factories
+public withPreviewImageUrl($previewImageUrl):xref:Ceres/Widgets/Helper/Factories.adoc#[Factories]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
 
 
 Set the url of a preview image for the widget.
@@ -104,18 +98,16 @@ a|`$previewImageUrl`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withtype]
 ----
 
-public withType($type):Ceres\Widgets\Helper\Factories
+public withType($type):xref:Ceres/Widgets/Helper/Factories.adoc#[Factories]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
 
 
 Set the type of the widget.
@@ -129,18 +121,16 @@ a|`$type`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withcategory]
 ----
 
-public withCategory($category):Ceres\Widgets\Helper\Factories
+public withCategory($category):xref:Ceres/Widgets/Helper/Factories.adoc#[Factories]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
 
 
 Add a category for the widget. A widget might be assigned to multiple categories.
@@ -154,18 +144,16 @@ a|`$category`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withposition]
 ----
 
-public withPosition($position):Ceres\Widgets\Helper\Factories
+public withPosition($position):xref:Ceres/Widgets/Helper/Factories.adoc#[Factories]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
 
 
 Set the position of the widget.
@@ -179,18 +167,16 @@ a|`$position`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withmaxperpage]
 ----
 
-public withMaxPerPage($maxPerPage):Ceres\Widgets\Helper\Factories
+public withMaxPerPage($maxPerPage):xref:Ceres/Widgets/Helper/Factories.adoc#[Factories]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
 
 
 Limit the amount of times a widget can be placed on a content.
@@ -204,18 +190,16 @@ a|`$maxPerPage`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withallowednestingtypes]
 ----
 
-public withAllowedNestingTypes($allowedTypes):Ceres\Widgets\Helper\Factories
+public withAllowedNestingTypes($allowedTypes):xref:Ceres/Widgets/Helper/Factories.adoc#[Factories]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
 
 
 Limits the widget types that you can drop into this widget.
@@ -229,31 +213,27 @@ a|`$allowedTypes`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withdeprecated]
 ----
 
-public withDeprecated():Ceres\Widgets\Helper\Factories
+public withDeprecated():xref:Ceres/Widgets/Helper/Factories.adoc#[Factories]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories.adoc#[`Factories`]
 
 
 Set the widget as deprecated.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#toarray]
 ----
 
-public toArray():void
+public toArray():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 

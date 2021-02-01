@@ -44,15 +44,13 @@ a|`$template`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getdata]
 ----
 
-public getData():void
+public getData():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -66,15 +64,13 @@ Get basic information about the widget. Possible fields are
 - categories
 - position
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getsettings]
 ----
 
-public getSettings():void
+public getSettings():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -82,15 +78,13 @@ public getSettings():void
 
 Return the structure of the settings for the widget
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpreviewdata]
 ----
 
-public getPreviewData($widgetSettings):void
+public getPreviewData($widgetSettings)
 
 ----
-
-
 
 
 

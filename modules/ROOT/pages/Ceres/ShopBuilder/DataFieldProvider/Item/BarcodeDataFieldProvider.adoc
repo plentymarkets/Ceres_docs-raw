@@ -35,15 +35,13 @@ a|`$barcode`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct($barcode):void
+public __construct($barcode)
 
 ----
-
-
 
 
 
@@ -60,15 +58,13 @@ a|`$barcode`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#register]
 ----
 
-public register():void
+public register()
 
 ----
-
-
 
 
 

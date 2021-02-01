@@ -5,7 +5,7 @@
 [[ceres__ceressortingconfig]]
 = CeresSortingConfig
 
-
+PluginConfig class, including all plugin settings for the item sorting.
 
 
 
@@ -23,45 +23,49 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/array[`array`^]
 a|`$data`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Enable item sorting by.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$defaultSorting`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Default sorting value for category view.|link:http://php.net/string[`string`^]
 a|`$priorityCategory1`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Recommended item sorting: First sorting value.|link:http://php.net/string[`string`^]
 a|`$priorityCategory2`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Recommended item sorting: Second sorting value.|link:http://php.net/string[`string`^]
 a|`$priorityCategory3`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Recommended item sorting: Third sorting value.|link:http://php.net/string[`string`^]
 a|`$defaultSortingSearch`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Default sorting value for search results.|link:http://php.net/string[`string`^]
 a|`$prioritySearch1`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Recommended search results: First search value.|link:http://php.net/string[`string`^]
 a|`$prioritySearch2`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Recommended search results: Second search value.|link:http://php.net/string[`string`^]
 a|`$prioritySearch3`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Recommended search results: Third search value.|link:http://php.net/array[`array`^]
 a|`$dynamicInherit`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Adopt item sorting for sorting variations on the item tile.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$dynamicPrio1`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Variation on item tile: First sorting value.|link:http://php.net/string[`string`^]
 a|`$dynamicPrio2`
-|
+|Variation on item tile: Second sorting value.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -69,15 +73,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

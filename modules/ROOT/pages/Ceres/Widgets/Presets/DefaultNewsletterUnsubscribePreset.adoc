@@ -22,15 +22,13 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getwidgets]
 ----
 
-public getWidgets():void
+public getWidgets():link:http://php.net/mixed[mixed^]
 
 ----
-
-
 
 
 

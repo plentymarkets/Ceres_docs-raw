@@ -5,7 +5,7 @@
 [[ceres__ceresaddressconfig]]
 = CeresAddressConfig
 
-
+PluginConfig class, including all plugin settings for the addresses.
 
 
 
@@ -23,39 +23,64 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/string[`string`^]
 a|`$defaultSalutation`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Preselected salutation in the address modal.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$billingAddressShow`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Visible input fields of the billing address.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$billingAddressShow_en`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Visible input fields of the billing address in the english format.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$billingAddressRequire`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Required input fields of the billing address.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$billingAddressRequire_en`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Required input fields of the billing address in the english format.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$deliveryAddressShow`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Visible input fields of the delivery address.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$deliveryAddressShow_en`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Visible input fields of the delivery address in the english format.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$deliveryAddressRequire`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Required input fields of the delivery address.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$deliveryAddressRequire_en`
-|
+|Required input fields of the delivery address in the english format.
+
+    
+*Deprecated*: will be removed in 6.0.0.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -63,15 +88,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

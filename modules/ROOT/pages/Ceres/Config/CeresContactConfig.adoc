@@ -5,13 +5,13 @@
 [[ceres__cerescontactconfig]]
 = CeresContactConfig
 
-
+PluginConfig class, including all plugin settings for contact view.
 
 [WARNING]
 .Deprecated! 
 ====
 
-since 4.4.0. This class will be removed in 5.0.0
+since 4.4.0. This class will be removed in 6.0.0.
 
 ====
 
@@ -30,37 +30,59 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/string[`string`^]
 a|`$shopMail`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Contact form email address.
+
+    
+*Deprecated*: since 4.4.0. Will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$mailCC`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Email address for copy of the contact request (CC).
+
+    
+*Deprecated*: since 4.4.0. Will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$mailBCC`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Email address for blind copy of the contact request (BCC).
+
+    
+*Deprecated*: since 4.4.0. Will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$showData`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Contact data to show.
+
+    
+*Deprecated*: since 4.4.0. Will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$apiKey`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Google Maps API key.
+
+    
+*Deprecated*: since 4.4.0. Will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$mapZoom`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Google Maps zoom level.
+
+    
+*Deprecated*: since 4.4.0. Will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$mapShowInMobile`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show map in mobile view.
+
+    
+*Deprecated*: since 4.4.0. Will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$enableConfirmingPrivacyPolicy`
-|
+|Enable to display checkbox for confirming privacy policy.
+
+    
+*Deprecated*: since 4.4.0. Will be removed in 6.0.0.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -68,15 +90,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

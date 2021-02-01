@@ -31,15 +31,13 @@ a|`$topBarWidget`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getwidgets]
 ----
 
-public getWidgets():void
+public getWidgets():link:http://php.net/mixed[mixed^]
 
 ----
-
-
 
 
 

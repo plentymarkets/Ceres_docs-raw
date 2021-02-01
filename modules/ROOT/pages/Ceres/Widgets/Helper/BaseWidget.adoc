@@ -50,15 +50,13 @@ a|`$pluginNamespace`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct($twig, $app):void
+public __construct($twig, $app)
 
 ----
-
-
 
 
 
@@ -79,15 +77,13 @@ a|`$app`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getdata]
 ----
 
-public getData():void
+public getData():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -101,15 +97,13 @@ Get basic information about the widget. Possible fields are
 - categories
 - position
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getsettings]
 ----
 
-public getSettings():void
+public getSettings():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -117,15 +111,13 @@ public getSettings():void
 
 Return the structure of the settings for the widget
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpreview]
 ----
 
-public getPreview($widgetSettings = [], $children = []):void
+public getPreview($widgetSettings = [], $children = []):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -146,15 +138,13 @@ a|`$children`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#render]
 ----
 
-public render($widgetSettings = [], $children = []):void
+public render($widgetSettings = [], $children = []):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -175,15 +165,13 @@ a|`$children`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#gettemplatedata]
 ----
 
-public getTemplateData($widgetSettings, $isPreview):void
+public getTemplateData($widgetSettings, $isPreview):link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -204,15 +192,13 @@ a|`$isPreview`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpreviewdata]
 ----
 
-public getPreviewData($widgetSettings):void
+public getPreviewData($widgetSettings):link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -229,15 +215,13 @@ a|`$widgetSettings`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#mockpaginatedresult]
 ----
 
-public mockPaginatedResult($factory, $itemsPerPage = 10, $currentPage = 1, $pages = 5):void
+public mockPaginatedResult($factory, $itemsPerPage = 10, $currentPage = 1, $pages = 5):link:http://php.net/array[array^]
 
 ----
-
-
 
 
 

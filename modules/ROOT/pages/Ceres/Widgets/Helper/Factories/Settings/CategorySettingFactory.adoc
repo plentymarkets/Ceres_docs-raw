@@ -22,11 +22,11 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct():void
+public __construct()
 
 ----
 
@@ -36,17 +36,13 @@ public __construct():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withdisplayresetbutton]
 ----
 
-public withDisplayResetButton($displayResetButton):void
+public withDisplayResetButton($displayResetButton):xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[CategorySettingFactory]
 
 ----
-
-
 
 
 
@@ -63,15 +59,13 @@ a|`$displayResetButton`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withdisplaysearch]
 ----
 
-public withDisplaySearch($displaySearch):void
+public withDisplaySearch($displaySearch):xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[CategorySettingFactory]
 
 ----
-
-
 
 
 
@@ -88,15 +82,13 @@ a|`$displaySearch`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withshowfullselectionpath]
 ----
 
-public withShowFullSelectionPath($showFullSelectionPath):void
+public withShowFullSelectionPath($showFullSelectionPath):xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[CategorySettingFactory]
 
 ----
-
-
 
 
 

@@ -22,11 +22,11 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct():void
+public __construct()
 
 ----
 
@@ -36,17 +36,13 @@ public __construct():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withcollapsed]
 ----
 
-public withCollapsed($collapsed):void
+public withCollapsed($collapsed):xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[CheckboxGroupSettingFactory]
 
 ----
-
-
 
 
 
@@ -63,15 +59,13 @@ a|`$collapsed`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withcheckboxvalues]
 ----
 
-public withCheckboxValues($checkboxValues):void
+public withCheckboxValues($checkboxValues):xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[CheckboxGroupSettingFactory]
 
 ----
-
-
 
 
 
@@ -88,18 +82,16 @@ a|`$checkboxValues`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withdefaultvalue]
 ----
 
-public withDefaultValue($defaultValue):Ceres\Widgets\Helper\Factories\Settings
+public withDefaultValue($defaultValue):xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[Settings]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
 
 
 

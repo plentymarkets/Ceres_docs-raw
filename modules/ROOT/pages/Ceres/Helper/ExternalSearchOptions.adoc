@@ -49,15 +49,13 @@ a|`$hasSortingOptions`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getexternalsearchoptions]
 ----
 
-public static getExternalSearchOptions():void
+public static getExternalSearchOptions():xref:Ceres/Helper/ExternalSearchOptions.adoc#[ExternalSearchOptions]
 
 ----
-
-
 
 
 
@@ -65,15 +63,13 @@ public static getExternalSearchOptions():void
 
 Get itemsPerPage and sortingOptions from external search plugins
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#setitemsperpage]
 ----
 
-public setItemsPerPage($itemsPerPage, $default):void
+public setItemsPerPage($itemsPerPage, $default)
 
 ----
-
-
 
 
 
@@ -94,15 +90,13 @@ a|`$default`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getitemsperpage]
 ----
 
-public getItemsPerPage():void
+public getItemsPerPage():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -110,15 +104,13 @@ public getItemsPerPage():void
 
 Get all itemsPerPage settings
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getdefaultitemsperpage]
 ----
 
-public getDefaultItemsPerPage():void
+public getDefaultItemsPerPage():link:http://php.net/int[int^]
 
 ----
-
-
 
 
 
@@ -126,15 +118,13 @@ public getDefaultItemsPerPage():void
 
 Get the default itemsPerPage setting
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#setsortingoptions]
 ----
 
-public setSortingOptions($sorting, $default):void
+public setSortingOptions($sorting, $default)
 
 ----
-
-
 
 
 
@@ -155,15 +145,13 @@ a|`$default`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getsortingoptions]
 ----
 
-public getSortingOptions():void
+public getSortingOptions():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -171,15 +159,13 @@ public getSortingOptions():void
 
 Get the sorting options
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getdefaultsortingoption]
 ----
 
-public getDefaultSortingOption():void
+public getDefaultSortingOption():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -187,15 +173,13 @@ public getDefaultSortingOption():void
 
 Return the default sorting option
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#hasoptions]
 ----
 
-public hasOptions():void
+public hasOptions():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 

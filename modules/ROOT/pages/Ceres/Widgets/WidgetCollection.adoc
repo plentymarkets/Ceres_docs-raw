@@ -90,15 +90,13 @@ a|`CATEGORY_ITEM_WIDGETS`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#all]
 ----
 
-public static all():void
+public static all()
 
 ----
-
-
 
 
 

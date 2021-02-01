@@ -5,7 +5,7 @@
 [[ceres__ceresheaderconfig]]
 = CeresHeaderConfig
 
-
+PluginConfig class, including all plugin settings for the header.
 
 
 
@@ -23,43 +23,65 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/string[`string`^]
 a|`$companyName`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Name of the store.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$companyLogo`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Company logo.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$showNavBars`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Position of the navigation bar. Possible values are 'top', 'side' and 'both'.|link:http://php.net/bool[`bool`^]
 a|`$fixedNavBar`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Defines if the the navigation bar is fixed at the top of the page.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$showCategoryTypes`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Type of categories rendered in the navigation.|link:http://php.net/string[`string`^]
 a|`$basketValues`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show shopping cart information.
+
+    
+*Deprecated*: will be removed in 6.0.0.s|link:http://php.net/int[`int`^]
 a|`$menuLevels`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Category levels in the category tree.|link:http://php.net/int[`int`^]
 a|`$megamenuLevels`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Category levels in mega menu.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$megamenuItemsStage1`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Number of categories in level 2.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$megamenuItemsStage2`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Number of categories in level 3.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$megamenuItemsStage3`
-|
+|Number of categories in level 4.
+
+    
+*Deprecated*: will be removed in 6.0.0.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -67,15 +89,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

@@ -33,15 +33,13 @@ a|`$children`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withsetting]
 ----
 
-public withSetting($key, $value):void
+public withSetting($key, $value):xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[PresetWidgetFactory]
 
 ----
-
-
 
 
 
@@ -62,15 +60,13 @@ a|`$value`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createchild]
 ----
 
-public createChild($dropzone, $identifier):void
+public createChild($dropzone, $identifier):xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[PresetWidgetFactory]
 
 ----
-
-
 
 
 
@@ -91,15 +87,13 @@ a|`$identifier`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#toarray]
 ----
 
-public toArray():void
+public toArray()
 
 ----
-
-
 
 
 

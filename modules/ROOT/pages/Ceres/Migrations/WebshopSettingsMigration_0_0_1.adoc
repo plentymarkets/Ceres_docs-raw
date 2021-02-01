@@ -20,15 +20,13 @@ Migrations are referenced in the &#039;runOnBuild&#039; section of the plugin.js
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#run]
 ----
 
-public run():void
+public run()
 
 ----
-
-
 
 
 

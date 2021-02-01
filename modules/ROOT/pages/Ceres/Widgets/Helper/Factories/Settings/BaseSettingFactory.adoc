@@ -30,15 +30,13 @@ a|`$data`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#create]
 ----
 
-public static create($data = []):void
+public static create($data = [])
 
 ----
-
-
 
 
 
@@ -55,18 +53,16 @@ a|`$data`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withtype]
 ----
 
-public withType($type):Ceres\Widgets\Helper\Factories\Settings
+public withType($type):xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[Settings]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
 
 
 Set the type of the setting.
@@ -80,18 +76,16 @@ a|`$type`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withoption]
 ----
 
-public withOption($key, $value):Ceres\Widgets\Helper\Factories\Settings
+public withOption($key, $value):xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[Settings]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
 
 
 Set an option for the setting.
@@ -109,18 +103,16 @@ a|`$value`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withdefaultvalue]
 ----
 
-public withDefaultValue($defaultValue):Ceres\Widgets\Helper\Factories\Settings
+public withDefaultValue($defaultValue):xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[Settings]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
 
 
 Set the default value for the setting.
@@ -134,18 +126,16 @@ a|`$defaultValue`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withcondition]
 ----
 
-public withCondition($condition):Ceres\Widgets\Helper\Factories\Settings
+public withCondition($condition):xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[Settings]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
 
 
 Set a condition if the setting should be visible or not.
@@ -159,18 +149,16 @@ a|`$condition`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withname]
 ----
 
-public withName($name):Ceres\Widgets\Helper\Factories\Settings
+public withName($name):xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[Settings]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
 
 
 Set the name of the setting.
@@ -184,18 +172,16 @@ a|`$name`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withtooltip]
 ----
 
-public withTooltip($tooltip):Ceres\Widgets\Helper\Factories\Settings
+public withTooltip($tooltip):xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[Settings]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
 
 
 Set a tooltip text for this input
@@ -209,18 +195,16 @@ a|`$tooltip`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withlist]
 ----
 
-public withList($min, $max):Ceres\Widgets\Helper\Factories\Settings
+public withList($min, $max):xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[Settings]
 
 ----
 
 
 
-
-====== *Return type:*xref:Ceres/Widgets/Helper/Factories/Settings.adoc#[`Settings`]
 
 
 Determines whether the declaration is used to render a list of the specified form field.
@@ -238,15 +222,13 @@ a|`$max`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#toarray]
 ----
 
-public toArray():void
+public toArray():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 

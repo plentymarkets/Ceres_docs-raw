@@ -22,11 +22,11 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct():void
+public __construct()
 
 ----
 
@@ -36,17 +36,13 @@ public __construct():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withshowpreview]
 ----
 
-public withShowPreview($showPreview):void
+public withShowPreview($showPreview):xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[FileSettingFactory]
 
 ----
-
-
 
 
 
@@ -63,15 +59,13 @@ a|`$showPreview`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withallowedextensions]
 ----
 
-public withAllowedExtensions($allowedExtensions):void
+public withAllowedExtensions($allowedExtensions):xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[FileSettingFactory]
 
 ----
-
-
 
 
 
@@ -88,15 +82,13 @@ a|`$allowedExtensions`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withfoldersallowed]
 ----
 
-public withFoldersAllowed($foldersAllowed):void
+public withFoldersAllowed($foldersAllowed):xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[FileSettingFactory]
 
 ----
-
-
 
 
 

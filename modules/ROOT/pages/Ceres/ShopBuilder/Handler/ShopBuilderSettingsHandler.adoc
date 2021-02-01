@@ -37,15 +37,13 @@ a|`$enabledRoutes`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_homeenableroute]
 ----
 
-public readRouting_HomeEnableRoute():void
+public readRouting_HomeEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -53,15 +51,13 @@ public readRouting_HomeEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_homeenableroute]
 ----
 
-public writeRouting_HomeEnableRoute($enableHomeRoute):void
+public writeRouting_HomeEnableRoute($enableHomeRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -78,15 +74,13 @@ a|`$enableHomeRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_basketenableroute]
 ----
 
-public readRouting_BasketEnableRoute():void
+public readRouting_BasketEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -94,15 +88,13 @@ public readRouting_BasketEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_basketenableroute]
 ----
 
-public writeRouting_BasketEnableRoute($enableBasketRoute):void
+public writeRouting_BasketEnableRoute($enableBasketRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -119,15 +111,13 @@ a|`$enableBasketRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_checkoutenableroute]
 ----
 
-public readRouting_CheckoutEnableRoute():void
+public readRouting_CheckoutEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -135,15 +125,13 @@ public readRouting_CheckoutEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_checkoutenableroute]
 ----
 
-public writeRouting_CheckoutEnableRoute($enableCheckoutRoute):void
+public writeRouting_CheckoutEnableRoute($enableCheckoutRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -160,15 +148,13 @@ a|`$enableCheckoutRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_myaccountenableroute]
 ----
 
-public readRouting_MyAccountEnableRoute():void
+public readRouting_MyAccountEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -176,15 +162,13 @@ public readRouting_MyAccountEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_myaccountenableroute]
 ----
 
-public writeRouting_MyAccountEnableRoute($enableMyAccountRoute):void
+public writeRouting_MyAccountEnableRoute($enableMyAccountRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -201,15 +185,13 @@ a|`$enableMyAccountRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_searchenableroute]
 ----
 
-public readRouting_searchEnableRoute():void
+public readRouting_searchEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -217,15 +199,13 @@ public readRouting_searchEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_searchenableroute]
 ----
 
-public writeRouting_searchEnableRoute($enableSearchRoute):void
+public writeRouting_searchEnableRoute($enableSearchRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -242,15 +222,13 @@ a|`$enableSearchRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_confirmationenableroute]
 ----
 
-public readRouting_ConfirmationEnableRoute():void
+public readRouting_ConfirmationEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -258,15 +236,13 @@ public readRouting_ConfirmationEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_confirmationenableroute]
 ----
 
-public writeRouting_ConfirmationEnableRoute($enableConfirmationRoute):void
+public writeRouting_ConfirmationEnableRoute($enableConfirmationRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -283,15 +259,13 @@ a|`$enableConfirmationRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_loginenableroute]
 ----
 
-public readRouting_LoginEnableRoute():void
+public readRouting_LoginEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -299,15 +273,13 @@ public readRouting_LoginEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_loginenableroute]
 ----
 
-public writeRouting_LoginEnableRoute($enableLoginRoute):void
+public writeRouting_LoginEnableRoute($enableLoginRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -324,15 +296,13 @@ a|`$enableLoginRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_registerenableroute]
 ----
 
-public readRouting_RegisterEnableRoute():void
+public readRouting_RegisterEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -340,15 +310,13 @@ public readRouting_RegisterEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_registerenableroute]
 ----
 
-public writeRouting_RegisterEnableRoute($enableRegisterRoute):void
+public writeRouting_RegisterEnableRoute($enableRegisterRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -365,15 +333,13 @@ a|`$enableRegisterRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_cancellationrightsenableroute]
 ----
 
-public readRouting_CancellationRightsEnableRoute():void
+public readRouting_CancellationRightsEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -381,15 +347,13 @@ public readRouting_CancellationRightsEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_cancellationrightsenableroute]
 ----
 
-public writeRouting_CancellationRightsEnableRoute($enableCancellationRightsRoute):void
+public writeRouting_CancellationRightsEnableRoute($enableCancellationRightsRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -406,15 +370,13 @@ a|`$enableCancellationRightsRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_cancellationformenableroute]
 ----
 
-public readRouting_CancellationFormEnableRoute():void
+public readRouting_CancellationFormEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -422,15 +384,13 @@ public readRouting_CancellationFormEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_cancellationformenableroute]
 ----
 
-public writeRouting_CancellationFormEnableRoute($enableCancellationFormRoute):void
+public writeRouting_CancellationFormEnableRoute($enableCancellationFormRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -447,15 +407,13 @@ a|`$enableCancellationFormRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_legaldisclosureenableroute]
 ----
 
-public readRouting_LegalDisclosureEnableRoute():void
+public readRouting_LegalDisclosureEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -463,15 +421,13 @@ public readRouting_LegalDisclosureEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_legaldisclosureenableroute]
 ----
 
-public writeRouting_LegalDisclosureEnableRoute($enableLegalDisclosureRoute):void
+public writeRouting_LegalDisclosureEnableRoute($enableLegalDisclosureRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -488,15 +444,13 @@ a|`$enableLegalDisclosureRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_privacypolicyenableroute]
 ----
 
-public readRouting_PrivacyPolicyEnableRoute():void
+public readRouting_PrivacyPolicyEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -504,15 +458,13 @@ public readRouting_PrivacyPolicyEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_privacypolicyenableroute]
 ----
 
-public writeRouting_PrivacyPolicyEnableRoute($enablePrivacyPolicyRoute):void
+public writeRouting_PrivacyPolicyEnableRoute($enablePrivacyPolicyRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -529,15 +481,13 @@ a|`$enablePrivacyPolicyRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_gtcenableroute]
 ----
 
-public readRouting_GtcEnableRoute():void
+public readRouting_GtcEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -545,15 +495,13 @@ public readRouting_GtcEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_gtcenableroute]
 ----
 
-public writeRouting_GtcEnableRoute($enableGtcRoute):void
+public writeRouting_GtcEnableRoute($enableGtcRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -570,15 +518,13 @@ a|`$enableGtcRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_contactenableroute]
 ----
 
-public readRouting_ContactEnableRoute():void
+public readRouting_ContactEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -586,15 +532,13 @@ public readRouting_ContactEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_contactenableroute]
 ----
 
-public writeRouting_ContactEnableRoute($enableContactRoute):void
+public writeRouting_ContactEnableRoute($enableContactRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -611,11 +555,11 @@ a|`$enableContactRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_wishlistenableroute]
 ----
 
-public readRouting_WishListEnableRoute():void
+public readRouting_WishListEnableRoute():link:http://php.net/bool[bool^]
 
 ----
 
@@ -623,19 +567,15 @@ public readRouting_WishListEnableRoute():void
 
 
 
-
-
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_wishlistenableroute]
 ----
 
-public writeRouting_WishListEnableRoute($enableWishListRoute):void
+public writeRouting_WishListEnableRoute($enableWishListRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -652,11 +592,11 @@ a|`$enableWishListRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_changemailenableroute]
 ----
 
-public readRouting_ChangeMailEnableRoute():void
+public readRouting_ChangeMailEnableRoute():link:http://php.net/bool[bool^]
 
 ----
 
@@ -664,19 +604,15 @@ public readRouting_ChangeMailEnableRoute():void
 
 
 
-
-
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_changemailenableroute]
 ----
 
-public writeRouting_ChangeMailEnableRoute($enableWishListRoute):void
+public writeRouting_ChangeMailEnableRoute($enableWishListRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -693,11 +629,11 @@ a|`$enableWishListRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_passwordresetenableroute]
 ----
 
-public readRouting_PasswordResetEnableRoute():void
+public readRouting_PasswordResetEnableRoute():link:http://php.net/bool[bool^]
 
 ----
 
@@ -705,19 +641,15 @@ public readRouting_PasswordResetEnableRoute():void
 
 
 
-
-
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_passwordresetenableroute]
 ----
 
-public writeRouting_PasswordResetEnableRoute($enableWishListRoute):void
+public writeRouting_PasswordResetEnableRoute($enableWishListRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -734,11 +666,11 @@ a|`$enableWishListRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_newsletteroptoutenableroute]
 ----
 
-public readRouting_NewsletterOptOutEnableRoute():void
+public readRouting_NewsletterOptOutEnableRoute():link:http://php.net/bool[bool^]
 
 ----
 
@@ -746,19 +678,15 @@ public readRouting_NewsletterOptOutEnableRoute():void
 
 
 
-
-
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_newsletteroptoutenableroute]
 ----
 
-public writeRouting_NewsletterOptOutEnableRoute($enableWishListRoute):void
+public writeRouting_NewsletterOptOutEnableRoute($enableWishListRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -775,15 +703,13 @@ a|`$enableWishListRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_orderreturnenableroute]
 ----
 
-public readRouting_OrderReturnEnableRoute():void
+public readRouting_OrderReturnEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -791,15 +717,13 @@ public readRouting_OrderReturnEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_orderreturnenableroute]
 ----
 
-public writeRouting_OrderReturnEnableRoute($enableWishListRoute):void
+public writeRouting_OrderReturnEnableRoute($enableWishListRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -816,15 +740,13 @@ a|`$enableWishListRoute`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#readrouting_pagenotfoundenableroute]
 ----
 
-public readRouting_PageNotFoundEnableRoute():void
+public readRouting_PageNotFoundEnableRoute():link:http://php.net/bool[bool^]
 
 ----
-
-
 
 
 
@@ -832,15 +754,13 @@ public readRouting_PageNotFoundEnableRoute():void
 
 Check if route is enabled or disabled.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#writerouting_pagenotfoundenableroute]
 ----
 
-public writeRouting_PageNotFoundEnableRoute($enablePageNotFoundRoute):void
+public writeRouting_PageNotFoundEnableRoute($enablePageNotFoundRoute):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 

@@ -5,7 +5,7 @@
 [[ceres__cerescurrencyconfig]]
 = CeresCurrencyConfig
 
-
+PluginConfig class, including all plugin settings for the currencies.
 
 
 
@@ -23,29 +23,27 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/string[`string`^]
 a|`$format`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Format of currencies. Possible values are 'name' and 'symbol'.|link:http://php.net/bool[`bool`^]
 a|`$enableSelection`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Allow customer to change the currency.|link:http://php.net/string[`string`^]
 a|`$formatSelection`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Format of currencies in header.|link:http://php.net/array[`array`^]
 a|`$availableCurrencies`
-|
+|Available currencies.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -53,15 +51,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

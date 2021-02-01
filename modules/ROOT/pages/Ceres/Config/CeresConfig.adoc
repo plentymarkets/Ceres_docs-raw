@@ -5,7 +5,7 @@
 [[ceres__ceresconfig]]
 = CeresConfig
 
-
+Config class, containing all PluginConfig classes of Ceres.
 
 
 
@@ -23,51 +23,66 @@
 
 |xref:Ceres/Config/CeresAddressConfig.adoc#[`CeresAddressConfig`]
 a|`$addresses`
-||xref:Ceres/Config/CeresBasketConfig.adoc#[`CeresBasketConfig`]
+|Address configuration.|xref:Ceres/Config/CeresBasketConfig.adoc#[`CeresBasketConfig`]
 a|`$basket`
-||xref:Ceres/Config/CeresContactConfig.adoc#[`CeresContactConfig`]
+|Basket configuration.|xref:Ceres/Config/CeresContactConfig.adoc#[`CeresContactConfig`]
 a|`$contact`
-||xref:Ceres/Config/CeresCurrencyConfig.adoc#[`CeresCurrencyConfig`]
+|Contact configurations.
+
+    
+*Deprecated*: since 4.4.0. Will be removed in 6.0.0.|xref:Ceres/Config/CeresCurrencyConfig.adoc#[`CeresCurrencyConfig`]
 a|`$currency`
-||xref:Ceres/Config/CeresFooterConfig.adoc#[`CeresFooterConfig`]
+|Currency configuration.|xref:Ceres/Config/CeresFooterConfig.adoc#[`CeresFooterConfig`]
 a|`$footer`
-||xref:Ceres/Config/CeresGlobalConfig.adoc#[`CeresGlobalConfig`]
+|Footer configuration.|xref:Ceres/Config/CeresGlobalConfig.adoc#[`CeresGlobalConfig`]
 a|`$global`
-||xref:Ceres/Config/CeresHeaderConfig.adoc#[`CeresHeaderConfig`]
+|Global configuration.|xref:Ceres/Config/CeresHeaderConfig.adoc#[`CeresHeaderConfig`]
 a|`$header`
-||xref:Ceres/Config/CeresHomepageConfig.adoc#[`CeresHomepageConfig`]
+|Header configuration.|xref:Ceres/Config/CeresHomepageConfig.adoc#[`CeresHomepageConfig`]
 a|`$homepage`
-||xref:Ceres/Config/CeresItemConfig.adoc#[`CeresItemConfig`]
+|Homepage configuration.
+
+    
+*Deprecated*: will be removed in 6.0.0.|xref:Ceres/Config/CeresItemConfig.adoc#[`CeresItemConfig`]
 a|`$item`
-||xref:Ceres/Config/CeresItemListsConfig.adoc#[`CeresItemListsConfig`]
+|Item view configuration.|xref:Ceres/Config/CeresItemListsConfig.adoc#[`CeresItemListsConfig`]
 a|`$itemLists`
-||xref:Ceres/Config/CeresLanguageConfig.adoc#[`CeresLanguageConfig`]
+|Item lists configuration.
+
+    
+*Deprecated*: will be removed in 6.0.0.|xref:Ceres/Config/CeresLanguageConfig.adoc#[`CeresLanguageConfig`]
 a|`$language`
-||xref:Ceres/Config/CeresLogConfig.adoc#[`CeresLogConfig`]
+|Language configuration.|xref:Ceres/Config/CeresLogConfig.adoc#[`CeresLogConfig`]
 a|`$log`
-||xref:Ceres/Config/CeresMetaConfig.adoc#[`CeresMetaConfig`]
+|Log configuration.|xref:Ceres/Config/CeresMetaConfig.adoc#[`CeresMetaConfig`]
 a|`$meta`
-||xref:Ceres/Config/CeresCheckoutConfig.adoc#[`CeresCheckoutConfig`]
+|Meta configuration.|xref:Ceres/Config/CeresCheckoutConfig.adoc#[`CeresCheckoutConfig`]
 a|`$checkout`
-||xref:Ceres/Config/CeresMyAccountConfig.adoc#[`CeresMyAccountConfig`]
+|Checkout configuration.
+
+    
+*Deprecated*: will be removed in 6.0.0.|xref:Ceres/Config/CeresMyAccountConfig.adoc#[`CeresMyAccountConfig`]
 a|`$myAccount`
-||xref:Ceres/Config/CeresPaginationConfig.adoc#[`CeresPaginationConfig`]
+|My account configuration.|xref:Ceres/Config/CeresPaginationConfig.adoc#[`CeresPaginationConfig`]
 a|`$pagination`
-||xref:Ceres/Config/CeresSearchConfig.adoc#[`CeresSearchConfig`]
+|Pagination configuration.|xref:Ceres/Config/CeresSearchConfig.adoc#[`CeresSearchConfig`]
 a|`$search`
-||xref:Ceres/Config/CeresSortingConfig.adoc#[`CeresSortingConfig`]
+|Search configuration.
+
+    
+*Deprecated*: will be removed in 6.0.0.|xref:Ceres/Config/CeresSortingConfig.adoc#[`CeresSortingConfig`]
 a|`$sorting`
-|
+|Sorting configuration.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct():void
+public __construct()
 
 ----
 
@@ -75,7 +90,5 @@ public __construct():void
 
 
 
-
-
-
+CeresConfig constructor.
 

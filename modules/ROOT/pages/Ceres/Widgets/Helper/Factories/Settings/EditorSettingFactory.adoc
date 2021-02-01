@@ -22,15 +22,13 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withplaceholder]
 ----
 
-public withPlaceHolder($placeholder):void
+public withPlaceHolder($placeholder):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory] \| xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[EditorSettingFactory]
 
 ----
-
-
 
 
 
@@ -47,15 +45,13 @@ a|`$placeholder`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withfixedheight]
 ----
 
-public withFixedHeight($fixedHeight):void
+public withFixedHeight($fixedHeight):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory] \| xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[EditorSettingFactory]
 
 ----
-
-
 
 
 
@@ -72,15 +68,13 @@ a|`$fixedHeight`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withminheight]
 ----
 
-public withMinHeight($minHeight):void
+public withMinHeight($minHeight):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory] \| xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[EditorSettingFactory]
 
 ----
-
-
 
 
 

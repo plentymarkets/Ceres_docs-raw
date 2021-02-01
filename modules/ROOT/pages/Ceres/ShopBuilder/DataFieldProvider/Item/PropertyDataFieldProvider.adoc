@@ -36,11 +36,11 @@ a|`$propertyGroupId`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct():void
+public __construct()
 
 ----
 
@@ -50,17 +50,13 @@ public __construct():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#register]
 ----
 
-public register():void
+public register()
 
 ----
-
-
 
 
 

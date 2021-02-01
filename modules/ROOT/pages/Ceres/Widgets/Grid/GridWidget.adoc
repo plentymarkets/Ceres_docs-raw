@@ -35,15 +35,13 @@ a|`TOOLBAR_LAYOUT`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#gettemplatedata]
 ----
 
-public getTemplateData($widgetSettings, $isPreview):void
+public getTemplateData($widgetSettings, $isPreview):link:http://php.net/array[array^]
 
 ----
-
-
 
 
 

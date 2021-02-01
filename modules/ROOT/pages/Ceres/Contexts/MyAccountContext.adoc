@@ -5,7 +5,7 @@
 [[ceres__myaccountcontext]]
 = MyAccountContext
 
-
+Context class with additional data, required for my account view.
 
 
 

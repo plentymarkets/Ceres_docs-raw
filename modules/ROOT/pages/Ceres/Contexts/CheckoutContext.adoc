@@ -5,7 +5,7 @@
 [[ceres__checkoutcontext]]
 = CheckoutContext
 
-
+Context class with additional data, required for the checkout view.
 
 
 
@@ -35,15 +35,13 @@ a|`$assetName`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#init]
 ----
 
-public init($params):void
+public init($params)
 
 ----
-
-
 
 
 

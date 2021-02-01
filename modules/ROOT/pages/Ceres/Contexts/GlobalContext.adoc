@@ -5,7 +5,7 @@
 [[ceres__globalcontext]]
 = GlobalContext
 
-
+Context class with data, required on all views in the shop.
 
 
 
@@ -34,14 +34,20 @@ a|`$lang`
 |The language code of the current language.|link:http://php.net/string[`string`^]
 a|`$metaLang`
 |
+
+    
 *Deprecated*: since 5.0.20 will be removed in 6.0.0|link:http://php.net/bool[`bool`^]
 a|`$forceNoIndex`
 |Defines if the meta data should have the attrribute content set to "NOINDEX".|link:http://php.net/array[`array`^]
 a|`$template`
 |
+
+    
 *Deprecated*: since 5.0.20 will be removed in 6.0.0|link:http://php.net/string[`string`^]
 a|`$templateName`
 |
+
+    
 *Deprecated*: since 5.0.20 will be removed in 6.0.0|link:http://php.net/array[`array`^]
 a|`$categories`
 |Categories for the navigation.|link:http://php.net/array[`array`^]
@@ -59,12 +65,16 @@ a|`$showNetPrices`
 |Defines if net prices should be shown.|link:http://php.net/string[`string`^]
 a|`$homepageURL`
 |
+
+    
 *Deprecated*: since 4.3
 Use ShopUrls::$home instead|link:http://php.net/string[`string`^]
 a|`$splitItemBundle`
 |Represents the system setting for splitting bundles.|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$templateEvent`
 |
+
+    
 *Deprecated*: since 4.5
 Use ShopUrls::getTemplateType() instead|link:http://php.net/bool[`bool`^]
 a|`$isShopBuilder`
@@ -82,15 +92,13 @@ a|`$assetName`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#init]
 ----
 
-public init($params):void
+public init($params)
 
 ----
-
-
 
 
 
@@ -107,15 +115,13 @@ a|`$params`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getparam]
 ----
 
-public getParam($key, $defaultValue = null):void
+public getParam($key, $defaultValue = null):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 

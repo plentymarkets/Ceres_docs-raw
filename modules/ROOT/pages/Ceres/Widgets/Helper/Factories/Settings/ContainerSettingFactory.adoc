@@ -31,15 +31,13 @@ a|`$children`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#create]
 ----
 
-public static create($data = []):void
+public static create($data = []):xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[ContainerSettingFactory]
 
 ----
-
-
 
 
 
@@ -56,11 +54,11 @@ a|`$data`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct():void
+public __construct()
 
 ----
 
@@ -70,17 +68,13 @@ public __construct():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#toarray]
 ----
 
-public toArray():void
+public toArray():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 

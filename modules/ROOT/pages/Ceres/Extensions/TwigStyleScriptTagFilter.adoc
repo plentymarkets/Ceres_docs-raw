@@ -42,15 +42,13 @@ a|`$pluginNamespace`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct($twig):void
+public __construct($twig)
 
 ----
-
-
 
 
 
@@ -67,15 +65,13 @@ a|`$twig`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getname]
 ----
 
-public getName():void
+public getName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -83,15 +79,13 @@ public getName():void
 
 Return the name of the extension.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getfunctions]
 ----
 
-public getFunctions():void
+public getFunctions():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -99,15 +93,13 @@ public getFunctions():void
 
 Return a list of functions to add.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getfilters]
 ----
 
-public getFilters():void
+public getFilters():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -115,15 +107,13 @@ public getFilters():void
 
 Return a list of filters to add.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getfilteredtags]
 ----
 
-public getFilteredTags():void
+public getFilteredTags():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -131,15 +121,13 @@ public getFilteredTags():void
 
 Get all filtered out script and style tags.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#filtertags]
 ----
 
-public filterTags($content, $containerName):void
+public filterTags($content, $containerName):link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -160,15 +148,13 @@ a|`$containerName`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getglobals]
 ----
 
-public getGlobals():void
+public getGlobals():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 

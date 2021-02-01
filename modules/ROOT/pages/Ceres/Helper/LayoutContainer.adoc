@@ -33,15 +33,13 @@ a|`$contents`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getcontents]
 ----
 
-public static getContents($containerWithPluginName, $arguments):void
+public static getContents($containerWithPluginName, $arguments):link:http://php.net/array[array^]
 
 ----
-
-
 
 
 
@@ -62,15 +60,13 @@ a|`$arguments`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -78,15 +74,13 @@ public getPluginName():void
 
 Get the plugin name of the layout container
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getcontainername]
 ----
 
-public getContainerName():void
+public getContainerName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 

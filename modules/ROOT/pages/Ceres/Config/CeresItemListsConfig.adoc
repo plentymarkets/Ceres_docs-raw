@@ -5,8 +5,15 @@
 [[ceres__ceresitemlistsconfig]]
 = CeresItemListsConfig
 
+PluginConfig class, including all plugin settings for the item lists.
 
+[WARNING]
+.Deprecated! 
+====
 
+will be removed in 6.0.0.
+
+====
 
 
 ===== Namespace
@@ -23,41 +30,69 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/int[`int`^]
 a|`$lastSeenNumber`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Number of last seen items.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$crossSellingType`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Cross-selling relation.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$crossSellingSorting`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Cross-Selling sorting.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$tagSorting`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Tags sorting.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$list1Type`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Type of the first item list.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$list1TagIds`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|List of IDs of tags to display in the first item list.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$list2Type`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Type of the second item list.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$list2TagIds`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|List of IDs of tags to display in the second item list
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$list3Type`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Type of the third item list.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$list3TagIds`
-|
+|List of IDs of tags to display in the third item list
+
+    
+*Deprecated*: will be removed in 6.0.0.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -65,15 +100,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

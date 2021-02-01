@@ -5,7 +5,7 @@
 [[ceres__ceresfooterconfig]]
 = CeresFooterConfig
 
-
+PluginConfig class, including all plugin settings for the footer.
 
 
 
@@ -23,37 +23,56 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/string[`string`^]
 a|`$toTopButton`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Position of the Back-to-top button. Possible values are 'right' and 'bottom'.|link:http://php.net/int[`int`^]
 a|`$numberOfFeatures`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Number of store features.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$numberOfCols`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Number of columns.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$col1Categories`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|List of IDs of categories to display in first column.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$col2Categories`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|List of IDs of categories to display in second column.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$col3Categories`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|List of IDs of categories to display in third column.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$cancellationUsePdf`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Use PDF cancellation form.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$cancellationPdfPath`
-|
+|URL to PDF file.
+
+    
+*Deprecated*: will be removed in 6.0.0.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -61,15 +80,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

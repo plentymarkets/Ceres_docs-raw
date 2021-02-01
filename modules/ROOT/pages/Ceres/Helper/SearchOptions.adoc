@@ -53,15 +53,13 @@ a|`$defaultSorting`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#get]
 ----
 
-public static get($scope):void
+public static get($scope):xref:Ceres/Helper/SearchOptions.adoc#[SearchOptions]
 
 ----
-
-
 
 
 
@@ -78,15 +76,13 @@ a|`$scope`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#validateitemlistoptions]
 ----
 
-public static validateItemListOptions($itemListOptions, $scope):void
+public static validateItemListOptions($itemListOptions, $scope):link:http://php.net/mixed[mixed^]
 
 ----
-
-
 
 
 

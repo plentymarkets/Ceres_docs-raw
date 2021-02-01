@@ -5,7 +5,7 @@
 [[ceres__cerespaginationconfig]]
 = CeresPaginationConfig
 
-
+PluginConfig class, including all plugin settings for the pagination.
 
 
 
@@ -23,35 +23,48 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/string[`string`^]
 a|`$position`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Pagination position. Possible values are 'top', 'bottom' and 'top_bottom'.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$showFirstPage`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Defines if the "To first page" button is visible.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$showLastPage`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Defines if the "To last page" button is visible.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$columnsPerPage`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Columns per page.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$rowsPerPage`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Rows per page.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$itemsPerPage`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Number of items displayed per page in the category view.|link:http://php.net/int[`int`^]
 a|`$noIndex`
-|
+|SEO: Set the value noindex beginning at page.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -59,15 +72,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

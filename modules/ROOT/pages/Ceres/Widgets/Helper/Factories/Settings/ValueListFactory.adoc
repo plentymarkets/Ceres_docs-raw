@@ -29,11 +29,11 @@ a|`$valueList`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#make]
 ----
 
-public static make():void
+public static make():xref:Ceres/Widgets/Helper/Factories/Settings/ValueListFactory.adoc#[ValueListFactory]
 
 ----
 
@@ -43,17 +43,13 @@ public static make():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#toarray]
 ----
 
-public toArray():void
+public toArray()
 
 ----
-
-
 
 
 

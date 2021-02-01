@@ -22,11 +22,11 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct():void
+public __construct()
 
 ----
 
@@ -36,17 +36,13 @@ public __construct():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withmin]
 ----
 
-public withMin($min):void
+public withMin($min):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
-
-
 
 
 
@@ -63,15 +59,13 @@ a|`$min`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withmax]
 ----
 
-public withMax($max):void
+public withMax($max):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
-
-
 
 
 
@@ -88,15 +82,13 @@ a|`$max`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withinterval]
 ----
 
-public withInterval($interval):void
+public withInterval($interval):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
-
-
 
 
 
@@ -113,15 +105,13 @@ a|`$interval`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withprecision]
 ----
 
-public withPrecision($precision):void
+public withPrecision($precision):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
-
-
 
 
 
@@ -138,15 +128,13 @@ a|`$precision`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withshowminmax]
 ----
 
-public withShowMinMax($showMinMax):void
+public withShowMinMax($showMinMax):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
-
-
 
 
 
@@ -163,15 +151,13 @@ a|`$showMinMax`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withshowticks]
 ----
 
-public withShowTicks($showTicks):void
+public withShowTicks($showTicks):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
-
-
 
 
 

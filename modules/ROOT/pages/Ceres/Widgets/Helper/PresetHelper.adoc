@@ -29,15 +29,13 @@ a|`$widgetFactories`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createwidget]
 ----
 
-public createWidget($identifier):void
+public createWidget($identifier):xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[PresetWidgetFactory]
 
 ----
-
-
 
 
 
@@ -54,15 +52,13 @@ a|`$identifier`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#toarray]
 ----
 
-public toArray():void
+public toArray():link:http://php.net/array[array^]
 
 ----
-
-
 
 
 

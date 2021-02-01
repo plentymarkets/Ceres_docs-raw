@@ -22,11 +22,11 @@ xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[`BaseSetti
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#__construct]
 ----
 
-public __construct():void
+public __construct()
 
 ----
 
@@ -36,17 +36,13 @@ public __construct():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withfixedheight]
 ----
 
-public withFixedHeight($isFixedHeight):void
+public withFixedHeight($isFixedHeight):xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc#[TextareaSettingFactory]
 
 ----
-
-
 
 
 
@@ -63,15 +59,13 @@ a|`$isFixedHeight`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#withmaxrows]
 ----
 
-public withMaxRows($maxRows):void
+public withMaxRows($maxRows):xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc#[TextareaSettingFactory]
 
 ----
-
-
 
 
 

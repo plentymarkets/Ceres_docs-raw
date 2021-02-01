@@ -29,15 +29,13 @@ a|`$translationMap`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#run]
 ----
 
-public run():void
+public run()
 
 ----
-
-
 
 
 
@@ -45,15 +43,13 @@ public run():void
 
 Hook for running the migration.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#migrate]
 ----
 
-public migrate($pluginSetId, $config):void
+public migrate($pluginSetId, $config)
 
 ----
-
-
 
 
 

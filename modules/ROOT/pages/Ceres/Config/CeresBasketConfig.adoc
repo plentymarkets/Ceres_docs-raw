@@ -5,7 +5,7 @@
 [[ceres__ceresbasketconfig]]
 = CeresBasketConfig
 
-
+PluginConfig class, including all plugin settings for the basket.
 
 
 
@@ -23,37 +23,44 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/array[`array`^]
 a|`$itemData`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Visible fields of the basket list items.|link:http://php.net/array[`array`^]
 a|`$data`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Visible entries of the basket totals.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$previewData`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Visible entries of the basket (preview) totals.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/mixed[`mixed`^]
 a|`$variations`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|No usage.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$addItemToBasketConfirm`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Type to display the basket addition. Possible values: 'overlay', 'preview', 'no_information'|link:http://php.net/string[`string`^]
 a|`$previewType`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Type to display the basket preview. Possible values: 'hover', 'right'|link:http://php.net/bool[`bool`^]
 a|`$showShippingCountrySelect`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Defines if the country select is shown in the basket.|link:http://php.net/mixed[`mixed`^]
 a|`$splitBundles`
-|
+|No usage.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -61,15 +68,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 

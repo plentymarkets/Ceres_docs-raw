@@ -27,11 +27,11 @@ This class will not be supported in the future. Please refrain from using it as 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#call]
 ----
 
-public call($twig):void
+public call($twig):link:http://php.net/string[string^]
 
 ----
 
@@ -42,8 +42,6 @@ public call($twig):void
 This method will not be supported in the future. Please refrain from using it as soon as possible.
 
 ====
-
-
 
 
 

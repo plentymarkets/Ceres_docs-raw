@@ -5,7 +5,7 @@
 [[ceres__orderreturncontext]]
 = OrderReturnContext
 
-
+Context class with additional data, required for the order return view.
 
 
 
@@ -35,15 +35,13 @@ a|`$orderAccessKey`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#init]
 ----
 
-public init($params):void
+public init($params)
 
 ----
-
-
 
 
 

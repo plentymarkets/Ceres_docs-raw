@@ -42,15 +42,13 @@ a|`$templateKeyToViewMap`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#register]
 ----
 
-public register():void
+public register()
 
 ----
-
-
 
 
 
@@ -58,15 +56,13 @@ public register():void
 
 Register any application services.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#boot]
 ----
 
-public boot($twig, $eventDispatcher, $config):void
+public boot($twig, $eventDispatcher, $config)
 
 ----
-
-
 
 
 

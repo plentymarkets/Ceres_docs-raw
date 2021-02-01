@@ -31,15 +31,13 @@ a|`$pointer`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#inherit]
 ----
 
-public static inherit($parentWidgetClass):void
+public static inherit($parentWidgetClass):xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc#[WidgetSettingsFactory]
 
 ----
-
-
 
 
 
@@ -56,15 +54,13 @@ a|`$parentWidgetClass`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#create]
 ----
 
-public static create($data = []):void
+public static create($data = []):xref:Ceres/Widgets/Helper/Factories/WidgetSettingsFactory.adoc#[WidgetSettingsFactory]
 
 ----
-
-
 
 
 
@@ -81,15 +77,13 @@ a|`$data`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createsetting]
 ----
 
-public createSetting($key):void
+public createSetting($key):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory]
 
 ----
-
-
 
 
 
@@ -106,15 +100,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createcontainer]
 ----
 
-public createContainer($key):void
+public createContainer($key):xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[ContainerSettingFactory]
 
 ----
-
-
 
 
 
@@ -131,15 +123,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createverticalcontainer]
 ----
 
-public createVerticalContainer($key):void
+public createVerticalContainer($key):xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[ContainerSettingFactory]
 
 ----
-
-
 
 
 
@@ -156,15 +146,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createhorizontalcontainer]
 ----
 
-public createHorizontalContainer($key):void
+public createHorizontalContainer($key):xref:Ceres/Widgets/Helper/Factories/Settings/ContainerSettingFactory.adoc#[ContainerSettingFactory]
 
 ----
-
-
 
 
 
@@ -181,15 +169,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createtext]
 ----
 
-public createText($key):void
+public createText($key):xref:Ceres/Widgets/Helper/Factories/Settings/TextSettingFactory.adoc#[TextSettingFactory]
 
 ----
-
-
 
 
 
@@ -206,15 +192,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createcheckbox]
 ----
 
-public createCheckbox($key):void
+public createCheckbox($key):xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxSettingFactory.adoc#[CheckboxSettingFactory]
 
 ----
-
-
 
 
 
@@ -231,15 +215,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createcolorpalette]
 ----
 
-public createColorPalette():void
+public createColorPalette():xref:Ceres/Widgets/Helper/Factories/Settings/ColorPaletteSettingFactory.adoc#[ColorPaletteSettingFactory]
 
 ----
-
-
 
 
 
@@ -247,15 +229,13 @@ public createColorPalette():void
 
 Create a color setting
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createdate]
 ----
 
-public createDate($key):void
+public createDate($key):xref:Ceres/Widgets/Helper/Factories/Settings/DateSettingFactory.adoc#[DateSettingFactory]
 
 ----
-
-
 
 
 
@@ -272,15 +252,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createfile]
 ----
 
-public createFile($key):void
+public createFile($key):xref:Ceres/Widgets/Helper/Factories/Settings/FileSettingFactory.adoc#[FileSettingFactory]
 
 ----
-
-
 
 
 
@@ -297,15 +275,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createtextarea]
 ----
 
-public createTextarea($key):void
+public createTextarea($key):xref:Ceres/Widgets/Helper/Factories/Settings/TextareaSettingFactory.adoc#[TextareaSettingFactory]
 
 ----
-
-
 
 
 
@@ -322,15 +298,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createnumber]
 ----
 
-public createNumber($key):void
+public createNumber($key):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory]
 
 ----
-
-
 
 
 
@@ -347,15 +321,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createdouble]
 ----
 
-public createDouble($key):void
+public createDouble($key):xref:Ceres/Widgets/Helper/Factories/Settings/DoubleSettingFactory.adoc#[DoubleSettingFactory]
 
 ----
-
-
 
 
 
@@ -372,15 +344,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createselect]
 ----
 
-public createSelect($key):void
+public createSelect($key):xref:Ceres/Widgets/Helper/Factories/Settings/SelectSettingFactory.adoc#[SelectSettingFactory]
 
 ----
-
-
 
 
 
@@ -397,15 +367,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createsuggestion]
 ----
 
-public createSuggestion($key):void
+public createSuggestion($key):xref:Ceres/Widgets/Helper/Factories/Settings/SuggestionSettingFactory.adoc#[SuggestionSettingFactory]
 
 ----
-
-
 
 
 
@@ -422,15 +390,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createcategory]
 ----
 
-public createCategory($key):void
+public createCategory($key):xref:Ceres/Widgets/Helper/Factories/Settings/CategorySettingFactory.adoc#[CategorySettingFactory]
 
 ----
-
-
 
 
 
@@ -447,15 +413,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createcolor]
 ----
 
-public createColor($key):void
+public createColor($key):xref:Ceres/Widgets/Helper/Factories/Settings/BaseSettingFactory.adoc#[BaseSettingFactory]
 
 ----
-
-
 
 
 
@@ -472,15 +436,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createslider]
 ----
 
-public createSlider($key):void
+public createSlider($key):xref:Ceres/Widgets/Helper/Factories/Settings/SliderSettingFactory.adoc#[SliderSettingFactory]
 
 ----
-
-
 
 
 
@@ -497,15 +459,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createcheckboxgroup]
 ----
 
-public createCheckboxGroup($key):void
+public createCheckboxGroup($key):xref:Ceres/Widgets/Helper/Factories/Settings/CheckboxGroupSettingFactory.adoc#[CheckboxGroupSettingFactory]
 
 ----
-
-
 
 
 
@@ -522,15 +482,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createradiogroup]
 ----
 
-public createRadioGroup($key):void
+public createRadioGroup($key):xref:Ceres/Widgets/Helper/Factories/Settings/RadioGroupSettingFactory.adoc#[RadioGroupSettingFactory]
 
 ----
-
-
 
 
 
@@ -547,15 +505,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createurl]
 ----
 
-public createUrl($key):void
+public createUrl($key):xref:Ceres/Widgets/Helper/Factories/Settings/UrlSettingFactory.adoc#[UrlSettingFactory]
 
 ----
-
-
 
 
 
@@ -572,15 +528,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createnoteeditor]
 ----
 
-public createNoteEditor($key):void
+public createNoteEditor($key):xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[EditorSettingFactory]
 
 ----
-
-
 
 
 
@@ -597,15 +551,13 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createcodeeditor]
 ----
 
-public createCodeEditor($key):void
+public createCodeEditor($key):xref:Ceres/Widgets/Helper/Factories/Settings/EditorSettingFactory.adoc#[EditorSettingFactory]
 
 ----
-
-
 
 
 
@@ -622,11 +574,11 @@ a|`$key`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createcustomclass]
 ----
 
-public createCustomClass():void
+public createCustomClass():xref:Ceres/Widgets/Helper/Factories/Settings/CustomClassSettingFactory.adoc#[CustomClassSettingFactory]
 
 ----
 
@@ -636,13 +588,11 @@ public createCustomClass():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createicon]
 ----
 
-public createIcon():void
+public createIcon():xref:Ceres/Widgets/Helper/Factories/Settings/IconSettingFactory.adoc#[IconSettingFactory]
 
 ----
 
@@ -652,13 +602,11 @@ public createIcon():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createheight]
 ----
 
-public createHeight():void
+public createHeight():xref:Ceres/Widgets/Helper/Factories/Settings/HeightSettingFactory.adoc#[HeightSettingFactory]
 
 ----
 
@@ -668,13 +616,11 @@ public createHeight():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createbuttonsize]
 ----
 
-public createButtonSize():void
+public createButtonSize():xref:Ceres/Widgets/Helper/Factories/Settings/ButtonSizeSettingFactory.adoc#[ButtonSizeSettingFactory]
 
 ----
 
@@ -684,13 +630,11 @@ public createButtonSize():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#createalignment]
 ----
 
-public createAlignment():void
+public createAlignment():xref:Ceres/Widgets/Helper/Factories/Settings/AlignmentSettingFactory.adoc#[AlignmentSettingFactory]
 
 ----
 
@@ -700,17 +644,13 @@ public createAlignment():void
 
 
 
-
-
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#toarray]
 ----
 
-public toArray():void
+public toArray()
 
 ----
-
-
 
 
 

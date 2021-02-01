@@ -5,7 +5,7 @@
 [[ceres__tagsearchcontext]]
 = TagSearchContext
 
-
+Context class with additional data, required for the tag item view.
 
 
 
@@ -40,6 +40,8 @@ a|`$itemsPerPage`
 |How many items are included in one page.|link:http://php.net/int[`int`^]
 a|`$itemCountPage`
 |
+
+    
 *Deprecated*: since 5.0.20 will be removed in 6.0.0|link:http://php.net/int[`int`^]
 a|`$itemCountTotal`
 |Count of all items in the item result.|link:http://php.net/string[`string`^]
@@ -60,15 +62,13 @@ a|`$searchOptions`
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#init]
 ----
 
-public init($params):void
+public init($params)
 
 ----
-
-
 
 
 
@@ -85,15 +85,13 @@ a|`$params`
 |===
 
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#inititemlist]
 ----
 
-public initItemList($defaultSearchFactories, $options, $scope = \Ceres\Helper\SearchOptions::SCOPE_CATEGORY):void
+public initItemList($defaultSearchFactories, $options, $scope = \Ceres\Helper\SearchOptions::SCOPE_CATEGORY)
 
 ----
-
-
 
 
 

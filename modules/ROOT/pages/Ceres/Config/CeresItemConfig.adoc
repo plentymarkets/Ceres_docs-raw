@@ -5,7 +5,7 @@
 [[ceres__ceresitemconfig]]
 = CeresItemConfig
 
-
+PluginConfig class, including all plugin settings for the single item view.
 
 
 
@@ -23,55 +23,86 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 |===
 |Type |Name |Description
 
-|         xref:5.0.0@plugin-::.adoc#[``]
+|link:http://php.net/string[`string`^]
 a|`$displayName`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Name of an item to display. Possible values are 'itemName', 'variationName' and 'itemNameVariationName'.|link:http://php.net/int[`int`^]
 a|`$itemName`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Item name.|link:http://php.net/array[`array`^]
 a|`$itemData`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show item information.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/int[`int`^]
 a|`$storeSpecial`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Number of decimal places for discounts.|link:http://php.net/bool[`bool`^]
 a|`$showVariationOverDropdown`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Defines if the selection of variations without stock in the variation dropdown is enabled.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$variationShowType`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show variations by type. Possible values are 'all', 'main', 'child' and 'combined'.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$showPleaseSelect`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Defines if the "Please select" option is displayed.|link:http://php.net/bool[`bool`^]
 a|`$enableImageCarousel`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Defines if the image carousel for category item list is enabled.|link:http://php.net/bool[`bool`^]
 a|`$categoryShowDots`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show image carousel dots in category item list and item lists.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$categoryShowNav`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show image carousel navigation in category item list and item lists.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$showCategoryImage`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show category image in category view.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$showCategoryDescription`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show category description in category view.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$showCategoryDescriptionTop`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show category description above item list. Possible values are 'none', 'description1', 'description2' and 'both'.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$showCategoryDescriptionBottom`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Show category description below item list. Possible values are 'none', 'description1', 'description2' and 'both'.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$requireOrderProperties`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Defines if all order properties are required before adding an item to shopping cart.|link:http://php.net/string[`string`^]
 a|`$loadingAnimationType`
-||         xref:5.0.0@plugin-::.adoc#[``]
+|Loading animation. Possible values are 'bars' and 'spinner'.
+
+    
+*Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]
 a|`$showCategoryFilter`
-|
+|Show categories as filter options for search results.
+
+    
+*Deprecated*: will be removed in 6.0.0.
 |===
 
 
 ===== Methods
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#getpluginname]
 ----
 
-public getPluginName():void
+public getPluginName():link:http://php.net/string[string^]
 
 ----
-
-
 
 
 
@@ -79,15 +110,13 @@ public getPluginName():void
 
 Return the name of the plugin to get the configuration values for.
 
-[source%nowrap, php]
+[source%nowrap, php, subs=+macros]
 [#load]
 ----
 
-public load():void
+public load()
 
 ----
-
-
 
 
 
