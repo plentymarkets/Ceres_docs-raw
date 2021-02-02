@@ -69,11 +69,11 @@ BaseWidget constructor.
 |Type |Name |Description
 | xref:stable7@interface::Miscellaneous.adoc#miscellaneous_templates_twig[`Twig`]
 a|`$twig`
-|Class to render twig templates
+|Class to render twig templates.
 
 | xref:stable7@interface::Miscellaneous.adoc#miscellaneous_plugin_application[`Application`]
 a|`$app`
-|Helper class to retrieve information from the application
+|Helper class to retrieve information from the application.
 |===
 
 
@@ -130,11 +130,11 @@ Get the html representation of the widget.
 |Type |Name |Description
 |link:http://php.net/array[`array`^]
 a|`$widgetSettings`
-|The settings provided by the widget
+|The settings provided by the widget.
 
 |link:http://php.net/array[`array`^]
 a|`$children`
-|The child widgets of the widget
+|The child widgets of the widget.
 |===
 
 
@@ -157,11 +157,11 @@ Render the template of the widget.
 |Type |Name |Description
 |link:http://php.net/array[`array`^]
 a|`$widgetSettings`
-|The settings provided by the widget
+|The settings provided by the widget.
 
 |link:http://php.net/array[`array`^]
 a|`$children`
-|The child widgets of the widget
+|The child widgets of the widget.
 |===
 
 
@@ -177,18 +177,18 @@ public getTemplateData($widgetSettings, $isPreview):link:http://php.net/array[ar
 
 
 
-Get additional data to be passed to the template while rendering
+Get additional data to be passed to the template while rendering.
 
 .*Parameters*
 |===
 |Type |Name |Description
 |link:http://php.net/array[`array`^]
 a|`$widgetSettings`
-|The settings provided by the widget
+|The settings provided by the widget.
 
 |link:http://php.net/bool[`bool`^]
 a|`$isPreview`
-|A Flag provided to determine if the widget is currently shown in preview
+|A flag provided to determine if the widget is currently shown in preview.
 |===
 
 
@@ -204,14 +204,14 @@ public getPreviewData($widgetSettings):link:http://php.net/array[array^]
 
 
 
-Get additional data to be passed to the template while rendering the preview markup
+Get additional data to be passed to the template while rendering the preview markup.
 
 .*Parameters*
 |===
 |Type |Name |Description
 |link:http://php.net/array[`array`^]
 a|`$widgetSettings`
-|The settings provided by the widget
+|The settings provided by the widget.
 |===
 
 
@@ -234,19 +234,19 @@ Mock a paginated result
 |Type |Name |Description
 |xref:Ceres/Widgets/Helper/Closure.adoc#[`Closure`]
 a|`$factory`
-|The widget factory which should be mocked
+|The widget factory which should be mocked.
 
 |link:http://php.net/int[`int`^]
 a|`$itemsPerPage`
-|The number of items which should be mocked
+|The number of items which should be mocked.
 
 |link:http://php.net/int[`int`^]
 a|`$currentPage`
-|The current page of the result
+|The current page of the result.
 
 |link:http://php.net/int[`int`^]
 a|`$pages`
-|The total count of pages
+|The total count of pages.
 |===
 
 

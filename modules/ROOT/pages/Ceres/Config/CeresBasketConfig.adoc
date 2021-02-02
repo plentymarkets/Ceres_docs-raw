@@ -42,11 +42,11 @@ a|`$variations`
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$addItemToBasketConfirm`
-|Type to display the basket addition. Possible values: 'overlay', 'preview', 'no_information'|link:http://php.net/string[`string`^]
+|Type to display the basket addition. Possible values: 'overlay', 'preview', 'no_information'.|link:http://php.net/string[`string`^]
 a|`$previewType`
-|Type to display the basket preview. Possible values: 'hover', 'right'|link:http://php.net/bool[`bool`^]
+|Type to display the basket preview. Possible values: 'hover', 'right'.|link:http://php.net/bool[`bool`^]
 a|`$showShippingCountrySelect`
-|Defines if the country select is shown in the basket.|link:http://php.net/mixed[`mixed`^]
+|Defines if the country selection is shown in the basket.|link:http://php.net/mixed[`mixed`^]
 a|`$splitBundles`
 |No usage.
 |===

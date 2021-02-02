@@ -35,7 +35,7 @@ a|`$billingAddressShow`
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$billingAddressShow_en`
-|Visible input fields of the billing address in the english format.
+|Visible input fields of the billing address in UK format.
 
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
@@ -45,7 +45,7 @@ a|`$billingAddressRequire`
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$billingAddressRequire_en`
-|Required input fields of the billing address in the english format.
+|Required input fields of the billing address in UK format.
 
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
@@ -55,7 +55,7 @@ a|`$deliveryAddressShow`
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$deliveryAddressShow_en`
-|Visible input fields of the delivery address in the english format.
+|Visible input fields of the delivery address in UK format.
 
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
@@ -65,7 +65,7 @@ a|`$deliveryAddressRequire`
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/array[`array`^]
 a|`$deliveryAddressRequire_en`
-|Required input fields of the delivery address in the english format.
+|Required input fields of the delivery address in UK format.
 
     
 *Deprecated*: will be removed in 6.0.0.

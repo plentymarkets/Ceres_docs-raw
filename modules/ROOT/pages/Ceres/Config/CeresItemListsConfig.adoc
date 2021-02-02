@@ -67,7 +67,7 @@ a|`$list2Type`
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$list2TagIds`
-|List of IDs of tags to display in the second item list
+|List of IDs of tags to display in the second item list.
 
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
@@ -77,7 +77,7 @@ a|`$list3Type`
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/string[`string`^]
 a|`$list3TagIds`
-|List of IDs of tags to display in the third item list
+|List of IDs of tags to display in the third item list.
 
     
 *Deprecated*: will be removed in 6.0.0.

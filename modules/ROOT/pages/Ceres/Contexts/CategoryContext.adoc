@@ -31,7 +31,7 @@ a|`$category`
 a|`$metaRobots`
 |Page meta data of the current category.|link:http://php.net/string[`string`^]
 a|`$assetName`
-|Key for the assets to be load.
+|Key for the assets to be loaded.
 |===
 
 

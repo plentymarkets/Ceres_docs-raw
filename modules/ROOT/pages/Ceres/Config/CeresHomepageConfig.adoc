@@ -32,7 +32,7 @@ xref:stable7@interface::Webshop.adoc#webshop_helpers_pluginconfig[`PluginConfig`
 
 |link:http://php.net/bool[`bool`^]
 a|`$showShopBuilderContent`
-|Show Shop Builder homepage.
+|Show ShopBuilder homepage.
 
     
 *Deprecated*: will be removed in 6.0.0.|link:http://php.net/bool[`bool`^]

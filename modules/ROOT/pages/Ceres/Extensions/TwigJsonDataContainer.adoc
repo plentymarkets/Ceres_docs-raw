@@ -30,7 +30,7 @@ xref:5.0.0@plugin-twig::Twig/Extension/ExtensionInterface.adoc#[`ExtensionInterf
 a|`$twig`
 |The factory to render TWIG.|link:http://php.net/array[`array`^]
 a|`$dataStorage`
-|Stored data, to create script tags of.
+|Stored data used to create script tags.
 |===
 
 

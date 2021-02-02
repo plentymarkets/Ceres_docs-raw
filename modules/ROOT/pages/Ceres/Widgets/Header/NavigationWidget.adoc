@@ -56,14 +56,14 @@ public getPreviewData($widgetSettings):link:http://php.net/array[array^]
 
 
 
-Get additional data to be passed to the template while rendering the preview markup
+Get additional data to be passed to the template while rendering the preview markup.
 
 .*Parameters*
 |===
 |Type |Name |Description
 |link:http://php.net/array[`array`^]
 a|`$widgetSettings`
-|The settings provided by the widget
+|The settings provided by the widget.
 |===
 
 

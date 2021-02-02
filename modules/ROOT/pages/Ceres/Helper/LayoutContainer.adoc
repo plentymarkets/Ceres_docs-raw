@@ -5,7 +5,7 @@
 [[ceres__layoutcontainer]]
 = LayoutContainer
 
-Helper class for working with layout containers
+Helper class for working with layout containers.
 
 
 
@@ -23,7 +23,7 @@ Helper class for working with layout containers
 
 |link:http://php.net/string[`string`^]
 a|`$pluginName`
-|The plugin, to which the layout container belongs|link:http://php.net/string[`string`^]
+|The plugin to which the layout container belongs|link:http://php.net/string[`string`^]
 a|`$containerName`
 |The container name for the layout container|link:http://php.net/array[`array`^]
 a|`$contents`
@@ -45,18 +45,18 @@ public static getContents($containerWithPluginName, $arguments):link:http://php.
 
 
 
-Get a rendered layout container, normally used in the twig template renderer
+Get a rendered layout container, normally used in the twig template renderer.
 
 .*Parameters*
 |===
 |Type |Name |Description
 |link:http://php.net/string[`string`^]
 a|`$containerWithPluginName`
-|For example: "Ceres::Basket.BeforeBasketTotals"
+|For example: "Ceres::Basket.BeforeBasketTotals".
 
 |link:http://php.net/array[`array`^]
 a|`$arguments`
-|Context for the rendering of the layout container
+|Context for the rendering of the layout container.
 |===
 
 
@@ -72,7 +72,7 @@ public getPluginName():link:http://php.net/string[string^]
 
 
 
-Get the plugin name of the layout container
+Get the plugin name of the layout container.
 
 [source%nowrap, php, subs=+macros]
 [#getcontainername]
@@ -86,5 +86,5 @@ public getContainerName():link:http://php.net/string[string^]
 
 
 
-Get the container name for the layout container
+Get the container name for the layout container.
 

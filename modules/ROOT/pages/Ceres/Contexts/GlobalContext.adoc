@@ -54,7 +54,7 @@ a|`$categories`
 a|`$categoryBreadcrumbs`
 |List of all parent categories including current category.|link:http://php.net/array[`array`^]
 a|`$notifications`
-|List of all notifications store in the session.|link:http://php.net/array[`array`^]
+|List of all notifications stored in the session.|link:http://php.net/array[`array`^]
 a|`$basket`
 |The basket object.|xref:stable7@interface::System.adoc#system_models_webstoreconfiguration[`WebstoreConfiguration`]
 a|`$webstoreConfig`
@@ -78,15 +78,15 @@ a|`$templateEvent`
 *Deprecated*: since 4.5
 Use ShopUrls::getTemplateType() instead|link:http://php.net/bool[`bool`^]
 a|`$isShopBuilder`
-|Defines if the shop is opened in shop builder mode.|link:http://php.net/bool[`bool`^]
+|Defines if the shop is opened in ShopBuilder mode.|link:http://php.net/bool[`bool`^]
 a|`$isSafeMode`
-|Defines if the shop is load in safe mode.|link:http://php.net/array[`array`^]
+|Defines if the shop is loaded in safe mode.|link:http://php.net/array[`array`^]
 a|`$bodyClasses`
 |Array of CSS classes to apply to the body.|link:http://php.net/string[`string`^]
 a|`$buildHash`
 |Hash of the latest plugin deployment.|link:http://php.net/string[`string`^]
 a|`$assetName`
-|Key for the assets to be load.
+|Key for the assets to be loaded.
 |===
 
 

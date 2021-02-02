@@ -37,7 +37,7 @@ a|`EVENT_LISTENER_PRIORITY`
 
 |link:http://php.net/array[`array`^]
 a|`$templateKeyToViewMap`
-|This property maps templateKeys to their view and their used contexz
+|This property maps templateKeys to their view and their used context
 |===
 
 

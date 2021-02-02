@@ -34,7 +34,7 @@ a|`$variations`
 |Variation data mapped to the attribute IDs. Used for the variation select.|link:http://php.net/array[`array`^]
 a|`$afterKey`
 |Contains the next variation ID and some data of the next item, to be used to continue fetching variations (@see $variations).
-The afterKey is only set, when the variation select requires more data, than is already loaded in the client.|link:http://php.net/array[`array`^]
+The afterKey is only set when the variation selection requires more data than is already loaded in the client.|link:http://php.net/array[`array`^]
 a|`$customerShowNetPrices`
 |Check if net prices should be shown.
 
@@ -43,19 +43,19 @@ a|`$customerShowNetPrices`
 a|`$defaultCategory`
 |Category data of the default category of the current item.|link:http://php.net/string[`string`^]
 a|`$assetName`
-|Key for the assets to be load.|link:http://php.net/int[`int`^]
+|Key for the assets to be loaded.|link:http://php.net/int[`int`^]
 a|`$dynamicVariationId`
 |The variation ID of the variation, linked to the "please select"-option.|link:http://php.net/bool[`bool`^]
 a|`$initPleaseSelectOption`
 |Define if the "please select"-option should be shown in the variation select.|link:http://php.net/bool[`bool`^]
 a|`$isItemSet`
-|Defines if an item is of the type "set"|link:http://php.net/array[`array`^]
+|Defines if an item is of the type "set".|link:http://php.net/array[`array`^]
 a|`$setComponents`
-|Some data of the variations, contained as component for the current item, if the item is of the type "set".|         xref:5.0.0@plugin-::.adoc#[``]
+|Some data of the variations contained as a component for the current item if the item is of the type "set".|         xref:5.0.0@plugin-::.adoc#[``]
 a|`$setAttributeMap`
 ||link:http://php.net/string[`string`^]
 a|`$requestedVariationUrl`
-|Represents the current URL without the parameters
+|Represents the current URL without the parameters.
 |===
 
 

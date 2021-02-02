@@ -88,18 +88,18 @@ public static validateItemListOptions($itemListOptions, $scope):link:http://php.
 
 
 
-Validate an array of user inputted item search options
+Validate an array of item search options inputted by user.
 
 .*Parameters*
 |===
 |Type |Name |Description
 |link:http://php.net/array[`array`^]
 a|`$itemListOptions`
-|User inputted item search options
+|User inputted item search options.
 
 |link:http://php.net/string[`string`^]
 a|`$scope`
-|The scope of the item search options
+|The scope of the item search options.
 |===
 
 

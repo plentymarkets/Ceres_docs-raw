@@ -38,7 +38,7 @@ a|`TOOLBAR_LAYOUT`
 
 |         xref:5.0.0@plugin-illuminate::Illuminate/Database/Eloquent/Collection.adoc#[`Collection`]
 a|`$statuses`
-|A collection of all order status|link:http://php.net/string[`string`^]
+|A collection of all order statuses|link:http://php.net/string[`string`^]
 a|`$lang`
 |The currently selected shop language|link:http://php.net/string[`string`^]
 a|`$template`
@@ -117,18 +117,18 @@ public getTemplateData($widgetSettings, $isPreview):link:http://php.net/array[ar
 
 
 
-Get additional data to be passed to the template while rendering
+Get additional data to be passed to the template while rendering.
 
 .*Parameters*
 |===
 |Type |Name |Description
 |link:http://php.net/array[`array`^]
 a|`$widgetSettings`
-|The settings provided by the widget
+|The settings provided by the widget.
 
 |link:http://php.net/bool[`bool`^]
 a|`$isPreview`
-|A Flag provided to determine if the widget is currently shown in preview
+|A flag provided to determine if the widget is currently shown in preview.
 |===
 
 

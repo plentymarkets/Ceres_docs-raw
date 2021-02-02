@@ -5,7 +5,7 @@
 [[ceres__shopbuildersettingshandler]]
 = ShopBuilderSettingsHandler
 
-Maps the routing settings from IO to Ceres. This allows us to set routing settings in the shop builder.
+Maps the routing settings from IO to Ceres. This allows us to set routing settings in the ShopBuilder.
 
 
 
@@ -27,11 +27,11 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_globalsettingshan
 
 |link:http://php.net/array[`array`^]
 a|`$mappings`
-|Maps the Ceres settings to the IO settings|link:http://php.net/array[`array`^]
+|Maps the Ceres settings to the IO settings.|link:http://php.net/array[`array`^]
 a|`$casts`
-|Decides what datatype the settings should be casted as|link:http://php.net/array[`array`^]
+|Decides what datatype the settings should be casted as.|link:http://php.net/array[`array`^]
 a|`$enabledRoutes`
-|Contains all enabled routes from the plugin config
+|Contains all enabled routes from the plugin config.
 |===
 
 
@@ -70,7 +70,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableHomeRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -107,7 +107,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableBasketRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -144,7 +144,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableCheckoutRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -181,7 +181,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableMyAccountRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -218,7 +218,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableSearchRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -255,7 +255,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableConfirmationRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -292,7 +292,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableLoginRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -329,7 +329,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableRegisterRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -366,7 +366,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableCancellationRightsRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -403,7 +403,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableCancellationFormRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -440,7 +440,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableLegalDisclosureRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -477,7 +477,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enablePrivacyPolicyRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -514,7 +514,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableGtcRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -551,7 +551,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableContactRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -588,7 +588,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableWishListRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -625,7 +625,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableWishListRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -662,7 +662,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableWishListRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -699,7 +699,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableWishListRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -736,7 +736,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enableWishListRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 
@@ -773,7 +773,7 @@ Enable or disable the route.
 |Type |Name |Description
 |link:http://php.net/bool[`bool`^]
 a|`$enablePageNotFoundRoute`
-|If true, enable the route
+|If true, enable the route.
 |===
 
 

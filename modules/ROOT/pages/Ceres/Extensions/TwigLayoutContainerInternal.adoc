@@ -111,7 +111,7 @@ public getInternalContainer($containerName, $arguments):link:http://php.net/arra
 
 
 
-Get a list of rendered layout containers, normally used in the twig template renderer
+Get a list of rendered layout containers, normally used in the twig template renderer.
 
 .*Parameters*
 |===

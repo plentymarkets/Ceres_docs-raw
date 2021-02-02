@@ -52,7 +52,7 @@ a|`$rowsPerPage`
 a|`$itemsPerPage`
 |Number of items displayed per page in the category view.|link:http://php.net/int[`int`^]
 a|`$noIndex`
-|SEO: Set the value noindex beginning at page.
+|SEO: Define the page number starting from which the value noindex is set.
 |===
 
 

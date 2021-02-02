@@ -27,7 +27,7 @@ a|`$addresses`
 a|`$basket`
 |Basket configuration.|xref:Ceres/Config/CeresContactConfig.adoc#[`CeresContactConfig`]
 a|`$contact`
-|Contact configurations.
+|Contact configuration.
 
     
 *Deprecated*: since 4.4.0. Will be removed in 6.0.0.|xref:Ceres/Config/CeresCurrencyConfig.adoc#[`CeresCurrencyConfig`]

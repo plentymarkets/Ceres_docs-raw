@@ -5,7 +5,7 @@
 [[ceres__twigitemdatafield]]
 = TwigItemDataField
 
-Created for the shop builder text widget.
+Created for the ShopBuilder text widget.
 
 
 
@@ -30,7 +30,7 @@ xref:5.0.0@plugin-twig::Twig/Extension/ExtensionInterface.adoc#[`ExtensionInterf
 a|`$twig`
 |The factory to render TWIG.|link:http://php.net/array[`array`^]
 a|`$itemData`
-|This array acts as a stack (LIFO). The last element is used for datafield fetches.
+|This array acts as a stack (LIFO). The last element is used for data field fetches.
 |===
 
 
@@ -150,7 +150,7 @@ public getDataField($field, $filter = null, $directiveType = &quot;text&quot;, $
 
 
 
-Return a created HTML element. The content of the element is a TWIG statement, to print a field from the item data.
+Return a created HTML element. The content of the element is a TWIG statement to print a field from the item data.
 
 .*Parameters*
 |===

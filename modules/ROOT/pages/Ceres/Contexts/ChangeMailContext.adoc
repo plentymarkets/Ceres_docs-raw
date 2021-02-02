@@ -29,11 +29,11 @@ xref:5.0.0@plugin-io::IO/Helper/ContextInterface.adoc#[`ContextInterface`]
 a|`$contactId`
 |The contact's ID for changing the mail.|link:http://php.net/string[`string`^]
 a|`$hash`
-|The Hash used to authenticate the mail change.|link:http://php.net/string[`string`^]
+|The hash used to authenticate the mail change.|link:http://php.net/string[`string`^]
 a|`$newMail`
-|The new email address, to change.|xref:stable7@interface::Category.adoc#category_models_category[`Category`]
+|The new email address the customer entered.|xref:stable7@interface::Category.adoc#category_models_category[`Category`]
 a|`$category`
-|Category data of the current category, linked to this context.
+|Category data of the current category linked to this context.
 |===
 
 
