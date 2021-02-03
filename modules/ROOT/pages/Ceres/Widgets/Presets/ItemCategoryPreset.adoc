@@ -5,7 +5,24 @@
 [[ceres__itemcategorypreset]]
 = ItemCategoryPreset
 
-
+This is a preset for ShopBuilder contents. Presets can be applied during content creation to generate a default content with predefined and configured widgets. +
+This particular preset generates a page for viewing item categories. It contains: +
+- ThreeColumnWidget +
+- BackgroundWidget +
+- InlineTextWidget +
+- CodeWidget +
+- ToolbarWidget +
+- ItemSortingWidget +
+- ItemsPerPageWidget +
+- AttributesPropertiesCharacteristicsFilterWidget +
+- PriceFilterWidget +
+- AvailabilityFilterWidget +
+- ManufacturerFilterWidget +
+- SelectedFilterWidget +
+- PaginationWidget +
+- TwoColumnWidget +
+- NavigationTreeWidget +
+- ItemGridWidget
 
 
 

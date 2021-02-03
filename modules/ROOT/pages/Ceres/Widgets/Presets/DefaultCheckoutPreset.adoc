@@ -5,7 +5,21 @@
 [[ceres__defaultcheckoutpreset]]
 = DefaultCheckoutPreset
 
-
+This is a preset for ShopBuilder contents. Presets can be applied during content creation to generate a default content with predefined and configured widgets. +
+This particular preset generates a page for viewing and interacting with the checkout. It contains: +
+- TwoColumnWidget +
+- BackgroundWidget +
+- AddressWidget +
+- ShippingProfileWidget +
+- PaymentProviderWidget +
+- ContactWishWidget +
+- ShippingPrivacyCheckWidget +
+- GtcCheckWidget +
+- BasketWidget +
+- BasketTotalsWidget +
+- CouponWidget +
+- PlaceOrderWidget +
+- CancelPaymentWidget
 
 
 
@@ -29,7 +43,7 @@ a|`$preset`
 a|`$ceresConfig`
 ||xref:Ceres/Widgets/Helper/Factories/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
 a|`$backgroundWidget`
-|
+|The background widget
 |===
 
 
@@ -61,7 +75,7 @@ public createBackground($preset):xref:Ceres/Widgets/Helper/Factories/PresetWidge
 
 
 
-
+Creates a preconfigured white background widget
 
 .*Parameters*
 |===
@@ -84,7 +98,7 @@ public setBackgroundWidgetSettings($widget):xref:Ceres/Widgets/Helper/Factories/
 
 
 
-
+Configures a background widget
 
 .*Parameters*
 |===
@@ -107,7 +121,7 @@ public createWidget($identifier):xref:Ceres/Widgets/Helper/Factories/PresetWidge
 
 
 
-
+Creates the background widget with an identifier
 
 .*Parameters*
 |===

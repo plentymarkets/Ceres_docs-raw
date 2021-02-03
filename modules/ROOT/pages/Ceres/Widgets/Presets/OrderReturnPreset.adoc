@@ -5,7 +5,10 @@
 [[ceres__orderreturnpreset]]
 = OrderReturnPreset
 
-
+This is a preset for ShopBuilder contents. Presets can be applied during content creation to generate a default content with predefined and configured widgets. +
+This particular preset generates a page for viewing the order return form. It contains: +
+- InlineTextWidget +
+- OrderReturnWidget
 
 
 
@@ -27,7 +30,7 @@ xref:stable7@interface::Shopbuilder.adoc#shopbuilder_contracts_contentpreset[`Co
 a|`$preset`
 ||xref:Ceres/Widgets/Presets/PresetWidgetFactory.adoc#[`PresetWidgetFactory`]
 a|`$backgroundWidget`
-|
+|The background widget
 |===
 
 
@@ -59,7 +62,7 @@ public createBackground($preset):xref:Ceres/Widgets/Presets/PresetWidgetFactory.
 
 
 
-
+Creates a preconfigured white background widget
 
 .*Parameters*
 |===
@@ -82,7 +85,7 @@ public setBackgroundWidgetSettings($widget):xref:Ceres/Widgets/Presets/PresetWid
 
 
 
-
+Configures a background widget
 
 .*Parameters*
 |===
@@ -105,7 +108,7 @@ public createWidget($identifier):xref:Ceres/Widgets/Presets/PresetWidgetFactory.
 
 
 
-
+Creates the background widget with an identifier
 
 .*Parameters*
 |===

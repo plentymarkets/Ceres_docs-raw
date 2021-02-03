@@ -38,9 +38,7 @@ a|`$enableOldUrlPattern`
 a|`$googleRecaptchaVersion`
 |Google reCAPTCHA version.|link:http://php.net/string[`string`^]
 a|`$googleRecaptchaApiKey`
-|Google reCAPTCHA website key.|link:http://php.net/string[`string`^]
-a|`$googleRecaptchaSecret`
-|Google reCAPTCHA secret key.|link:http://php.net/float[`float`^]
+|Google reCAPTCHA website key.|link:http://php.net/float[`float`^]
 a|`$googleRecaptchaThreshold`
 |Google reCAPTCHA v3 threshold.|link:http://php.net/string[`string`^]
 a|`$googleMapsApiKey`
